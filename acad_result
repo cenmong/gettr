@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS6802 Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#EFEFEF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.acad.bg/"><IMG SRC="/images/BREN_header_EN-crop.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS6802 Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> sf-cr-1
+<BR>
+<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
+<P><PRE><CODE>
+
+Tracing the route to 2001:da8:1:100::80
+
+ 1  bren.rt1.sof.bg.geant2.net (2001:798:2c:10aa::9) 3 msec 3 msec 2 msec
+ 2  2001:798:cc:1001:2c01::1 21 msec
+    2001:798:cc:2c01:1b01::2 16 msec 15 msec
+ 3  2001:798:cc:1001:1e01::6 31 msec
+    xe-1-0-0.mx2.bra.sk.geant.net (2001:798:cc:3301:1b01::5) 19 msec
+    2001:798:cc:1001:1e01::6 31 msec
+ 4  2001:798:cc:1201:1e01::5 43 msec
+    2001:798:cc:1301:3301::1 25 msec
+    2001:798:cc:1201:1e01::5 44 msec
+ 5  ae2.mx1.fra.de.geant.net (2001:798:cc:1301:1401::6) 30 msec 30 msec
+    ae4.mx1.par.fr.geant.net (2001:798:cc:1801:1201::5) 51 msec
+ 6  ae1.mx1.ams.nl.geant.net (2001:798:cc:1401:2201::a) 41 msec
+    ae1.mx1.lon.uk.geant.net (2001:798:cc:2801:1801::1) 57 msec 58 msec
+ 7  ae2.mx1.lon.uk.geant.net (2001:798:cc:2801:2201::1) 50 msec
+    orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 210 msec
+    ae2.mx1.lon.uk.geant.net (2001:798:cc:2801:2201::1) 54 msec
+ 8  orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 203 msec
+    2001:252:0:100::1 212 msec
+    orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 204 msec
+ 9  2001:252:0:1::1 210 msec 210 msec
+    2001:252:0:100::1 207 msec
+ 10 2001:da8:1:100::80 210 msec
+    2001:252:0:1::1 224 msec 202 msec
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3"><CENTER>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</CENTER></FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to <a href="http://mailhide.recaptcha.net/d?k=01rcDgRbDRCvbjFWAcOoijEw==&amp;c=tTZY48_oorgkdM7XVFBxhw==" onclick="window.open('http://mailhide.recaptcha.net/d?k=01rcDgRbDRCvbjFWAcOoijEw==&amp;c=tTZY48_oorgkdM7XVFBxhw==', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">click to reveal</a>@acad.bg
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS6802 Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#EFEFEF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.acad.bg/"><IMG SRC="/images/BREN_header_EN-crop.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS6802 Looking Glass - traceroute ipv6 2001:4641::1</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> sf-cr-1
+<BR>
+<B>Command:</B> traceroute ipv6 2001:4641::1
+<P><PRE><CODE>
+
+Tracing the route to 2001:4641::1
+
+ 1  bren.rt1.sof.bg.geant2.net (2001:798:2c:10aa::9) 3 msec 5 msec 3 msec
+ 2  2001:798:cc:2c01:1b01::2 16 msec 16 msec 16 msec
+ 3  xe-1-0-0.mx2.bra.sk.geant.net (2001:798:cc:3301:1b01::5) 18 msec 19 msec 19 msec
+ 4  2001:798:cc:1301:3301::1 23 msec 24 msec 23 msec
+ 5  ae2.mx1.fra.de.geant.net (2001:798:cc:1301:1401::6) 29 msec 29 msec 30 msec
+ 6  2001:7f8::847:0:1 29 msec 29 msec 30 msec
+ 7  ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) 55 msec 54 msec 54 msec
+ 8  ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2a) 54 msec 56 msec 55 msec
+ 9  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d) 55 msec 56 msec 55 msec
+ 10 canardo.mork.no (2001:4641::1) 78 msec 107 msec 106 msec
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3"><CENTER>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</CENTER></FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to <a href="http://mailhide.recaptcha.net/d?k=01rcDgRbDRCvbjFWAcOoijEw==&amp;c=tTZY48_oorgkdM7XVFBxhw==" onclick="window.open('http://mailhide.recaptcha.net/d?k=01rcDgRbDRCvbjFWAcOoijEw==&amp;c=tTZY48_oorgkdM7XVFBxhw==', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">click to reveal</a>@acad.bg
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS6802 Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#EFEFEF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.acad.bg/"><IMG SRC="/images/BREN_header_EN-crop.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS6802 Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> sf-cr-1
+<BR>
+<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
+<P><PRE><CODE>
+
+Tracing the route to 2001:1430:a:50::50
+
+ 1  bren.rt1.sof.bg.geant2.net (2001:798:2c:10aa::9) 3 msec 5 msec 12 msec
+ 2  2001:798:cc:2c01:1b01::2 21 msec 15 msec 15 msec
+ 3  xe-7-2-1.edge3.London1.Level3.net (2001:1900:5:2:2::771) 17 msec 16 msec 15 msec
+ 4  vl-4066.car2.Berlin1.Level3.net (2001:1900:5:1::2c1) 94 msec 77 msec 73 msec
+ 5  vl-4060.bar1.Copenhagen2.Level3.net (2001:1900:5:1::2ae) 46 msec 48 msec 46 msec
+ 6  vl-4068.car1.Helsinki1.Level3.net (2001:1900:5:1::2ea) 60 msec 67 msec 80 msec
+ 7  NEBULA-OY.car1.Helsinki1.Level3.net (2001:1900:5:2:2::e7a) 61 msec 61 msec 60 msec
+ 8  2001:1bc8:1:7:0:3:0:1 84 msec 65 msec 64 msec
+ 9  2001:1bc8:1:7:0:6:0:1 65 msec 65 msec 65 msec
+ 10 2001:1bc8:1:10::1 66 msec 68 msec 66 msec
+ 11 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 67 msec 66 msec 66 msec
+ 12 ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2) 63 msec 64 msec 63 msec
+ 13 www.axu.tm (2001:1430:a:50::50) 66 msec 66 msec 65 msec
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3"><CENTER>Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</CENTER></FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to <a href="http://mailhide.recaptcha.net/d?k=01rcDgRbDRCvbjFWAcOoijEw==&amp;c=tTZY48_oorgkdM7XVFBxhw==" onclick="window.open('http://mailhide.recaptcha.net/d?k=01rcDgRbDRCvbjFWAcOoijEw==&amp;c=tTZY48_oorgkdM7XVFBxhw==', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">click to reveal</a>@acad.bg
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

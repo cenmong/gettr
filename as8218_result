@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS8218 Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://lg.as8218.eu/"><IMG SRC="http://lg.as8218.eu/as8218-logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS8218 Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="regex"></TD><TD>&nbsp;aspath-regex</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="as"></TD><TD>&nbsp;as</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="AS8218 Route-server (Paris)">
+<OPTION VALUE="route-server.as8218.eu" selected> route-server.as8218.eu (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="European Routers">
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Amsterdam Routers">
+<OPTION VALUE="tcr1.eun.ams"> tcr1.eun.ams (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.tc2.ams"> tcr1.tc2.ams (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Brusselles Routers">
+<OPTION VALUE="tcr1.itx.bru"> tcr1.itx.bru (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Franckfurt Routers">
+<OPTION VALUE="tcr1.itx1.fra"> tcr1.itx1.fra (Juniper ipv6 enabled)
+<OPTION VALUE="tcr2.itx1.fra"> tcr2.itx1.fra (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 London Routers">
+<OPTION VALUE="tcr1.thn.lon"> tcr1.thn.lon (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Paris Routers">
+<OPTION VALUE="tcr1.rb.par"> tcr1.rb.par (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.th2.par"> tcr1.th2.par (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.gs.par"> tcr1.gs.par (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Vienna Routers">
+<OPTION VALUE="tcr1.vix.vie"> tcr1.vix.vie (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.itx.vie"> tcr1.itx.vie (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Zurich Routers">
+<OPTION VALUE="tcr1.eqx.zrh"> tcr1.eqx.zrh (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="North-American Routers">
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Ashburn Routers">
+<OPTION VALUE="tcr1.eqx.ash"> tcr1.eqx.ash (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Chicago Routers">
+<OPTION VALUE="tcr1.eqx.chi"> tcr1.eqx.chi (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 New-York Routers">
+<OPTION VALUE="tcr1.telx.nyc"> tcr1.telx.nyc (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.eqx.nyc"> tcr1.eqx.nyc (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Palo Alto Routers">
+<OPTION VALUE="tcr1.eqx.pao"> tcr1.eqx.pao (Juniper ipv6 enabled)
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> route-server.as8218.eu
+<BR>
+<P><PRE><CODE>
+traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:1b48:2:229::2, 64 hops max, 12 byte packets
+ 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  1.611 ms  3.478 ms  1.930 ms
+ 2  2001:1b48:2:3::2a (2001:1b48:2:3::2a)  1.804 ms  1.732 ms 2001:1b48:2:3::65 (2001:1b48:2:3::65)  1.656 ms
+ 3  he.franceix.net (2001:7f8:54::10)  11.711 ms  1.933 ms  2.533 ms
+ 4  10ge9-1.core1.par2.he.net (2001:470:0:1b0::2)  3.731 ms  3.542 ms  2.540 ms
+ 5  100ge7-1.core1.lon2.he.net (2001:470:0:2ce::1)  9.732 ms  16.673 ms  9.704 ms
+ 6  100ge1-1.core1.nyc4.he.net (2001:470:0:2cf::2)  76.329 ms  74.457 ms  74.797 ms
+ 7  10ge10-3.core1.lax1.he.net (2001:470:0:10e::1)  147.683 ms  144.695 ms  153.052 ms
+ 8  10ge1-3.core1.lax2.he.net (2001:470:0:72::2)  153.536 ms  147.766 ms  149.965 ms
+ 9  cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2a2::2)  151.220 ms  147.767 ms  148.632 ms
+10  2001:252:0:302::1 (2001:252:0:302::1)  307.616 ms  303.238 ms  323.928 ms
+11  2001:252:0:100::1 (2001:252:0:100::1)  304.748 ms  302.879 ms  302.678 ms
+12  2001:252:0:1::1 (2001:252:0:1::1)  300.137 ms  300.129 ms  299.815 ms
+13  2001:da8:1:100::80 (2001:da8:1:100::80)  299.828 ms  299.816 ms  299.007 ms
+
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:contact@as8218.eu">contact@as8218.eu</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS8218 Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://lg.as8218.eu/"><IMG SRC="http://lg.as8218.eu/as8218-logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS8218 Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="regex"></TD><TD>&nbsp;aspath-regex</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="as"></TD><TD>&nbsp;as</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="AS8218 Route-server (Paris)">
+<OPTION VALUE="route-server.as8218.eu" selected> route-server.as8218.eu (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="European Routers">
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Amsterdam Routers">
+<OPTION VALUE="tcr1.eun.ams"> tcr1.eun.ams (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.tc2.ams"> tcr1.tc2.ams (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Brusselles Routers">
+<OPTION VALUE="tcr1.itx.bru"> tcr1.itx.bru (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Franckfurt Routers">
+<OPTION VALUE="tcr1.itx1.fra"> tcr1.itx1.fra (Juniper ipv6 enabled)
+<OPTION VALUE="tcr2.itx1.fra"> tcr2.itx1.fra (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 London Routers">
+<OPTION VALUE="tcr1.thn.lon"> tcr1.thn.lon (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Paris Routers">
+<OPTION VALUE="tcr1.rb.par"> tcr1.rb.par (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.th2.par"> tcr1.th2.par (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.gs.par"> tcr1.gs.par (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Vienna Routers">
+<OPTION VALUE="tcr1.vix.vie"> tcr1.vix.vie (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.itx.vie"> tcr1.itx.vie (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Zurich Routers">
+<OPTION VALUE="tcr1.eqx.zrh"> tcr1.eqx.zrh (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="North-American Routers">
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Ashburn Routers">
+<OPTION VALUE="tcr1.eqx.ash"> tcr1.eqx.ash (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Chicago Routers">
+<OPTION VALUE="tcr1.eqx.chi"> tcr1.eqx.chi (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 New-York Routers">
+<OPTION VALUE="tcr1.telx.nyc"> tcr1.telx.nyc (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.eqx.nyc"> tcr1.eqx.nyc (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Palo Alto Routers">
+<OPTION VALUE="tcr1.eqx.pao"> tcr1.eqx.pao (Juniper ipv6 enabled)
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> route-server.as8218.eu
+<BR>
+<P><PRE><CODE>
+traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1b48:2:229::2, 64 hops max, 12 byte packets
+ 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  1.522 ms  1.608 ms  1.660 ms
+ 2  xe1-0-0.tcr1.swad.pao.as8218.eu (2001:1b48:2:2::4e)  12.321 ms xe1-0-0.tcr1.thn.lon.as8218.eu (2001:1b48:2:2::12)  9.539 ms xe1-0-0.tcr1.swad.pao.as8218.eu (2001:1b48:2:2::4e)  43.552 ms
+ 3  2001:7f8:4::847:1 (2001:7f8:4::847:1)  9.544 ms ti9000b300.telenor.net (2001:7f8:1::a500:2119:1)  12.687 ms 2001:7f8:4::847:1 (2001:7f8:4::847:1)  10.585 ms
+ 4  ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29)  42.694 ms  41.504 ms ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5)  32.675 ms
+ 5  ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23)  34.537 ms  32.550 ms  31.804 ms
+ 6  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d)  50.426 ms  52.278 ms  50.861 ms
+ 7  canardo.mork.no (2001:4641::1)  64.545 ms  64.546 ms  64.548 ms
+
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:contact@as8218.eu">contact@as8218.eu</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>AS8218 Looking Glass</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://lg.as8218.eu/"><IMG SRC="http://lg.as8218.eu/as8218-logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>AS8218 Looking Glass</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#6ba2d5" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="regex"></TD><TD>&nbsp;aspath-regex</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="as"></TD><TD>&nbsp;as</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="AS8218 Route-server (Paris)">
+<OPTION VALUE="route-server.as8218.eu" selected> route-server.as8218.eu (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="European Routers">
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Amsterdam Routers">
+<OPTION VALUE="tcr1.eun.ams"> tcr1.eun.ams (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.tc2.ams"> tcr1.tc2.ams (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Brusselles Routers">
+<OPTION VALUE="tcr1.itx.bru"> tcr1.itx.bru (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Franckfurt Routers">
+<OPTION VALUE="tcr1.itx1.fra"> tcr1.itx1.fra (Juniper ipv6 enabled)
+<OPTION VALUE="tcr2.itx1.fra"> tcr2.itx1.fra (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 London Routers">
+<OPTION VALUE="tcr1.thn.lon"> tcr1.thn.lon (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Paris Routers">
+<OPTION VALUE="tcr1.rb.par"> tcr1.rb.par (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.th2.par"> tcr1.th2.par (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.gs.par"> tcr1.gs.par (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Vienna Routers">
+<OPTION VALUE="tcr1.vix.vie"> tcr1.vix.vie (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.itx.vie"> tcr1.itx.vie (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Zurich Routers">
+<OPTION VALUE="tcr1.eqx.zrh"> tcr1.eqx.zrh (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="North-American Routers">
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Ashburn Routers">
+<OPTION VALUE="tcr1.eqx.ash"> tcr1.eqx.ash (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Chicago Routers">
+<OPTION VALUE="tcr1.eqx.chi"> tcr1.eqx.chi (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 New-York Routers">
+<OPTION VALUE="tcr1.telx.nyc"> tcr1.telx.nyc (Juniper ipv6 enabled)
+<OPTION VALUE="tcr1.eqx.nyc"> tcr1.eqx.nyc (Juniper ipv6 enabled)
+</OPTGROUP>
+<OPTGROUP LABEL="AS8218 Palo Alto Routers">
+<OPTION VALUE="tcr1.eqx.pao"> tcr1.eqx.pao (Juniper ipv6 enabled)
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> route-server.as8218.eu
+<BR>
+<P><PRE><CODE>
+traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2001:1b48:2:229::2, 64 hops max, 12 byte packets
+ 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  1.473 ms  1.647 ms  1.739 ms
+ 2  xe1-0-0.tcr1.swad.pao.as8218.eu (2001:1b48:2:2::4e)  12.572 ms  12.358 ms  12.725 ms
+ 3  ae-1.asd9nqp1.nl.ip.tdc.net (2001:7f8:1::a500:3292:1)  12.642 ms  12.554 ms  12.471 ms
+ 4  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1)  45.651 ms  45.820 ms  46.908 ms
+ 5  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1)  47.615 ms  45.954 ms  45.938 ms
+ 6  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2)  48.436 ms  48.839 ms  49.742 ms
+ 7  ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2)  46.607 ms  46.792 ms  46.659 ms
+ 8  www.axu.tm (2001:1430:a:50::50)  46.659 ms  45.888 ms  46.859 ms
+
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:contact@as8218.eu">contact@as8218.eu</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
