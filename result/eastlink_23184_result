@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
+<LINK REL="shortcut icon" HREF="favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.eastlink.ca/"><IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> Eastlink Eastern (AS 23184)
+<BR>
+<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
+<P><PRE><CODE>
+Tracing the route to 2001:DA8:1:100::80
+
+  1 2607:FBD8:FFFF:A::1 !U  !U  !U 
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
+<LINK REL="shortcut icon" HREF="favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.eastlink.ca/"><IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass - traceroute ipv6 2001:4641::1</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> Eastlink Eastern (AS 23184)
+<BR>
+<B>Command:</B> traceroute ipv6 2001:4641::1
+<P><PRE><CODE>
+Tracing the route to canardo.mork.no (2001:4641::1)
+
+  1 2607:FBD8:FFFF:A::1 !U  !U  !U 
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
+<LINK REL="shortcut icon" HREF="favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.eastlink.ca/"><IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> Eastlink Eastern (AS 23184)
+<BR>
+<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
+<P><PRE><CODE>
+Tracing the route to www.axu.tm (2001:1430:A:50::50)
+
+  1 2607:FBD8:FFFF:A::1 !U  !U  !U 
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>SolNet Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.solnet.ch/"><IMG SRC="/solnetlogo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>SolNet Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> SolNet #1 (AS 9044)
+<BR>
+<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
+<P><PRE><CODE>
+Tracing the route to 2001:DA8:1:100::80
+
+  1 2001:1680:0:2::35 8 msec 0 msec 0 msec
+  2 iwbbas-bbr01-e3-1.solnet.ch (2001:1680:0:2::5A) 0 msec 0 msec 4 msec
+  3 2001:1680:0:2::6A 4 msec 4 msec 0 msec
+  4 2001:1680:0:2::86 4 msec 8 msec 4 msec
+  5 10gigabitethernet1-2.core1.zrh1.he.net (2001:7F8:C:8235:194:42:48:80) 4 msec 0 msec 4 msec
+  6 10ge10-1.core1.par2.he.net (2001:470:0:246::1) [AS 6939] 16 msec 20 msec 24 msec
+  7 100ge7-1.core1.lon2.he.net (2001:470:0:2CE::1) [AS 6939] 36 msec 24 msec 24 msec
+  8 100ge1-1.core1.nyc4.he.net (2001:470:0:2CF::2) [AS 6939] 100 msec 100 msec 100 msec
+  9 10ge10-3.core1.lax1.he.net (2001:470:0:10E::1) [AS 6939] 152 msec 152 msec 156 msec
+ 10 10ge1-3.core1.lax2.he.net (2001:470:0:72::2) [AS 6939] 148 msec 152 msec 148 msec
+ 11 cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2A2::2) [AS 6939] 156 msec *  152 msec
+ 12 2001:252:0:302::1 [AS 23911] 304 msec 304 msec 304 msec
+ 13 2001:252:0:100::1 [AS 23911] 308 msec 308 msec 308 msec
+ 14 2001:252:0:1::1 [AS 23911] 304 msec 304 msec 304 msec
+ 15 2001:DA8:1:100::80 [AS 23910] 304 msec 304 msec 308 msec
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@solnet.ch">noc@solnet.ch</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>SolNet Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.solnet.ch/"><IMG SRC="/solnetlogo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>SolNet Looking Glass - traceroute ipv6 2001:4641::1</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> SolNet #1 (AS 9044)
+<BR>
+<B>Command:</B> traceroute ipv6 2001:4641::1
+<P><PRE><CODE>
+Tracing the route to canardo.mork.no (2001:4641::1)
+
+  1 2001:1680:0:2::35 12 msec 0 msec 0 msec
+  2 iwbbas-bbr01-e3-1.solnet.ch (2001:1680:0:2::5A) 4 msec 0 msec 0 msec
+  3 2001:1680:0:2::6A 4 msec 0 msec 4 msec
+  4 ae0-3.zur11.ip6.tinet.net (2001:668:0:3::5000:31) 0 msec 0 msec 4 msec
+  5 xe-3-2-0.ams21.ip6.tinet.net (2001:668:0:2::1:492) [AS 3257] 16 msec 16 msec 16 msec
+  6 as2119.ip6.tinet.net (2001:668:0:3::F000:92) [AS 3257] 16 msec 16 msec 16 msec
+  7 ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5) [AS 2119] [MPLS: Labels 342672/2 Exp 0] 36 msec 36 msec 36 msec
+  8 ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23) [AS 2119] [MPLS: Labels 405744/2 Exp 0] 36 msec 40 msec 36 msec
+  9 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS 2119] 36 msec 40 msec 36 msec
+ 10 canardo.mork.no (2001:4641::1) [AS 2119] 60 msec 60 msec 60 msec
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@solnet.ch">noc@solnet.ch</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>SolNet Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.solnet.ch/"><IMG SRC="/solnetlogo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>SolNet Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> SolNet #1 (AS 9044)
+<BR>
+<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
+<P><PRE><CODE>
+Tracing the route to www.axu.tm (2001:1430:A:50::50)
+
+  1 2001:1680:0:2::35 0 msec 4 msec 0 msec
+  2 iwbbas-bbr01-e3-1.solnet.ch (2001:1680:0:2::5A) 0 msec 4 msec 0 msec
+  3 dexfra-bbr01-e1-11.solnet.ch (2001:1680:0:2::1E) 4 msec 4 msec 8 msec
+  4 2001:7F8::1A0B:0:1 4 msec 8 msec 4 msec
+  5 bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2) [AS 790] 44 msec
+    bbr1.hel2.fi.v6.eunetip.net (2001:670:3:4:1::8) 72 msec
+    bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2) 40 msec
+  6 2001:998:12:2::1 [AS 719] 40 msec
+    2001:998:12:31::1 40 msec
+    2001:998:12:2::1 40 msec
+  7 2001:998:12:0:139:97:12:239 [AS 719] 40 msec
+    2001:998:12:D::2 44 msec
+    2001:998:12:0:139:97:12:239 36 msec
+  8 2001:998:12:D::2 [AS 719] 44 msec 44 msec 44 msec
+  9 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS 29243] 44 msec
+    v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 44 msec 44 msec
+ 10 www.axu.tm (2001:1430:A:50::50) [AS 29243] 40 msec
+    ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) 48 msec 44 msec
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@solnet.ch">noc@solnet.ch</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

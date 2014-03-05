@@ -1,0 +1,835 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml"
+      xml:lang="cs" lang="cs">
+<head>
+    <title>Server Hosting, Housing, VirtuÃ¡lnÃ­ servery VPS - Master Internet</title>
+    <meta http-equiv="Content-Language" content="cs" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Hosting a housing serverÅ¯ v Praze, BrnÄ. KomplexnÃ­ sluÅ¾by, VirtuÃ¡lnÃ­ servery (CPS), SpravovanÃ© - Managed servery s technickou podporou. Poskytujeme garance dostupnosti, konfigurace sluÅ¾by na mÃ­ru, znaÄkovÃ© servery, vysoce profesionÃ¡lnÃ­ sluÅ¾by." />
+    <meta name="keywords" content="server hosting, housing, dedikovanÃ© servery, vps, virtuÃ¡lnÃ­ servery, internetovÃ© sluÅ¾by, racky, server farmy, serverhosting" />
+    <meta name="robots" content="all, index, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
+    <meta name="webmaster" content="krivak&#64;master.cz" />
+    <meta name="copyright" content="Â© 2014 Master Internet, s.r.o. - profesionÃ¡lnÃ­ datacentra" />
+    <meta property="og:title" content="Master Internet, s.r.o." />
+    <meta property="og:type" content="company" />
+    <meta property="og:url" content="http://www.master.cz" />
+    <meta property="og:image" content="http://www.master.cz/images/facebook/logomaster.png" />
+    <meta property="og:site_name" content="Master Internet" />
+    <meta property="fb:admins" content="100001408640443" />
+    <meta name="google-site-verification" content="O8O6HcQ-CDaJo_eNjbl6FtA0OxLV8tTAkfmN3Cwg5dA" /> 
+    <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/content.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/hp-override.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="author" href="https://plus.google.com/102162817669708232782" /> 
+    <script type="text/javascript" src="/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/enlargeit/enlargeit.js"></script>
+<!--[if IE 8]>
+    <script type="text/javascript" src="/scripts/raphael-older-version.js" charset="utf-8"></script>
+<![endif]-->
+    <script type="text/javascript" src="/scripts/raphael.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/scripts/cufon/cufon-yui.js"></script>
+    <script type="text/javascript" src="/scripts/cufon/Myriad_Bold_700.font.js"></script>
+    <script type="text/javascript" src="/scripts/cufon/Myriad_Light_300.font.js"></script>
+<!--[if gte IE 9]>
+    <script type="text/javascript"> Cufon.set('engine', 'canvas'); </script>
+<![endif]-->
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+var ieLower9=false;
+var animDelay=20;
+//]]>
+</script>
+<!--[if lte IE 9]>
+<script type="text/javascript">
+//<![CDATA[
+var ieLower9=true;
+//]]>
+</script>
+<![endif]-->
+<!--[if IE 7]>
+<style type="text/css">
+.mainmenuboxend {top: -10px;}
+.modelboxend {position: relative; top: -3px;}
+</style>
+<![endif]-->
+
+
+
+   <script type="text/javascript" src="/scripts/main.js"></script> 
+   <script type="text/javascript" src="/scripts/cufon.js"></script> 
+   <script type="text/javascript" src="/scripts/enlargeit.js"></script> 
+
+
+<script type="text/javascript">
+//<![CDATA[
+    window.onload = function(){
+      $('#model0').addClass('chosen');
+      cufonize();
+      myQuery();
+      animate();
+      activateChosen();
+    };
+//]]>
+</script>
+
+    <style type="text/css">
+      #flags UL LI.flag-cz A{ color: #0d114c; background-position: center -50px; }
+    </style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2178133-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+
+<body>
+
+
+
+<div id="header"></div>
+
+
+
+
+
+<div id="wrapper">
+
+
+    <div id="topbox">
+      <div id="logo-click"><a href="/" title="server hosting"></a></div>
+      <div id="flags">
+        <ul>
+          <li class="flag-en"><a href="http://www.masterdc.com/">EN</a></li>
+          <li class="flag-cz"><a href="http://www.master.cz/">CZ</a></li>
+          <li class="flag-de"><a href="http://www.masterdc.de/">DE</a></li>
+          <li class="flag-sk"><a href="http://www.masterdc.sk/">SK</a></li>
+        </ul>
+      </div>
+      <div id="altmenu">
+        <ul>
+          <li><a href="/o-spolecnosti/">O spoleÄnosti</a> | </li>
+          <!--<li><a href="#">Hledat</a> | </li>-->
+          <li><a href="https://www.master.cz/cis/">ZÃ¡kaznickÃ½ IS</a> | </li>
+          <li><a href="/kontakty/">Kontakty</a></li>
+        </ul>
+        <div id="contact">Podpora:&nbsp;&nbsp;&nbsp;Praha 777 919 485 | Brno 777 919 484</div>
+      </div>
+    </div>
+
+<img src="/images/configurer.png" alt="" title="" height="1" width="1" style="display:none;">
+
+
+
+<div id="boxbox">
+
+
+    <div id="box1">
+        <h2>SpokojenÃ½ zÃ¡kaznÃ­k</h2>
+        
+        
+
+  
+
+<img src='/images/references/tele3.png' alt=''/>
+
+
+                
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/reference/">Reference</a></div>
+    </div>
+   
+    <div id="box2" >
+        <h2>Cloud hosting = 99,99%</h2>
+        <p>PotÅebujete maximÃ¡lnÃ­ spolehlivost sluÅ¾by? VyuÅ¾ijte sluÅ¾by <a href="/cloud-hosting/">cloud hosting</a> a nakonfigurujte si tarif na mÃ­ru.</p>
+        <div style="height:30px"></div>
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/konfigurator/?p=CLOUDE1&g=CLOUD">Konfigurovat</a></div>
+    </div>
+    
+    <div id="box3" style="right:30px;">
+        
+
+<h2>Aktuality (24.02.2014)</h2>
+
+<p>VylepÅ¡ili jsme Disaster Recovery ÅeÅ¡enÃ­ naÅ¡Ã­ <a href="/cloud-hosting/">cloudovÃ© platformy</a>. Obnova dat bude v pÅÃ­padÄ fatÃ¡lnÃ­ho selhÃ¡nÃ­ jeÅ¡tÄ rychlejÅ¡Ã­ neÅ¾ doposud.</p>
+  
+        <div style="height:30px"></div>
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/novinky/">Aktuality</a></div>
+    </div>
+</div>
+
+
+<!-- Google Code for Zivy server brezen 2013 -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 956046545;
+var google_conversion_label = "kor2CO-9uwUQ0bnwxwM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/956046545/?value=0&amp;label=kor2CO-9uwUQ0bnwxwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+
+
+
+
+<div id="buttonbox">
+
+
+    <div class="modelbox"><a href="/housing-technologii/" id="model2"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/pronajem-serveru/" id="model3"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/cloudove-sluzby/" id="model4"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/datacentra-master-dc/" id="model5"></a></div><div class="modelboxend"></div>
+
+
+
+
+    <div class="mainmenubox" id="mainmenubox2"><ul><li id="li2"><a id="a2" href="/housing-technologii/">Housing technologiÃ­</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend2"></div>
+    <div class="mainmenubox" id="mainmenubox3"><ul><li id="li3"><a id="a3" href="/pronajem-serveru/" >PronÃ¡jem serverÅ¯</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend3"></div>
+    <div class="mainmenubox" id="mainmenubox4"><ul><li id="li4"><a id="a4" href="/cloudove-sluzby/">CloudovÃ© sluÅ¾by</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend4"></div>
+    <div class="mainmenubox" id="mainmenubox5"><ul><li id="li5"><a id="a5" href="/datacentra-master-dc/">DatovÃ¡ centra</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend5"></div>
+
+
+</div>
+
+
+
+
+
+
+<div id="content">
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div class="clear standard"></div>
+</div>
+
+
+
+
+    <div id="pusher"></div>
+</div>
+
+
+
+<div id="footer">
+  <div id="footerbox">
+  <div id="footer1"><div class="footertext">TOP SLUÅ½BY</div>
+                    <a href="/server-housing/">server housing</a><br/>
+                    <a href="/server-hosting/">server hosting</a><br/>
+                    <a href="/virtualni-servery-vps/">virtuÃ¡lnÃ­ servery VPS</a><br/>
+                    <a href="/managed-servery/">managed servery</a><br/>
+                    <a href="/cloud-hosting/">cloud hosting</a><br/>
+  </div> 
+  <div id="footer2"><div class="footertext">CentrÃ¡la Brno</div>PurkyÅova 35e, Brno<br/>zel. linka: 800 800 624<br/><a href="mailto:info&#64;master.cz">info&#64;master.cz</a></div>
+  <div id="footer3"><div class="footertext">MASTER DC BRNO</div>Cejl 20, Brno<br/>support: +420 777 919 484<br/>obchod: +420 777 919 800<br/></div> 
+  <div id="footer4"><div class="footertext">MASTER DC PRAHA</div>KodaÅskÃ¡ 46, Praha 10<br/>support: +420 777 919 485<br/>obchod: +420 777 919 300<br/></div>
+  <div id="footer5">Â© 1996-2014 Master Internet, s.r.o., drÅ¾itel certifikÃ¡tu <b>ISO 9001:2009</b> a <b>ISO/IEC 27001:2006</b> &nbsp;|&nbsp;&nbsp;<a href="/mapa-stranek/">Mapa webu</a> &nbsp;|&nbsp; <a href="https://plus.google.com/102162817669708232782" rel="publisher">NajdÄte nÃ¡s na Google+</a> </div>
+ 
+<!-- Google Code for Remarketing - obecn&#283; sitewide Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 956046545;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "2z8lCMeG2gMQ0bnwxwM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/956046545/?label=2z8lCMeG2gMQ0bnwxwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+ </div>
+</div>
+
+
+
+</body>
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml"
+      xml:lang="cs" lang="cs">
+<head>
+    <title>Server Hosting, Housing, VirtuÃ¡lnÃ­ servery VPS - Master Internet</title>
+    <meta http-equiv="Content-Language" content="cs" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Hosting a housing serverÅ¯ v Praze, BrnÄ. KomplexnÃ­ sluÅ¾by, VirtuÃ¡lnÃ­ servery (CPS), SpravovanÃ© - Managed servery s technickou podporou. Poskytujeme garance dostupnosti, konfigurace sluÅ¾by na mÃ­ru, znaÄkovÃ© servery, vysoce profesionÃ¡lnÃ­ sluÅ¾by." />
+    <meta name="keywords" content="server hosting, housing, dedikovanÃ© servery, vps, virtuÃ¡lnÃ­ servery, internetovÃ© sluÅ¾by, racky, server farmy, serverhosting" />
+    <meta name="robots" content="all, index, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
+    <meta name="webmaster" content="krivak&#64;master.cz" />
+    <meta name="copyright" content="Â© 2014 Master Internet, s.r.o. - profesionÃ¡lnÃ­ datacentra" />
+    <meta property="og:title" content="Master Internet, s.r.o." />
+    <meta property="og:type" content="company" />
+    <meta property="og:url" content="http://www.master.cz" />
+    <meta property="og:image" content="http://www.master.cz/images/facebook/logomaster.png" />
+    <meta property="og:site_name" content="Master Internet" />
+    <meta property="fb:admins" content="100001408640443" />
+    <meta name="google-site-verification" content="O8O6HcQ-CDaJo_eNjbl6FtA0OxLV8tTAkfmN3Cwg5dA" /> 
+    <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/content.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/hp-override.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="author" href="https://plus.google.com/102162817669708232782" /> 
+    <script type="text/javascript" src="/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/enlargeit/enlargeit.js"></script>
+<!--[if IE 8]>
+    <script type="text/javascript" src="/scripts/raphael-older-version.js" charset="utf-8"></script>
+<![endif]-->
+    <script type="text/javascript" src="/scripts/raphael.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/scripts/cufon/cufon-yui.js"></script>
+    <script type="text/javascript" src="/scripts/cufon/Myriad_Bold_700.font.js"></script>
+    <script type="text/javascript" src="/scripts/cufon/Myriad_Light_300.font.js"></script>
+<!--[if gte IE 9]>
+    <script type="text/javascript"> Cufon.set('engine', 'canvas'); </script>
+<![endif]-->
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+var ieLower9=false;
+var animDelay=20;
+//]]>
+</script>
+<!--[if lte IE 9]>
+<script type="text/javascript">
+//<![CDATA[
+var ieLower9=true;
+//]]>
+</script>
+<![endif]-->
+<!--[if IE 7]>
+<style type="text/css">
+.mainmenuboxend {top: -10px;}
+.modelboxend {position: relative; top: -3px;}
+</style>
+<![endif]-->
+
+
+
+   <script type="text/javascript" src="/scripts/main.js"></script> 
+   <script type="text/javascript" src="/scripts/cufon.js"></script> 
+   <script type="text/javascript" src="/scripts/enlargeit.js"></script> 
+
+
+<script type="text/javascript">
+//<![CDATA[
+    window.onload = function(){
+      $('#model0').addClass('chosen');
+      cufonize();
+      myQuery();
+      animate();
+      activateChosen();
+    };
+//]]>
+</script>
+
+    <style type="text/css">
+      #flags UL LI.flag-cz A{ color: #0d114c; background-position: center -50px; }
+    </style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2178133-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+
+<body>
+
+
+
+<div id="header"></div>
+
+
+
+
+
+<div id="wrapper">
+
+
+    <div id="topbox">
+      <div id="logo-click"><a href="/" title="server hosting"></a></div>
+      <div id="flags">
+        <ul>
+          <li class="flag-en"><a href="http://www.masterdc.com/">EN</a></li>
+          <li class="flag-cz"><a href="http://www.master.cz/">CZ</a></li>
+          <li class="flag-de"><a href="http://www.masterdc.de/">DE</a></li>
+          <li class="flag-sk"><a href="http://www.masterdc.sk/">SK</a></li>
+        </ul>
+      </div>
+      <div id="altmenu">
+        <ul>
+          <li><a href="/o-spolecnosti/">O spoleÄnosti</a> | </li>
+          <!--<li><a href="#">Hledat</a> | </li>-->
+          <li><a href="https://www.master.cz/cis/">ZÃ¡kaznickÃ½ IS</a> | </li>
+          <li><a href="/kontakty/">Kontakty</a></li>
+        </ul>
+        <div id="contact">Podpora:&nbsp;&nbsp;&nbsp;Praha 777 919 485 | Brno 777 919 484</div>
+      </div>
+    </div>
+
+<img src="/images/configurer.png" alt="" title="" height="1" width="1" style="display:none;">
+
+
+
+<div id="boxbox">
+
+
+    <div id="box1">
+        <h2>SpokojenÃ½ zÃ¡kaznÃ­k</h2>
+        
+        
+
+  
+
+<img src='/images/references/cetelem.png' alt=''/>
+
+
+                
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/reference/">Reference</a></div>
+    </div>
+   
+    <div id="box2" >
+        <h2>Cloud hosting = 99,99%</h2>
+        <p>PotÅebujete maximÃ¡lnÃ­ spolehlivost sluÅ¾by? VyuÅ¾ijte sluÅ¾by <a href="/cloud-hosting/">cloud hosting</a> a nakonfigurujte si tarif na mÃ­ru.</p>
+        <div style="height:30px"></div>
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/konfigurator/?p=CLOUDE1&g=CLOUD">Konfigurovat</a></div>
+    </div>
+    
+    <div id="box3" style="right:30px;">
+        
+
+<h2>Aktuality (24.02.2014)</h2>
+
+<p>VylepÅ¡ili jsme Disaster Recovery ÅeÅ¡enÃ­ naÅ¡Ã­ <a href="/cloud-hosting/">cloudovÃ© platformy</a>. Obnova dat bude v pÅÃ­padÄ fatÃ¡lnÃ­ho selhÃ¡nÃ­ jeÅ¡tÄ rychlejÅ¡Ã­ neÅ¾ doposud.</p>
+  
+        <div style="height:30px"></div>
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/novinky/">Aktuality</a></div>
+    </div>
+</div>
+
+
+<!-- Google Code for Zivy server brezen 2013 -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 956046545;
+var google_conversion_label = "kor2CO-9uwUQ0bnwxwM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/956046545/?value=0&amp;label=kor2CO-9uwUQ0bnwxwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+
+
+
+
+<div id="buttonbox">
+
+
+    <div class="modelbox"><a href="/housing-technologii/" id="model2"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/pronajem-serveru/" id="model3"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/cloudove-sluzby/" id="model4"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/datacentra-master-dc/" id="model5"></a></div><div class="modelboxend"></div>
+
+
+
+
+    <div class="mainmenubox" id="mainmenubox2"><ul><li id="li2"><a id="a2" href="/housing-technologii/">Housing technologiÃ­</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend2"></div>
+    <div class="mainmenubox" id="mainmenubox3"><ul><li id="li3"><a id="a3" href="/pronajem-serveru/" >PronÃ¡jem serverÅ¯</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend3"></div>
+    <div class="mainmenubox" id="mainmenubox4"><ul><li id="li4"><a id="a4" href="/cloudove-sluzby/">CloudovÃ© sluÅ¾by</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend4"></div>
+    <div class="mainmenubox" id="mainmenubox5"><ul><li id="li5"><a id="a5" href="/datacentra-master-dc/">DatovÃ¡ centra</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend5"></div>
+
+
+</div>
+
+
+
+
+
+
+<div id="content">
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div class="clear standard"></div>
+</div>
+
+
+
+
+    <div id="pusher"></div>
+</div>
+
+
+
+<div id="footer">
+  <div id="footerbox">
+  <div id="footer1"><div class="footertext">TOP SLUÅ½BY</div>
+                    <a href="/server-housing/">server housing</a><br/>
+                    <a href="/server-hosting/">server hosting</a><br/>
+                    <a href="/virtualni-servery-vps/">virtuÃ¡lnÃ­ servery VPS</a><br/>
+                    <a href="/managed-servery/">managed servery</a><br/>
+                    <a href="/cloud-hosting/">cloud hosting</a><br/>
+  </div> 
+  <div id="footer2"><div class="footertext">CentrÃ¡la Brno</div>PurkyÅova 35e, Brno<br/>zel. linka: 800 800 624<br/><a href="mailto:info&#64;master.cz">info&#64;master.cz</a></div>
+  <div id="footer3"><div class="footertext">MASTER DC BRNO</div>Cejl 20, Brno<br/>support: +420 777 919 484<br/>obchod: +420 777 919 800<br/></div> 
+  <div id="footer4"><div class="footertext">MASTER DC PRAHA</div>KodaÅskÃ¡ 46, Praha 10<br/>support: +420 777 919 485<br/>obchod: +420 777 919 300<br/></div>
+  <div id="footer5">Â© 1996-2014 Master Internet, s.r.o., drÅ¾itel certifikÃ¡tu <b>ISO 9001:2009</b> a <b>ISO/IEC 27001:2006</b> &nbsp;|&nbsp;&nbsp;<a href="/mapa-stranek/">Mapa webu</a> &nbsp;|&nbsp; <a href="https://plus.google.com/102162817669708232782" rel="publisher">NajdÄte nÃ¡s na Google+</a> </div>
+ 
+<!-- Google Code for Remarketing - obecn&#283; sitewide Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 956046545;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "2z8lCMeG2gMQ0bnwxwM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/956046545/?label=2z8lCMeG2gMQ0bnwxwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+ </div>
+</div>
+
+
+
+</body>
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml"
+      xml:lang="cs" lang="cs">
+<head>
+    <title>Server Hosting, Housing, VirtuÃ¡lnÃ­ servery VPS - Master Internet</title>
+    <meta http-equiv="Content-Language" content="cs" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Hosting a housing serverÅ¯ v Praze, BrnÄ. KomplexnÃ­ sluÅ¾by, VirtuÃ¡lnÃ­ servery (CPS), SpravovanÃ© - Managed servery s technickou podporou. Poskytujeme garance dostupnosti, konfigurace sluÅ¾by na mÃ­ru, znaÄkovÃ© servery, vysoce profesionÃ¡lnÃ­ sluÅ¾by." />
+    <meta name="keywords" content="server hosting, housing, dedikovanÃ© servery, vps, virtuÃ¡lnÃ­ servery, internetovÃ© sluÅ¾by, racky, server farmy, serverhosting" />
+    <meta name="robots" content="all, index, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
+    <meta name="webmaster" content="krivak&#64;master.cz" />
+    <meta name="copyright" content="Â© 2014 Master Internet, s.r.o. - profesionÃ¡lnÃ­ datacentra" />
+    <meta property="og:title" content="Master Internet, s.r.o." />
+    <meta property="og:type" content="company" />
+    <meta property="og:url" content="http://www.master.cz" />
+    <meta property="og:image" content="http://www.master.cz/images/facebook/logomaster.png" />
+    <meta property="og:site_name" content="Master Internet" />
+    <meta property="fb:admins" content="100001408640443" />
+    <meta name="google-site-verification" content="O8O6HcQ-CDaJo_eNjbl6FtA0OxLV8tTAkfmN3Cwg5dA" /> 
+    <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/content.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/hp-override.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="author" href="https://plus.google.com/102162817669708232782" /> 
+    <script type="text/javascript" src="/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/enlargeit/enlargeit.js"></script>
+<!--[if IE 8]>
+    <script type="text/javascript" src="/scripts/raphael-older-version.js" charset="utf-8"></script>
+<![endif]-->
+    <script type="text/javascript" src="/scripts/raphael.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/scripts/cufon/cufon-yui.js"></script>
+    <script type="text/javascript" src="/scripts/cufon/Myriad_Bold_700.font.js"></script>
+    <script type="text/javascript" src="/scripts/cufon/Myriad_Light_300.font.js"></script>
+<!--[if gte IE 9]>
+    <script type="text/javascript"> Cufon.set('engine', 'canvas'); </script>
+<![endif]-->
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+var ieLower9=false;
+var animDelay=20;
+//]]>
+</script>
+<!--[if lte IE 9]>
+<script type="text/javascript">
+//<![CDATA[
+var ieLower9=true;
+//]]>
+</script>
+<![endif]-->
+<!--[if IE 7]>
+<style type="text/css">
+.mainmenuboxend {top: -10px;}
+.modelboxend {position: relative; top: -3px;}
+</style>
+<![endif]-->
+
+
+
+   <script type="text/javascript" src="/scripts/main.js"></script> 
+   <script type="text/javascript" src="/scripts/cufon.js"></script> 
+   <script type="text/javascript" src="/scripts/enlargeit.js"></script> 
+
+
+<script type="text/javascript">
+//<![CDATA[
+    window.onload = function(){
+      $('#model0').addClass('chosen');
+      cufonize();
+      myQuery();
+      animate();
+      activateChosen();
+    };
+//]]>
+</script>
+
+    <style type="text/css">
+      #flags UL LI.flag-cz A{ color: #0d114c; background-position: center -50px; }
+    </style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2178133-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+
+<body>
+
+
+
+<div id="header"></div>
+
+
+
+
+
+<div id="wrapper">
+
+
+    <div id="topbox">
+      <div id="logo-click"><a href="/" title="server hosting"></a></div>
+      <div id="flags">
+        <ul>
+          <li class="flag-en"><a href="http://www.masterdc.com/">EN</a></li>
+          <li class="flag-cz"><a href="http://www.master.cz/">CZ</a></li>
+          <li class="flag-de"><a href="http://www.masterdc.de/">DE</a></li>
+          <li class="flag-sk"><a href="http://www.masterdc.sk/">SK</a></li>
+        </ul>
+      </div>
+      <div id="altmenu">
+        <ul>
+          <li><a href="/o-spolecnosti/">O spoleÄnosti</a> | </li>
+          <!--<li><a href="#">Hledat</a> | </li>-->
+          <li><a href="https://www.master.cz/cis/">ZÃ¡kaznickÃ½ IS</a> | </li>
+          <li><a href="/kontakty/">Kontakty</a></li>
+        </ul>
+        <div id="contact">Podpora:&nbsp;&nbsp;&nbsp;Praha 777 919 485 | Brno 777 919 484</div>
+      </div>
+    </div>
+
+<img src="/images/configurer.png" alt="" title="" height="1" width="1" style="display:none;">
+
+
+
+<div id="boxbox">
+
+
+    <div id="box1">
+        <h2>SpokojenÃ½ zÃ¡kaznÃ­k</h2>
+        
+        
+
+  
+
+<img src='/images/references/czechinvest.png' alt=''/>
+
+
+                
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/reference/">Reference</a></div>
+    </div>
+   
+    <div id="box2" >
+        <h2>Cloud hosting = 99,99%</h2>
+        <p>PotÅebujete maximÃ¡lnÃ­ spolehlivost sluÅ¾by? VyuÅ¾ijte sluÅ¾by <a href="/cloud-hosting/">cloud hosting</a> a nakonfigurujte si tarif na mÃ­ru.</p>
+        <div style="height:30px"></div>
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/konfigurator/?p=CLOUDE1&g=CLOUD">Konfigurovat</a></div>
+    </div>
+    
+    <div id="box3" style="right:30px;">
+        
+
+<h2>Aktuality (24.02.2014)</h2>
+
+<p>VylepÅ¡ili jsme Disaster Recovery ÅeÅ¡enÃ­ naÅ¡Ã­ <a href="/cloud-hosting/">cloudovÃ© platformy</a>. Obnova dat bude v pÅÃ­padÄ fatÃ¡lnÃ­ho selhÃ¡nÃ­ jeÅ¡tÄ rychlejÅ¡Ã­ neÅ¾ doposud.</p>
+  
+        <div style="height:30px"></div>
+        <div class="button" style="position:absolute; bottom: 0px;"><a href="/novinky/">Aktuality</a></div>
+    </div>
+</div>
+
+
+<!-- Google Code for Zivy server brezen 2013 -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 956046545;
+var google_conversion_label = "kor2CO-9uwUQ0bnwxwM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/956046545/?value=0&amp;label=kor2CO-9uwUQ0bnwxwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+
+
+
+
+<div id="buttonbox">
+
+
+    <div class="modelbox"><a href="/housing-technologii/" id="model2"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/pronajem-serveru/" id="model3"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/cloudove-sluzby/" id="model4"></a></div><div class="modelboxend"></div>
+    <div class="modelbox"><a href="/datacentra-master-dc/" id="model5"></a></div><div class="modelboxend"></div>
+
+
+
+
+    <div class="mainmenubox" id="mainmenubox2"><ul><li id="li2"><a id="a2" href="/housing-technologii/">Housing technologiÃ­</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend2"></div>
+    <div class="mainmenubox" id="mainmenubox3"><ul><li id="li3"><a id="a3" href="/pronajem-serveru/" >PronÃ¡jem serverÅ¯</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend3"></div>
+    <div class="mainmenubox" id="mainmenubox4"><ul><li id="li4"><a id="a4" href="/cloudove-sluzby/">CloudovÃ© sluÅ¾by</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend4"></div>
+    <div class="mainmenubox" id="mainmenubox5"><ul><li id="li5"><a id="a5" href="/datacentra-master-dc/">DatovÃ¡ centra</a></li></ul></div><div class="mainmenuboxend" id="mainmenuboxend5"></div>
+
+
+</div>
+
+
+
+
+
+
+<div id="content">
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div class="clear standard"></div>
+</div>
+
+
+
+
+    <div id="pusher"></div>
+</div>
+
+
+
+<div id="footer">
+  <div id="footerbox">
+  <div id="footer1"><div class="footertext">TOP SLUÅ½BY</div>
+                    <a href="/server-housing/">server housing</a><br/>
+                    <a href="/server-hosting/">server hosting</a><br/>
+                    <a href="/virtualni-servery-vps/">virtuÃ¡lnÃ­ servery VPS</a><br/>
+                    <a href="/managed-servery/">managed servery</a><br/>
+                    <a href="/cloud-hosting/">cloud hosting</a><br/>
+  </div> 
+  <div id="footer2"><div class="footertext">CentrÃ¡la Brno</div>PurkyÅova 35e, Brno<br/>zel. linka: 800 800 624<br/><a href="mailto:info&#64;master.cz">info&#64;master.cz</a></div>
+  <div id="footer3"><div class="footertext">MASTER DC BRNO</div>Cejl 20, Brno<br/>support: +420 777 919 484<br/>obchod: +420 777 919 800<br/></div> 
+  <div id="footer4"><div class="footertext">MASTER DC PRAHA</div>KodaÅskÃ¡ 46, Praha 10<br/>support: +420 777 919 485<br/>obchod: +420 777 919 300<br/></div>
+  <div id="footer5">Â© 1996-2014 Master Internet, s.r.o., drÅ¾itel certifikÃ¡tu <b>ISO 9001:2009</b> a <b>ISO/IEC 27001:2006</b> &nbsp;|&nbsp;&nbsp;<a href="/mapa-stranek/">Mapa webu</a> &nbsp;|&nbsp; <a href="https://plus.google.com/102162817669708232782" rel="publisher">NajdÄte nÃ¡s na Google+</a> </div>
+ 
+<!-- Google Code for Remarketing - obecn&#283; sitewide Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 956046545;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "2z8lCMeG2gMQ0bnwxwM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/956046545/?label=2z8lCMeG2gMQ0bnwxwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+ </div>
+</div>
+
+
+
+</body>
+</html>

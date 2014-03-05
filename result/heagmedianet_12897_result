@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - traceroute 2001:da8:1:100::80</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<CENTER>
+<H2>Looking Glass - traceroute 2001:da8:1:100::80</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> HSE Medianet - Juniper 7003
+<BR>
+<B>Command:</B> traceroute 2001:da8:1:100::80
+<P><PRE><CODE>
+traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2a02:b98::1:6, 64 hops max, 12 byte packets
+ 1  xe0-0-0.ju7004.heagmedianet.de (2a02:b98::1:5)  0.575 ms  0.490 ms  0.426 ms
+ 2  2001:7f8::1b1b:0:1 (2001:7f8::1b1b:0:1)  9.989 ms  1.800 ms  1.416 ms
+ 3  100ge3-1.core1.ams1.he.net (2001:470:0:2d4::1)  7.060 ms  12.045 ms  7.146 ms
+ 4  100ge9-1.core1.lon2.he.net (2001:470:0:2d0::1)  26.028 ms  20.739 ms  24.696 ms
+ 5  100ge1-1.core1.nyc4.he.net (2001:470:0:2cf::2)  80.213 ms  83.672 ms  89.125 ms
+ 6  10ge10-3.core1.lax1.he.net (2001:470:0:10e::1)  167.535 ms  148.320 ms  177.192 ms
+ 7  10ge1-3.core1.lax2.he.net (2001:470:0:72::2)  150.995 ms  143.650 ms  149.505 ms
+ 8  cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2a2::2)  142.883 ms  144.877 ms  157.318 ms
+ 9  2001:252:0:302::1 (2001:252:0:302::1)  303.208 ms  294.777 ms  298.892 ms
+10  2001:252:0:100::1 (2001:252:0:100::1)  306.477 ms  298.701 ms  298.880 ms
+11  2001:252:0:1::1 (2001:252:0:1::1)  295.073 ms  294.863 ms  299.314 ms
+12  2001:da8:1:100::80 (2001:da8:1:100::80)  302.613 ms  295.950 ms  298.666 ms
+
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:cougar@random.ee">cougar@random.ee</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - traceroute 2001:4641::1</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<CENTER>
+<H2>Looking Glass - traceroute 2001:4641::1</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> HSE Medianet - Juniper 7003
+<BR>
+<B>Command:</B> traceroute 2001:4641::1
+<P><PRE><CODE>
+traceroute6 to 2001:4641::1 (2001:4641::1) from 2a02:b98::1:9, 64 hops max, 12 byte packets
+ 1  xe0-0-0.ju7004.heagmedianet.de (2a02:b98::1:5)  0.632 ms  0.509 ms xe0-3-0.ju7019.heagmedianet.de (2a02:b98::1:a)  0.490 ms
+ 2  xe2-3-0.ju7008.heagmedianet.de (2a02:b98::1:e)  0.492 ms xe2-2-0.ju7008.heagmedianet.de (2a02:b98::1:2)  0.487 ms  0.495 ms
+ 3  ae0-218.fra60.ip6.tinet.net (2001:668:0:3::2000:181)  0.935 ms  16.455 ms  0.973 ms
+ 4  2001:668:0:2::1:542 (2001:668:0:2::1:542)  6.850 ms xe-3-2-0.ams21.ip6.tinet.net (2001:668:0:2::1:492)  17.008 ms xe-0-2-0.ams20.ip6.tinet.net (2001:668:0:2::1:502)  17.036 ms
+ 5  as2119.ip6.tinet.net (2001:668:0:3::f000:92)  7.400 ms  7.381 ms  7.361 ms
+ 6  ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5)  33.017 ms  27.977 ms  27.944 ms
+     MPLS Label=342672 CoS=0 TTL=1 S=0
+     MPLS Label=2 CoS=0 TTL=1 S=1
+ 7  ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23)  36.567 ms  27.995 ms  27.934 ms
+     MPLS Label=405744 CoS=0 TTL=1 S=0
+     MPLS Label=2 CoS=0 TTL=2 S=1
+ 8  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d)  28.011 ms  27.998 ms  27.909 ms
+ 9  canardo.mork.no (2001:4641::1)  51.182 ms  58.381 ms  51.391 ms
+
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:cougar@random.ee">cougar@random.ee</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - traceroute 2001:1430:a:50::50</TITLE>
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<CENTER>
+<H2>Looking Glass - traceroute 2001:1430:a:50::50</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<B>Router:</B> HSE Medianet - Juniper 7003
+<BR>
+<B>Command:</B> traceroute 2001:1430:a:50::50
+<P><PRE><CODE>
+traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2a02:b98::1:9, 64 hops max, 12 byte packets
+ 1  xe0-0-0.ju7004.heagmedianet.de (2a02:b98::1:5)  0.638 ms  0.532 ms xe0-3-0.ju7019.heagmedianet.de (2a02:b98::1:a)  10.531 ms
+ 2  xe2-3-0.ju7008.heagmedianet.de (2a02:b98::1:e)  0.543 ms xe2-2-0.ju7008.heagmedianet.de (2a02:b98::1:2)  0.475 ms  0.488 ms
+ 3  ae0-218.fra60.ip6.tinet.net (2001:668:0:3::2000:181)  0.948 ms  0.980 ms  57.212 ms
+ 4  xe-2-2-0.stk10.ip6.tinet.net (2001:668:0:2::1:2aa2)  27.999 ms xe-5-0-0.stk30.ip6.tinet.net (2001:668:0:2::1:1df2)  30.143 ms xe-2-2-0.stk10.ip6.tinet.net (2001:668:0:2::1:2aa2)  27.996 ms
+ 5  elisa-gw.ip6.tinet.net (2001:668:0:3::f000:22)  28.177 ms  45.582 ms  29.382 ms
+ 6  bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2)  50.577 ms  48.470 ms  50.598 ms
+ 7  2001:998:12:2::1 (2001:998:12:2::1)  35.399 ms 2001:998:12:31::1 (2001:998:12:31::1)  55.472 ms 2001:998:12:2::1 (2001:998:12:2::1)  35.917 ms
+ 8  2001:998:12:0:139:97:12:239 (2001:998:12:0:139:97:12:239)  38.113 ms  35.822 ms  35.815 ms
+ 9  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2)  49.729 ms  49.462 ms 2001:998:12:d::2 (2001:998:12:d::2)  66.934 ms
+10  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2)  52.790 ms  50.179 ms ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2)  37.707 ms
+11  www.axu.tm (2001:1430:a:50::50)  69.694 ms  34.974 ms  34.903 ms
+
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:cougar@random.ee">cougar@random.ee</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
