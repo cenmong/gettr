@@ -22,22 +22,22 @@
 <P><PRE><CODE>
 Tracing the route to 2001:DA8:1:100::80
 
-  1 beb-iv6-gig0-1.ip6.ip-plus.net (2001:918:0:1::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65024" TARGET=_lookup>65024</A>] 0 msec 0 msec 0 msec
-  2 beb-000-loo6.ip6.ip-plus.net (2001:918:100:100::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 0 msec 0 msec 4 msec
+  1 beb-iv6-gig0-1.ip6.ip-plus.net (2001:918:0:1::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65024" TARGET=_lookup>65024</A>] 0 msec 0 msec 4 msec
+  2 beb-000-loo6.ip6.ip-plus.net (2001:918:100:100::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 0 msec 0 msec 0 msec
   3 beb-010-loo6.ip6.ip-plus.net (2001:918:100:101::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 4 msec 4 msec 0 msec
   4 2001:4D98:A000::8 [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 8 msec 8 msec 8 msec
-  5 par-005-ten4-2.ip6.ip-plus.net (2001:918:0:11::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 12 msec 12 msec 12 msec
-  6 he.franceix.net (2001:7F8:54::10) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 12 msec 16 msec 12 msec
-  7 10ge9-1.core1.par2.he.net (2001:470:0:1B0::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 20 msec 8 msec 12 msec
-  8 100ge7-1.core1.lon2.he.net (2001:470:0:2CE::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 24 msec 20 msec 20 msec
-  9 100ge1-1.core1.nyc4.he.net (2001:470:0:2CF::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 96 msec 88 msec 88 msec
- 10 10ge10-3.core1.lax1.he.net (2001:470:0:10E::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 156 msec 152 msec 160 msec
- 11 10ge1-3.core1.lax2.he.net (2001:470:0:72::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 164 msec 152 msec 152 msec
+  5 par-005-ten4-2.ip6.ip-plus.net (2001:918:0:11::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 12 msec 8 msec 8 msec
+  6 he.franceix.net (2001:7F8:54::10) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 8 msec 12 msec 24 msec
+  7 10ge9-1.core1.par2.he.net (2001:470:0:1B0::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 12 msec 12 msec 24 msec
+  8 100ge7-1.core1.lon2.he.net (2001:470:0:2CE::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 20 msec 20 msec 20 msec
+  9 100ge1-1.core1.nyc4.he.net (2001:470:0:2CF::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 84 msec 84 msec 84 msec
+ 10 10ge10-3.core1.lax1.he.net (2001:470:0:10E::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 156 msec 152 msec 164 msec
+ 11 10ge1-3.core1.lax2.he.net (2001:470:0:72::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 156 msec 156 msec 220 msec
  12  *  *  * 
- 13 2001:252:0:302::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 308 msec 308 msec 308 msec
+ 13 2001:252:0:302::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 352 msec 360 msec 360 msec
  14  *  *  * 
- 15 2001:252:0:1::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 308 msec 308 msec 308 msec
- 16 2001:DA8:1:100::80 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23910" TARGET=_lookup>23910</A>] 308 msec 308 msec 308 msec
+ 15 2001:252:0:1::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 312 msec 308 msec 360 msec
+ 16 2001:DA8:1:100::80 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23910" TARGET=_lookup>23910</A>] 312 msec 316 msec 332 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
@@ -77,34 +77,34 @@ Tracing the route to 2001:DA8:1:100::80
 <P><PRE><CODE>
 Tracing the route to canardo.mork.no (2001:4641::1)
 
-  1 beb-iv6-gig0-1.ip6.ip-plus.net (2001:918:0:1::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65024" TARGET=_lookup>65024</A>] 0 msec 4 msec 0 msec
-  2 beb-000-loo6.ip6.ip-plus.net (2001:918:100:100::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 4 msec 0 msec 0 msec
-  3 2001:4D98:A000::2 [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 12 msec 8 msec 12 msec
-  4 tix-035-lo0-0.ip6.ip-plus.net (2001:918:100:5::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 4 msec 4 msec 4 msec
-  5 2003:0:FF00:8002::1 [AS <A onMouseOver="window.status='DTAG (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3320" TARGET=_lookup>3320</A>] 8 msec
+  1 beb-iv6-gig0-1.ip6.ip-plus.net (2001:918:0:1::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65024" TARGET=_lookup>65024</A>] 0 msec 0 msec 0 msec
+  2 beb-000-loo6.ip6.ip-plus.net (2001:918:100:100::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 0 msec 0 msec 0 msec
+  3 2001:4D98:A000::2 [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 8 msec 8 msec 8 msec
+  4 tix-035-lo0-0.ip6.ip-plus.net (2001:918:100:5::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 4 msec 0 msec 0 msec
+  5 2003:0:FF00:8003::1 [AS <A onMouseOver="window.status='DTAG (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3320" TARGET=_lookup>3320</A>] 8 msec
+    2003:0:FF00:8001::1 12 msec
     2003:0:FF00:8004::1 8 msec
-    2003:0:FF00:8001::1 4 msec
-  6  * 
-    2001:1900:4:3::22E 120 msec 116 msec
-  7 2001:1900:4:3::22D [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 116 msec 124 msec 124 msec
-  8 vl-51.edge1.Chicago2.Level3.net (2001:1900:37:1::3) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 124 msec 128 msec
+  6 2001:1900:4:3::22E [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] [MPLS: Label 19783 Exp 0] 120 msec 120 msec * 
+  7 2001:1900:4:3::22D [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 124 msec 116 msec 124 msec
+  8 vl-51.edge1.Chicago2.Level3.net (2001:1900:37:1::3) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 120 msec 124 msec
     vl-52.edge1.Chicago2.Level3.net (2001:1900:37:2::3) 116 msec
-  9 vl-4067.car1.Chicago1.Level3.net (2001:1900:4:1::1D) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 120 msec 120 msec 124 msec
- 10 vl-4061.car2.NewYork2.Level3.net (2001:1900:4:1::22) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 116 msec 132 msec 116 msec
- 11 vl-4080.car1.NewYork2.Level3.net (2001:1900:4:1::F1) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 124 msec 116 msec 116 msec
- 12 vl-4041.edge1.NewYork1.Level3.net (2001:1900:4:1::101) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 124 msec 116 msec 120 msec
- 13 vl-4086.edge3.London1.Level3.net (2001:1900:6:1::11) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 124 msec 124 msec 116 msec
- 14 vl-4080.edge4.London1.Level3.net (2001:1900:5:1::102) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 116 msec
-    vl-4081.edge4.London1.Level3.net (2001:1900:5:1::106) 124 msec 120 msec
+  9 vl-4067.car1.Chicago1.Level3.net (2001:1900:4:1::1D) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 224 msec 220 msec 132 msec
+ 10 vl-4061.car2.NewYork2.Level3.net (2001:1900:4:1::22) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 128 msec 124 msec 196 msec
+ 11 vl-4080.car1.NewYork2.Level3.net (2001:1900:4:1::F1) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 116 msec 120 msec 120 msec
+ 12 vl-4041.edge1.NewYork1.Level3.net (2001:1900:4:1::101) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 116 msec 116 msec 116 msec
+ 13 vl-4086.edge3.London1.Level3.net (2001:1900:6:1::11) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 120 msec 120 msec 120 msec
+ 14 vl-4081.edge4.London1.Level3.net (2001:1900:5:1::106) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 120 msec
+    vl-4080.edge4.London1.Level3.net (2001:1900:5:1::102) 120 msec
+    vl-4081.edge4.London1.Level3.net (2001:1900:5:1::106) 128 msec
  15 vl-4060.edge4.Amsterdam1.Level3.net (2001:1900:5:1::206) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 128 msec 120 msec 120 msec
- 16 vl-4080.edge3.Amsterdam1.Level3.net (2001:1900:5:1::109) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 120 msec 128 msec 120 msec
- 17 vl-4040.car1.Dusseldorf1.Level3.net (2001:1900:5:1::20E) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 124 msec 128 msec 124 msec
- 18 vl-4042.bar1.Copenhagen1.Level3.net (2001:1900:5:1::282) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 144 msec 136 msec 140 msec
- 19 2001:1900:5:2:1::6A [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 136 msec 140 msec 140 msec
- 20 ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 342672/2 Exp 0] 152 msec 148 msec 152 msec
- 21 ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 405744/2 Exp 0] 148 msec 144 msec 152 msec
+ 16 vl-4081.edge3.Amsterdam1.Level3.net (2001:1900:5:1::10D) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 128 msec 120 msec 124 msec
+ 17 vl-4040.car1.Dusseldorf1.Level3.net (2001:1900:5:1::20E) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 124 msec 124 msec 128 msec
+ 18 vl-4042.bar1.Copenhagen1.Level3.net (2001:1900:5:1::282) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 132 msec 140 msec 140 msec
+ 19 2001:1900:5:2:1::6A [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3356" TARGET=_lookup>3356</A>] 132 msec 132 msec 132 msec
+ 20 ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 342672/2 Exp 0] 144 msec 152 msec 152 msec
+ 21 ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 405744/2 Exp 0] 144 msec 152 msec 152 msec
  22 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 148 msec 144 msec 152 msec
- 23 canardo.mork.no (2001:4641::1) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 168 msec 168 msec 172 msec
+ 23 canardo.mork.no (2001:4641::1) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 172 msec 172 msec 176 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
@@ -144,18 +144,18 @@ Tracing the route to canardo.mork.no (2001:4641::1)
 <P><PRE><CODE>
 Tracing the route to www.axu.tm (2001:1430:A:50::50)
 
-  1 beb-iv6-gig0-1.ip6.ip-plus.net (2001:918:0:1::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65024" TARGET=_lookup>65024</A>] 4 msec 0 msec 4 msec
-  2 beb-000-loo6.ip6.ip-plus.net (2001:918:100:100::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 4 msec 0 msec 0 msec
-  3 2001:4D98:A000::2 [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 12 msec 8 msec 12 msec
+  1 beb-iv6-gig0-1.ip6.ip-plus.net (2001:918:0:1::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65024" TARGET=_lookup>65024</A>] 0 msec 0 msec 0 msec
+  2 beb-000-loo6.ip6.ip-plus.net (2001:918:100:100::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 0 msec 4 msec 0 msec
+  3 2001:4D98:A000::2 [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 8 msec 12 msec 12 msec
   4 tix-035-lo0-0.ip6.ip-plus.net (2001:918:100:5::1) [AS <A onMouseOver="window.status='IANA-RSVD2 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/65000" TARGET=_lookup>65000</A>] 4 msec 4 msec 4 msec
-  5 2003:0:FF00:8001::1 [AS <A onMouseOver="window.status='DTAG (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3320" TARGET=_lookup>3320</A>] 12 msec 12 msec 8 msec
+  5 2003:0:FF00:8001::1 [AS <A onMouseOver="window.status='DTAG (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3320" TARGET=_lookup>3320</A>] 8 msec 8 msec 8 msec
   6 2003:0:130B:4000::1 [AS <A onMouseOver="window.status='DTAG (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3320" TARGET=_lookup>3320</A>] 12 msec 12 msec 8 msec
   7 2003:0:130B:4002::2 [AS <A onMouseOver="window.status='DTAG (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS3320" TARGET=_lookup>3320</A>] 8 msec 12 msec 8 msec
-  8 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 36 msec 40 msec 36 msec
-  9 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 36 msec 36 msec 36 msec
+  8 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 36 msec 36 msec 36 msec
+  9 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 36 msec 36 msec 40 msec
  10 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 40 msec 40 msec 40 msec
- 11 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 36 msec 36 msec 40 msec
- 12 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 36 msec 36 msec 40 msec
+ 11 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 36 msec 40 msec 36 msec
+ 12 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 40 msec 36 msec 36 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>

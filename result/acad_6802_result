@@ -23,29 +23,28 @@
 
 Tracing the route to 2001:da8:1:100::80
 
- 1  bren.rt1.sof.bg.geant2.net (2001:798:2c:10aa::9) 3 msec 4 msec 3 msec
+ 1  bren.rt1.sof.bg.geant2.net (2001:798:2c:10aa::9) 5 msec 3 msec 3 msec
  2  2001:798:cc:2c01:1b01::2 16 msec
-    2001:798:cc:1001:2c01::1 22 msec 24 msec
- 3  xe-1-0-0.mx2.bra.sk.geant.net (2001:798:cc:3301:1b01::5) 19 msec
+    2001:798:cc:1001:2c01::1 20 msec 20 msec
+ 3  xe-1-0-0.mx2.bra.sk.geant.net (2001:798:cc:3301:1b01::5) 24 msec
     2001:798:cc:1001:1e01::6 31 msec
-    xe-1-0-0.mx2.bra.sk.geant.net (2001:798:cc:3301:1b01::5) 21 msec
- 4  2001:798:cc:1301:3301::1 24 msec
-    2001:798:cc:1201:1e01::5 43 msec
-    2001:798:cc:1301:3301::1 23 msec
+    xe-1-0-0.mx2.bra.sk.geant.net (2001:798:cc:3301:1b01::5) 19 msec
+ 4  2001:798:cc:1301:3301::1 23 msec
+    2001:798:cc:1201:1e01::5 44 msec
+    2001:798:cc:1301:3301::1 24 msec
  5  ae4.mx1.par.fr.geant.net (2001:798:cc:1801:1201::5) 52 msec 51 msec
-    ae2.mx1.fra.de.geant.net (2001:798:cc:1301:1401::6) 31 msec
- 6  ae1.mx1.lon.uk.geant.net (2001:798:cc:2801:1801::1) 56 msec
-    ae3.rt1.gen.ch.geant.net (2001:798:cc:1401:2201::a) 37 msec 35 msec
- 7  orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 221 msec
-    ae2.mx1.lon.uk.geant.net (2001:798:cc:2801:2201::1) 50 msec
-    orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 222 msec
- 8  2001:252:0:100::1 221 msec
-    orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 214 msec
-    2001:252:0:100::1 224 msec
- 9  2001:252:0:100::1 216 msec * 
-    2001:252:0:1::1 221 msec
+    ae2.mx1.fra.de.geant.net (2001:798:cc:1301:1401::6) 30 msec
+ 6  ae1.mx1.lon.uk.geant.net (2001:798:cc:2801:1801::1) 57 msec
+    so-5-0-0.rt1.gen.ch.geant2.net (2001:798:cc:1401:2201::a) 39 msec 36 msec
+ 7  orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 220 msec
+    ae2.mx1.lon.uk.geant.net (2001:798:cc:2801:2201::1) 51 msec
+    orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 229 msec
+ 8  2001:252:0:100::1 225 msec
+    orientplus.mx1.lon.uk.geant.net (2001:798:28:10aa::26) 242 msec * 
+ 9   *  * 
+    2001:252:0:1::1 220 msec
  10 2001:252:0:1::1 214 msec
-    2001:da8:1:100::80 228 msec 220 msec
+    2001:da8:1:100::80 221 msec 223 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
@@ -85,16 +84,16 @@ Tracing the route to 2001:da8:1:100::80
 
 Tracing the route to 2001:4641::1
 
- 1  bren.rt1.sof.bg.geant2.net (2001:798:2c:10aa::9) 12 msec 4 msec 2 msec
- 2  2001:798:cc:2c01:1b01::2 17 msec 16 msec 27 msec
- 3  xe-1-0-0.mx2.bra.sk.geant.net (2001:798:cc:3301:1b01::5) 20 msec 20 msec 18 msec
- 4  2001:798:cc:1301:3301::1 22 msec 23 msec 22 msec
- 5  ae2.mx1.fra.de.geant.net (2001:798:cc:1301:1401::6) 29 msec 29 msec 29 msec
- 6  2001:7f8::847:0:1 58 msec 30 msec 30 msec
- 7  ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) 56 msec 55 msec 55 msec
- 8  ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2a) 55 msec 56 msec 56 msec
- 9  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d) 55 msec 55 msec 62 msec
- 10 canardo.mork.no (2001:4641::1) 79 msec 79 msec 79 msec
+ 1  bren.rt1.sof.bg.geant2.net (2001:798:2c:10aa::9) 8 msec 3 msec 6 msec
+ 2  2001:798:cc:2c01:1b01::2 16 msec 30 msec 18 msec
+ 3  xe-1-0-0.mx2.bra.sk.geant.net (2001:798:cc:3301:1b01::5) 21 msec 18 msec 19 msec
+ 4  2001:798:cc:1301:3301::1 23 msec 23 msec 23 msec
+ 5  ae2.mx1.fra.de.geant.net (2001:798:cc:1301:1401::6) 30 msec 29 msec 29 msec
+ 6  2001:7f8::847:0:1 29 msec 33 msec 32 msec
+ 7  ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) 55 msec 55 msec 54 msec
+ 8  ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2a) 55 msec 56 msec 54 msec
+ 9  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d) 55 msec 58 msec 55 msec
+ 10 canardo.mork.no (2001:4641::1) 78 msec 78 msec 77 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
@@ -134,13 +133,13 @@ Tracing the route to 2001:4641::1
 
 Tracing the route to 2001:1430:a:50::50
 
- 1  2001:1ae0:ffff::2d 7 msec 6 msec 4 msec
- 2  2001:7f8::32e6:0:1 32 msec 32 msec 33 msec
- 3  2001:7f8::cdc:0:1 36 msec 33 msec 32 msec
- 4  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1) 62 msec 67 msec 63 msec
- 5  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1) 61 msec 61 msec 62 msec
- 6  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 68 msec 68 msec 67 msec
- 7  ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2) 64 msec 64 msec 66 msec
+ 1  2001:1ae0:ffff::2d 4 msec 2 msec 3 msec
+ 2  2001:7f8::32e6:0:1 33 msec 32 msec 33 msec
+ 3  2001:7f8::cdc:0:1 32 msec 32 msec 32 msec
+ 4  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1) 62 msec 61 msec 61 msec
+ 5  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1) 62 msec 62 msec 62 msec
+ 6  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 71 msec 69 msec 68 msec
+ 7  ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2) 64 msec 65 msec 65 msec
  8  www.axu.tm (2001:1430:a:50::50) 65 msec 66 msec 65 msec
 </CODE></PRE>
 <P>

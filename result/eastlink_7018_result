@@ -21,20 +21,20 @@
 <B>Command:</B> traceroute 2001:da8:1:100::80
 <P><PRE><CODE>
 traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:1890:111d:1::28, 64 hops max, 12 byte packets
- 1  cbbtier3-gw.ipv6.att.net (2001:1890:111d:1::1)  2.282 ms  2.861 ms  2.210 ms
- 2  jar1.n54ny.ip.att.net (2001:1890:c00:1808::eeb1:2cbe)  3.037 ms  2.874 ms  2.839 ms
- 3  n54ny21crs.ipv6.att.net (2001:1890:ff:ffff:12:122:131:170)  6.945 ms  5.757 ms  3.813 ms
+ 1  cbbtier3-gw.ipv6.att.net (2001:1890:111d:1::1)  2.224 ms  2.475 ms  2.165 ms
+ 2  jar1.n54ny.ip.att.net (2001:1890:c00:1808::eeb1:2cbe)  3.144 ms  2.615 ms  2.978 ms
+ 3  n54ny21crs.ipv6.att.net (2001:1890:ff:ffff:12:122:131:170)  6.686 ms  5.429 ms  3.920 ms
      MPLS Label=17148 CoS=1 TTL=255 S=0
      MPLS Label=2 CoS=1 TTL=255 S=1
- 4  n54ny401jt1.ipv6.att.net (2001:1890:ff:ffff:12:122:126:121)  19.201 ms  21.412 ms  26.189 ms
- 5  10gigabitethernet7.switch3.nyc4.he.net (2001:470:0:1dd::1)  12.981 ms  2.916 ms  3.460 ms
- 6  10ge10-3.core1.lax1.he.net (2001:470:0:10e::1)  67.106 ms  68.777 ms  74.012 ms
- 7  10ge1-3.core1.lax2.he.net (2001:470:0:72::2)  76.321 ms  72.754 ms  75.160 ms
- 8  * * cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2a2::2)  68.041 ms
- 9  2001:252:0:302::1 (2001:252:0:302::1)  222.178 ms  221.268 ms  221.931 ms
-10  2001:252:0:100::1 (2001:252:0:100::1)  227.737 ms *  228.328 ms
-11  2001:252:0:1::1 (2001:252:0:1::1)  223.635 ms  223.738 ms  224.215 ms
-12  2001:da8:1:100::80 (2001:da8:1:100::80)  221.701 ms  222.927 ms  222.849 ms
+ 4  n54ny401jt1.ipv6.att.net (2001:1890:ff:ffff:12:122:126:121)  6.038 ms  22.399 ms  27.660 ms
+ 5  10gigabitethernet7.switch3.nyc4.he.net (2001:470:0:1dd::1)  3.266 ms  6.242 ms  2.898 ms
+ 6  10ge10-3.core1.lax1.he.net (2001:470:0:10e::1)  68.370 ms  67.670 ms  76.430 ms
+ 7  10ge1-3.core1.lax2.he.net (2001:470:0:72::2)  150.834 ms  77.016 ms  71.029 ms
+ 8  cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2a2::2)  153.768 ms  70.972 ms  71.318 ms
+ 9  2001:252:0:302::1 (2001:252:0:302::1)  222.602 ms  221.302 ms  302.949 ms
+10  2001:252:0:100::1 (2001:252:0:100::1)  228.350 ms  250.124 ms  225.940 ms
+11  2001:252:0:1::1 (2001:252:0:1::1)  248.323 ms  223.637 ms  301.771 ms
+12  2001:da8:1:100::80 (2001:da8:1:100::80)  223.691 ms  222.572 ms  302.347 ms
 
 </CODE></PRE>
 <P>
@@ -74,91 +74,29 @@ traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:1890:111d:1::28
 <B>Command:</B> traceroute 2001:4641::1
 <P><PRE><CODE>
 traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1890:111d:1::28, 64 hops max, 12 byte packets
- 1  cbbtier3-gw.ipv6.att.net (2001:1890:111d:1::1)  948.633 ms  26.278 ms  1.883 ms
- 2  jar1.n54ny.ip.att.net (2001:1890:c00:1808::eeb1:2cbe)  3.227 ms  2.767 ms  2.797 ms
- 3  n54ny22crs.ipv6.att.net (2001:1890:ff:ffff:12:122:115:74)  5.016 ms  5.139 ms  4.771 ms
+ 1  cbbtier3-gw.ipv6.att.net (2001:1890:111d:1::1)  2.324 ms  2.303 ms  2.278 ms
+ 2  jar1.n54ny.ip.att.net (2001:1890:c00:1808::eeb1:2cbe)  16.280 ms  27.632 ms  49.254 ms
+ 3  n54ny22crs.ipv6.att.net (2001:1890:ff:ffff:12:122:115:74)  4.798 ms  5.530 ms  4.061 ms
      MPLS Label=17874 CoS=1 TTL=255 S=0
      MPLS Label=2 CoS=1 TTL=255 S=1
- 4  n54ny402igs.ipv6.att.net (2001:1890:ff:ffff:12:122:130:169)  4.769 ms  5.200 ms  4.088 ms
- 5  ae6.edge3.newyork1.level3.net (2001:1900:4:3::201)  3.771 ms  3.055 ms  3.059 ms
- 6  2001:1900:19:6::7 (2001:1900:19:6::7)  2.981 ms 2001:1900:19:7::7 (2001:1900:19:7::7)  3.357 ms 2001:1900:19:6::7 (2001:1900:19:6::7)  4.049 ms
- 7  vl-4086.edge3.London1.Level3.net (2001:1900:6:1::11)  72.033 ms  72.003 ms  72.062 ms
- 8  vl-4081.edge4.London1.Level3.net (2001:1900:5:1::106)  72.080 ms vl-4080.edge4.London1.Level3.net (2001:1900:5:1::102)  72.063 ms vl-4081.edge4.London1.Level3.net (2001:1900:5:1::106)  72.121 ms
- 9  vl-4060.edge4.Amsterdam1.Level3.net (2001:1900:5:1::206)  79.407 ms  79.317 ms  79.490 ms
-10  vl-4081.edge3.Amsterdam1.Level3.net (2001:1900:5:1::10d)  79.394 ms vl-4080.edge3.Amsterdam1.Level3.net (2001:1900:5:1::109)  79.772 ms vl-4081.edge3.Amsterdam1.Level3.net (2001:1900:5:1::10d)  79.617 ms
-11  vl-4040.car1.Dusseldorf1.Level3.net (2001:1900:5:1::20e)  106.747 ms  192.780 ms  204.361 ms
-12  vl-4042.bar1.Copenhagen1.Level3.net (2001:1900:5:1::282)  94.679 ms  94.574 ms  94.672 ms
-13  2001:1900:5:2:1::6a (2001:1900:5:2:1::6a)  106.040 ms  105.817 ms  107.030 ms
-14  ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29)  111.336 ms  110.898 ms  111.345 ms
+ 4  n54ny402igs.ipv6.att.net (2001:1890:ff:ffff:12:122:130:169)  6.071 ms  5.882 ms  3.802 ms
+ 5  ae6.edge3.newyork1.level3.net (2001:1900:4:3::201)  3.033 ms  3.316 ms  3.257 ms
+ 6  2001:1900:19:8::7 (2001:1900:19:8::7)  47.623 ms 2001:1900:19:5::7 (2001:1900:19:5::7)  3.373 ms 2001:1900:19:6::7 (2001:1900:19:6::7)  3.293 ms
+ 7  vl-4086.edge3.London1.Level3.net (2001:1900:6:1::11)  91.659 ms  72.151 ms  72.647 ms
+ 8  vl-4080.edge4.London1.Level3.net (2001:1900:5:1::102)  71.953 ms vl-4081.edge4.London1.Level3.net (2001:1900:5:1::106)  72.126 ms vl-4080.edge4.London1.Level3.net (2001:1900:5:1::102)  72.135 ms
+ 9  vl-4060.edge4.Amsterdam1.Level3.net (2001:1900:5:1::206)  79.451 ms  79.723 ms  79.575 ms
+10  vl-4080.edge3.Amsterdam1.Level3.net (2001:1900:5:1::109)  79.518 ms vl-4081.edge3.Amsterdam1.Level3.net (2001:1900:5:1::10d)  79.435 ms  79.399 ms
+11  vl-4040.car1.Dusseldorf1.Level3.net (2001:1900:5:1::20e)  83.106 ms  82.982 ms  82.753 ms
+12  vl-4042.bar1.Copenhagen1.Level3.net (2001:1900:5:1::282)  94.309 ms  99.002 ms  94.617 ms
+13  2001:1900:5:2:1::6a (2001:1900:5:2:1::6a)  105.861 ms  106.106 ms  105.832 ms
+14  ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29)  111.870 ms  111.306 ms  111.083 ms
      MPLS Label=779296 CoS=0 TTL=1 S=0
      MPLS Label=2 CoS=0 TTL=1 S=1
-15  ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2a)  110.122 ms  110.343 ms  109.782 ms
+15  ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2a)  109.980 ms  110.267 ms  109.837 ms
      MPLS Label=372000 CoS=0 TTL=1 S=0
      MPLS Label=2 CoS=0 TTL=2 S=1
-16  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d)  110.544 ms  109.690 ms  111.344 ms
-17  canardo.mork.no (2001:4641::1)  132.706 ms  133.337 ms  132.860 ms
-
-</CODE></PRE>
-<P>
-<HR SIZE="2" WIDTH="85%" NOSHADE>
-<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
-
-<P>
-<CENTER>
-<I>
-  Please email questions or comments to
- <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
-</I>
-<P>
-</CENTER>
-</BODY>
-</HTML>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!--
-	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
-	http://freshmeat.net/projects/lg/
--->
-<HTML>
-<HEAD>
-<TITLE>Looking Glass - traceroute 2001:1430:a:50::50</TITLE>
-<LINK REL="shortcut icon" HREF="favicon.ico">
-</HEAD>
-<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.eastlink.ca/"><IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
-<CENTER>
-<H2>Looking Glass - traceroute 2001:1430:a:50::50</H2>
-</CENTER>
-<P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> AT&amp;T (AS 7018)
-<BR>
-<B>Command:</B> traceroute 2001:1430:a:50::50
-<P><PRE><CODE>
-traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2001:1890:111d:1::28, 64 hops max, 12 byte packets
- 1  cbbtier3-gw.ipv6.att.net (2001:1890:111d:1::1)  2.095 ms  2.745 ms  3.230 ms
- 2  jar1.n54ny.ip.att.net (2001:1890:c00:1808::eeb1:2cbe)  2.900 ms  2.911 ms  2.734 ms
- 3  n54ny21crs.ipv6.att.net (2001:1890:ff:ffff:12:122:131:170)  3.527 ms  5.839 ms  4.516 ms
-     MPLS Label=17337 CoS=1 TTL=255 S=0
-     MPLS Label=2 CoS=1 TTL=255 S=1
- 4  n54ny404igs.ipv6.att.net (2001:1890:ff:ffff:12:122:105:13)  6.914 ms  5.432 ms  4.274 ms
- 5  2001:550:3::99 (2001:550:3::99)  3.516 ms  3.982 ms  3.975 ms
- 6  * * *
-
- 7  * * *
- 8  * * *
- 9  * * *
-10  * * *
-11  * * *
-
-12  * * *
-13  * * *
-14  2001:978:2:3f::6 (2001:978:2:3f::6)  107.161 ms  111.546 ms  110.654 ms
-15  2001:1bc8:1:7:0:6:0:1 (2001:1bc8:1:7:0:6:0:1)  109.366 ms  139.042 ms  144.312 ms
-16  2001:1bc8:1:10::1 (2001:1bc8:1:10::1)  129.828 ms  131.888 ms  133.074 ms
-17  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2)  113.883 ms  114.398 ms  117.958 ms
-18  ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2)  132.158 ms  127.954 ms  132.233 ms
-19  www.axu.tm (2001:1430:a:50::50)  132.826 ms  129.727 ms  129.735 ms
+16  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d)  111.972 ms  110.473 ms  111.273 ms
+17  canardo.mork.no (2001:4641::1)  133.678 ms  133.390 ms  132.615 ms
 
 </CODE></PRE>
 <P>

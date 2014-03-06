@@ -22,19 +22,17 @@
 <P><PRE><CODE>
 Tracing the route to 2001:DA8:1:100::80
 
-  1 2001:1700:1:1::1 68 msec 4 msec 4 msec
-  2 10gigabitethernet2-2.core1.ash1.he.net (2001:504:0:2::6939:1) 112 msec 100 msec 108 msec
-  3 10ge12-7.core1.chi1.he.net (2001:470:0:286::1) [AS 6939] 116 msec 124 msec 116 msec
-  4 10ge5-7.core1.mci3.he.net (2001:470:0:270::2) [AS 6939] 124 msec 128 msec 124 msec
-  5 10ge5-1.core1.den1.he.net (2001:470:0:240::1) [AS 6939] 140 msec 144 msec 136 msec
-  6 10ge14-5.core1.lax2.he.net (2001:470:0:15D::2) [AS 6939] 168 msec 164 msec 160 msec
-  7  *  * 
-    cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2A2::2) 160 msec
-  8 2001:252:0:302::1 [AS 23911] 316 msec 316 msec 316 msec
-  9  * 
-    2001:252:0:100::1 316 msec * 
- 10 2001:252:0:1::1 [AS 23911] 316 msec 320 msec 312 msec
- 11 2001:DA8:1:100::80 [AS 23910] 316 msec 320 msec 316 msec
+  1 2001:1700:1:1::1 0 msec 0 msec 0 msec
+  2 10gigabitethernet2-2.core1.ash1.he.net (2001:504:0:2::6939:1) 112 msec 108 msec 100 msec
+  3 10ge12-7.core1.chi1.he.net (2001:470:0:286::1) [AS 6939] 116 msec 116 msec 112 msec
+  4 10ge5-7.core1.mci3.he.net (2001:470:0:270::2) [AS 6939] 136 msec 136 msec 124 msec
+  5 10ge5-1.core1.den1.he.net (2001:470:0:240::1) [AS 6939] 140 msec 140 msec 136 msec
+  6 10ge14-5.core1.lax2.he.net (2001:470:0:15D::2) [AS 6939] 160 msec 160 msec 164 msec
+  7  *  *  * 
+  8 2001:252:0:302::1 [AS 23911] 312 msec 320 msec 316 msec
+  9 2001:252:0:100::1 [AS 23911] 320 msec *  * 
+ 10 2001:252:0:1::1 [AS 23911] 312 msec 316 msec 316 msec
+ 11 2001:DA8:1:100::80 [AS 23910] 316 msec 320 msec 312 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
@@ -74,11 +72,11 @@ Tracing the route to 2001:DA8:1:100::80
 <P><PRE><CODE>
 Tracing the route to canardo.mork.no (2001:4641::1)
 
-  1 2001:1700:1:1::1 124 msec 4 msec 0 msec
+  1 2001:1700:1:1::1 0 msec 0 msec 0 msec
   2 2001:7F8::847:0:1 12 msec 12 msec 12 msec
-  3 ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 779296/2 Exp 0] 36 msec 36 msec 36 msec
-  4 ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2A) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 372000/2 Exp 0] 48 msec 52 msec 48 msec
-  5 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] 52 msec 36 msec 48 msec
+  3 ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 779296/2 Exp 0] 36 msec 36 msec 32 msec
+  4 ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2A) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 372000/2 Exp 0] 52 msec 48 msec 48 msec
+  5 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] 52 msec 48 msec 52 msec
   6 canardo.mork.no (2001:4641::1) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] 72 msec 72 msec 72 msec
 </CODE></PRE>
 <P>
@@ -120,18 +118,20 @@ Tracing the route to canardo.mork.no (2001:4641::1)
 Tracing the route to www.axu.tm (2001:1430:A:50::50)
 
   1 2001:1700:1:1::1 0 msec 0 msec 0 msec
-  2 2001:7F8::1A0B:0:2 36 msec 12 msec 12 msec
-  3 bbr1.hel2.fi.v6.eunetip.net (2001:670:3:4:1::8) [AS <A onMouseOver="window.status='EUNETFI (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS790" TARGET=_lookup>790</A>] 48 msec
-    bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2) 48 msec 44 msec
-  4 2001:998:12:31::1 [AS <A onMouseOver="window.status='ELISA-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS719" TARGET=_lookup>719</A>] 52 msec
-    2001:998:12:2::1 48 msec
-    2001:998:12:31::1 44 msec
-  5 2001:998:12:D::2 [AS <A onMouseOver="window.status='ELISA-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS719" TARGET=_lookup>719</A>] 44 msec
-    2001:998:12:0:139:97:12:239 48 msec 44 msec
-  6 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 48 msec 44 msec 44 msec
+  2 2001:7F8::1A0B:0:2 12 msec 12 msec 12 msec
+  3 bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2) [AS <A onMouseOver="window.status='EUNETFI (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS790" TARGET=_lookup>790</A>] 44 msec
+    bbr1.hel2.fi.v6.eunetip.net (2001:670:3:4:1::8) 44 msec 56 msec
+  4 2001:998:12:2::1 [AS <A onMouseOver="window.status='ELISA-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS719" TARGET=_lookup>719</A>] 44 msec 44 msec 44 msec
+  5 2001:998:12:0:139:97:12:239 [AS <A onMouseOver="window.status='ELISA-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS719" TARGET=_lookup>719</A>] 48 msec 60 msec
+    2001:998:12:D::2 44 msec
+  6 2001:998:12:D::2 [AS <A onMouseOver="window.status='ELISA-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS719" TARGET=_lookup>719</A>] 44 msec
+    v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 48 msec
+    2001:998:12:D::2 44 msec
   7 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 48 msec
-    ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) 44 msec 48 msec
-  8 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 48 msec 48 msec 56 msec
+    ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) 44 msec
+    v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 48 msec
+  8 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 48 msec
+    ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) 48 msec 48 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>

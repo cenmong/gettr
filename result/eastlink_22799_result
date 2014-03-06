@@ -22,22 +22,20 @@
 <P><PRE><CODE>
 Tracing the route to 2001:DA8:1:100::80
 
-  1 2607:A000:FFFF:2::1 1 msec 1 msec 1 msec
-  2 2607:A000:FFFF:1::2 2 msec 1 msec 2 msec
-  3 v6-10gigabitethernet1-3.core1.sea1.he.net (2001:504:16::1B1B) 4 msec 4 msec 17 msec
-  4 10ge13-4.core1.sjc2.he.net (2001:470:0:1C7::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 26 msec 26 msec 26 msec
-  5 100ge15-2.core1.lax1.he.net (2001:470:0:2B7::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 33 msec
-    10ge14-7.core1.lax2.he.net (2001:470:0:16A::2) 34 msec
-    100ge15-2.core1.lax1.he.net (2001:470:0:2B7::2) 47 msec
-  6  * 
-    cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2A2::2) 35 msec
-    10ge1-3.core1.lax2.he.net (2001:470:0:72::2) 35 msec
-  7 2001:252:0:302::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 187 msec 188 msec 188 msec
-  8 2001:252:0:302::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 188 msec *  187 msec
-  9  *  * 
-    2001:252:0:1::1 188 msec
- 10 2001:252:0:1::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 201 msec 189 msec
-    2001:DA8:1:100::80 189 msec
+  1 2607:A000:FFFF:2::1 9 msec 0 msec 0 msec
+  2 2607:A000:FFFF:1::2 1 msec 1 msec 0 msec
+  3 v6-10gigabitethernet1-3.core1.sea1.he.net (2001:504:16::1B1B) 15 msec 4 msec 5 msec
+  4 10ge13-4.core1.sjc2.he.net (2001:470:0:1C7::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 26 msec 26 msec 25 msec
+  5 10ge14-7.core1.lax2.he.net (2001:470:0:16A::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 35 msec
+    100ge15-2.core1.lax1.he.net (2001:470:0:2B7::2) 34 msec 33 msec
+  6 10ge1-3.core1.lax2.he.net (2001:470:0:72::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 33 msec *  * 
+  7 cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2A2::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 34 msec * 
+    2001:252:0:302::1 189 msec
+  8 2001:252:0:302::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 187 msec 189 msec 188 msec
+  9 2001:252:0:100::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 191 msec
+    2001:252:0:1::1 188 msec 188 msec
+ 10 2001:252:0:1::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 216 msec
+    2001:DA8:1:100::80 190 msec 188 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
@@ -77,17 +75,17 @@ Tracing the route to 2001:DA8:1:100::80
 <P><PRE><CODE>
 Tracing the route to canardo.mork.no (2001:4641::1)
 
-  1 2607:A000:FFFF:2::1 0 msec 1 msec 1 msec
-  2 2607:A000:FFFF:1::2 0 msec 0 msec 0 msec
-  3 v6-10gigabitethernet1-3.core1.sea1.he.net (2001:504:16::1B1B) 5 msec 5 msec 4 msec
-  4 100ge13-2.core1.msp1.he.net (2001:470:0:2A0::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 38 msec 37 msec 38 msec
-  5 100ge7-1.core1.chi1.he.net (2001:470:0:18E::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 53 msec 53 msec 47 msec
-  6 100ge7-2.core1.nyc4.he.net (2001:470:0:298::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 61 msec 62 msec 61 msec
-  7 100ge7-2.core1.lon2.he.net (2001:470:0:2CF::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 128 msec 127 msec 127 msec
-  8 2001:7F8:4::847:1 [AS <A onMouseOver="window.status='LINX-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS5459" TARGET=_lookup>5459</A>] 127 msec 152 msec 144 msec
-  9 ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 164 msec 163 msec 163 msec
- 10 ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2A) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 163 msec 163 msec 163 msec
- 11 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 163 msec 163 msec 163 msec
+  1 2607:A000:FFFF:2::1 0 msec 1 msec 0 msec
+  2 2607:A000:FFFF:1::2 1 msec 0 msec 1 msec
+  3 v6-10gigabitethernet1-3.core1.sea1.he.net (2001:504:16::1B1B) 15 msec 4 msec 4 msec
+  4 100ge13-2.core1.msp1.he.net (2001:470:0:2A0::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 37 msec 40 msec 37 msec
+  5 100ge7-1.core1.chi1.he.net (2001:470:0:18E::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 44 msec 55 msec 50 msec
+  6 100ge7-2.core1.nyc4.he.net (2001:470:0:298::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 67 msec 65 msec 62 msec
+  7 100ge7-2.core1.lon2.he.net (2001:470:0:2CF::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 127 msec 128 msec 127 msec
+  8 2001:7F8:4::847:1 [AS <A onMouseOver="window.status='LINX-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS5459" TARGET=_lookup>5459</A>] 128 msec 128 msec 127 msec
+  9 ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 163 msec 164 msec 163 msec
+ 10 ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2A) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 162 msec 162 msec 162 msec
+ 11 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 163 msec 170 msec 162 msec
  12 canardo.mork.no (2001:4641::1) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 186 msec 186 msec 186 msec
 </CODE></PRE>
 <P>
@@ -128,17 +126,17 @@ Tracing the route to canardo.mork.no (2001:4641::1)
 <P><PRE><CODE>
 Tracing the route to www.axu.tm (2001:1430:A:50::50)
 
-  1 2607:A000:FFFF:2::1 2 msec 194 msec 4 msec
-  2 2607:A000:FFFF:1::2 1 msec 0 msec 1 msec
-  3 v6-10gigabitethernet1-3.core1.sea1.he.net (2001:504:16::1B1B) 4 msec 17 msec 4 msec
-  4 10ge13-4.core1.sjc2.he.net (2001:470:0:1C7::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 26 msec 26 msec 25 msec
-  5 10ge5-2.core1.pao1.he.net (2001:470:0:32::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 26 msec 34 msec 26 msec
-  6 xe-4-2-0-0.nyk2nqp2.us.ip.tdc.net (2001:504:D::65) 81 msec 80 msec 81 msec
-  7 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 188 msec 188 msec 188 msec
-  8 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 187 msec 188 msec 188 msec
-  9 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 190 msec 190 msec 191 msec
- 10 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 189 msec 188 msec 189 msec
- 11 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 189 msec 188 msec 188 msec
+  1 2607:A000:FFFF:2::1 1 msec 48 msec 48 msec
+  2 2607:A000:FFFF:1::2 48 msec 1 msec 0 msec
+  3 v6-10gigabitethernet1-3.core1.sea1.he.net (2001:504:16::1B1B) 4 msec 5 msec 4 msec
+  4 10ge13-4.core1.sjc2.he.net (2001:470:0:1C7::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 37 msec 26 msec 26 msec
+  5 10ge5-2.core1.pao1.he.net (2001:470:0:32::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 26 msec 36 msec 26 msec
+  6 xe-4-2-0-0.nyk2nqp2.us.ip.tdc.net (2001:504:D::65) 79 msec 79 msec 84 msec
+  7 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 187 msec 187 msec 186 msec
+  8 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 186 msec 186 msec 186 msec
+  9 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 189 msec 189 msec 189 msec
+ 10 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 187 msec 187 msec 187 msec
+ 11 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 187 msec 186 msec 186 msec
 </CODE></PRE>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>

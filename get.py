@@ -31,6 +31,7 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
             data = {'query': 'trace', 'protocol': 'IPv6', 'addr': d,
                 'router': self.router}
             r = requests.get(self.site, params = data)
+            #TODO:get what we already have if time too long
             html = r.text
             path = self.parsehtml(html) 
             f = open('result/' + self.gethtml.split('_')[-2] + '_' + self.gethtml.split('_')[-1] + '_result', 'a')
@@ -128,11 +129,11 @@ def measure():
     lg16 = Monitor('http://lg.eastlink.ca', 'TiNET (AS 3257)', 3257)
     lg17 = Monitor('http://lg.heagmedianet.de', 'HSE Medianet - Juniper 7003',\
             12897)
-    lg18 = Monitor('http://www.master.cz', 'brno-cejl-c1.masterinter.net',
-            24971)#??
+    lg18 = Monitor('http://www.master.cz/lg', 'brno-cejl-c2.masterinter.net',
+            24971)
     lg19 = Monitor('http://lg.riss.ro/cgi-bin/lg.cgi', 'Core BGP-RISS-Router-01 (AS34043)', 34043)
     lg20 = Monitor('http://lg.as29608.net', 'br1.th2.par', 29608)
-    lg21 = Monitor('http://lg.sunnyvision.com', 'Hong Kong - HKG', 38478)#??
+    lg21 = Monitor('http://lg.sunnyvision.com', ' Hong Kong - HKG', 38478)
     lg22 = Monitor('http://lg.magnet.ie', 'TISCALI (AS 3257)', 3257)
    
     lg1.start()
