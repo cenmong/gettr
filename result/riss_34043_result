@@ -1,144 +1,84 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!--
-	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
-	http://freshmeat.net/projects/lg/
--->
-<HTML>
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 07:50:58 GMT
+Server: Apache
+Last-Modified: Thu, 09 Dec 2010 05:21:38 GMT
+ETag: "836f4-204-496f3697f1c80"
+Accept-Ranges: bytes
+Content-Length: 516
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML lang="en">
 <HEAD>
-<TITLE>Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
-<LINK REL="shortcut icon" HREF="favicon.ico">
+
+<TITLE>RISS Online Service - LG</TITLE>
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=http://lg.riss.ro/cgi-bin/lg.cgi">
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript"><!--
+function redirect () { setTimeout("go_now()",10000); }
+function go_now ()   { window.location.href = "http://lg.riss.ro/cgi-bin/lg.cgi"; }
+//--></SCRIPT>
+
 </HEAD>
-<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.riss.ro/"><IMG SRC="/imagini/logoriss.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
-<CENTER>
-<H2>Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
-</CENTER>
-<P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> Core BGP-RISS-Router-01 (AS34043)
-<BR>
-<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
-<P><PRE><CODE>
-Tracing the route to 2001:DA8:1:100::80
 
-  1 riss-1.tunnel.tserv6.fra1.ipv6.he.net (2001:470:1F0A:A27::1) 44 msec 44 msec 48 msec
-  2 v320.core1.fra1.he.net (2001:470:0:69::1) 44 msec 44 msec 48 msec
-  3 100ge3-1.core1.ams1.he.net (2001:470:0:2D4::1) 48 msec 44 msec 56 msec
-  4 100ge9-1.core1.lon2.he.net (2001:470:0:2D0::1) 52 msec 56 msec 60 msec
-  5 100ge1-1.core1.nyc4.he.net (2001:470:0:2CF::2) 120 msec 124 msec 116 msec
-  6 10ge10-3.core1.lax1.he.net (2001:470:0:10E::1) 180 msec 176 msec 184 msec
-  7 10ge1-3.core1.lax2.he.net (2001:470:0:72::2) 228 msec 208 msec 440 msec
-  8  *  *  * 
-  9 2001:252:0:302::1 408 msec 332 msec 388 msec
- 10 2001:252:0:100::1 352 msec *  352 msec
- 11 2001:252:0:1::1 388 msec 336 msec 380 msec
- 12 2001:DA8:1:100::80 388 msec 444 msec 404 msec
-</CODE></PRE>
-<P>
-<HR SIZE="2" WIDTH="85%" NOSHADE>
-<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now! || For bandwith test please visit http://lg.riss.ro/test </FONT></TD></TR></TABLE></CENTER>
+<BODY onLoad="redirect()">
 
-<P>
-<CENTER>
-<I>
-  Please email questions or comments to
- <A HREF="mailto:hostmaster[at]riss.ro">hostmaster[at]riss.ro</A>.
-</I>
-<P>
-</CENTER>
 </BODY>
 </HTML>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!--
-	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
-	http://freshmeat.net/projects/lg/
--->
-<HTML>
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 07:51:01 GMT
+Server: Apache
+Last-Modified: Thu, 09 Dec 2010 05:21:38 GMT
+ETag: "836f4-204-496f3697f1c80"
+Accept-Ranges: bytes
+Content-Length: 516
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML lang="en">
 <HEAD>
-<TITLE>Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
-<LINK REL="shortcut icon" HREF="favicon.ico">
+
+<TITLE>RISS Online Service - LG</TITLE>
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=http://lg.riss.ro/cgi-bin/lg.cgi">
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript"><!--
+function redirect () { setTimeout("go_now()",10000); }
+function go_now ()   { window.location.href = "http://lg.riss.ro/cgi-bin/lg.cgi"; }
+//--></SCRIPT>
+
 </HEAD>
-<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.riss.ro/"><IMG SRC="/imagini/logoriss.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
-<CENTER>
-<H2>Looking Glass - traceroute ipv6 2001:4641::1</H2>
-</CENTER>
-<P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> Core BGP-RISS-Router-01 (AS34043)
-<BR>
-<B>Command:</B> traceroute ipv6 2001:4641::1
-<P><PRE><CODE>
-Tracing the route to canardo.mork.no (2001:4641::1)
 
-  1 riss-1.tunnel.tserv6.fra1.ipv6.he.net (2001:470:1F0A:A27::1) 44 msec 44 msec 44 msec
-  2 v320.core1.fra1.he.net (2001:470:0:69::1) 52 msec 44 msec 48 msec
-  3 2001:7F8::847:0:1 40 msec 44 msec 40 msec
-  4 ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) 68 msec 68 msec 72 msec
-  5 ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2A) 68 msec 72 msec 68 msec
-  6 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) 68 msec 72 msec 72 msec
-  7 canardo.mork.no (2001:4641::1) 92 msec 92 msec 92 msec
-</CODE></PRE>
-<P>
-<HR SIZE="2" WIDTH="85%" NOSHADE>
-<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now! || For bandwith test please visit http://lg.riss.ro/test </FONT></TD></TR></TABLE></CENTER>
+<BODY onLoad="redirect()">
 
-<P>
-<CENTER>
-<I>
-  Please email questions or comments to
- <A HREF="mailto:hostmaster[at]riss.ro">hostmaster[at]riss.ro</A>.
-</I>
-<P>
-</CENTER>
 </BODY>
 </HTML>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!--
-	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
-	http://freshmeat.net/projects/lg/
--->
-<HTML>
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 07:51:04 GMT
+Server: Apache
+Last-Modified: Thu, 09 Dec 2010 05:21:38 GMT
+ETag: "836f4-204-496f3697f1c80"
+Accept-Ranges: bytes
+Content-Length: 516
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML lang="en">
 <HEAD>
-<TITLE>Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
-<LINK REL="shortcut icon" HREF="favicon.ico">
+
+<TITLE>RISS Online Service - LG</TITLE>
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=http://lg.riss.ro/cgi-bin/lg.cgi">
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript"><!--
+function redirect () { setTimeout("go_now()",10000); }
+function go_now ()   { window.location.href = "http://lg.riss.ro/cgi-bin/lg.cgi"; }
+//--></SCRIPT>
+
 </HEAD>
-<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.riss.ro/"><IMG SRC="/imagini/logoriss.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
-<CENTER>
-<H2>Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
-</CENTER>
-<P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> Core BGP-RISS-Router-01 (AS34043)
-<BR>
-<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
-<P><PRE><CODE>
-Tracing the route to www.axu.tm (2001:1430:A:50::50)
 
-  1 riss-1.tunnel.tserv6.fra1.ipv6.he.net (2001:470:1F0A:A27::1) 56 msec 44 msec 48 msec
-  2 v320.core1.fra1.he.net (2001:470:0:69::1) 48 msec 52 msec 48 msec
-  3 2001:7F8::CDC:0:1 40 msec 40 msec 40 msec
-  4 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) 64 msec 68 msec 68 msec
-  5 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) 68 msec 68 msec 80 msec
-  6 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 84 msec 68 msec 72 msec
-  7 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) 68 msec 68 msec 68 msec
-  8 www.axu.tm (2001:1430:A:50::50) 68 msec 72 msec 68 msec
-</CODE></PRE>
-<P>
-<HR SIZE="2" WIDTH="85%" NOSHADE>
-<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now! || For bandwith test please visit http://lg.riss.ro/test </FONT></TD></TR></TABLE></CENTER>
+<BODY onLoad="redirect()">
 
-<P>
-<CENTER>
-<I>
-  Please email questions or comments to
- <A HREF="mailto:hostmaster[at]riss.ro">hostmaster[at]riss.ro</A>.
-</I>
-<P>
-</CENTER>
 </BODY>
 </HTML>

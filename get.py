@@ -3,12 +3,18 @@ import requests
 import threading
 import os
 import time
+import socket
 from addr import *
 
 class Monitor(threading.Thread):#Derived from the class threading.Thread
     def __init__(self, site, router, asn):
         threading.Thread.__init__(self)
         self.site = site
+        self.dname = site.split('//')[1].split('/')[0]
+        try:
+            self.subdir = site.split('/')[1]
+        except:
+            self.subdir = '/'
         self.gethtml = 'gethtml_' + site.split('.')[1] + '_' + str(asn)#get the middle part of the url
         self.router = router
         self.source_asn = asn
@@ -26,13 +32,30 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
         if fexist == True:
             os.system('rm result/' + self.gethtml.split('_')[-2] + '_' + \
                     self.gethtml.split('_')[-1] + '_result')
+        i = 0
         for d in dest:
-            print self.site
+            i += 1
+            print self.site + '|' + str(i)
+            '''
             data = {'query': 'trace', 'protocol': 'IPv6', 'addr': d,
                 'router': self.router}
             r = requests.get(self.site, params = data)
-            #TODO:get what we already have if time too long
             html = r.text
+            '''
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s.connect((self.dname, 80))
+            request = 'GET /?query=trace&protocol=IPv6&addr=' + d + '&router=route-server.as8218.eu\
+                HTTP/1.1\r\n' + 'Host: ' + self.dname + '\r\n' +\
+                'Content-Length: 0\r\n\r\n'
+            s.send(request)
+            html = ''
+            while True:
+                data = s.recv(1024)
+                if not len(data):
+                    break
+                data = data.decode('utf-8')
+                html += data
+
             path = self.parsehtml(html) 
             f = open('result/' + self.gethtml.split('_')[-2] + '_' + self.gethtml.split('_')[-1] + '_result', 'a')
             f.write(path.encode('utf8'))
@@ -47,9 +70,6 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
 
     def gethtml_comcor_8732(self):
         self.gethtml_as8218_8218()
-
-    #def gethtml_starttelecom(self):
-    #    self.gethtml_as8218()
 
     def gethtml_solnet_9044(self):
         self.gethtml_as8218_8218()
@@ -112,9 +132,8 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
 def measure():
     lg1 = Monitor('http://lg.as8218.eu', 'route-server.as8218.eu', 8218)
     lg2 = Monitor('http://netmon.acad.bg/lg', 'sf-cr-1', 6802)
-    lg3 = Monitor('http://debby.sunrise.ch/lg/', 'Sunrise Routeserver', 6730)
-    lg4 = Monitor('http://master.comcor.ru/lg/', 'Comcor (AS 8732)', 8732)
-    #lg5 = Monitor('http://lg.starttelecom.ru', 'Moscow, Russia (M9) RA7', 8744)
+    lg3 = Monitor('http://debby.sunrise.ch/lg', 'Sunrise Routeserver', 6730)
+    lg4 = Monitor('http://master.comcor.ru/lg', 'Comcor (AS 8732)', 8732)
     lg5 = Monitor('http://lg.solnet.ch', 'SolNet #1 (AS 9044)', 9044)
     lg6 = Monitor('http://lg.eastlink.ca', 'Eastlink Atlantic (AS 11260)', 11260)
     lg7 = Monitor('http://lg.eastlink.ca', 'Eastlink Eastern (AS 23184)', 23184)
@@ -127,20 +146,16 @@ def measure():
     lg14 = Monitor('http://lg.eastlink.ca', 'Oregon Exchange (AS 6447)', 6447)
     lg15 = Monitor('http://lg.eastlink.ca', 'Swisscom IP+ (AS 3303)', 3303)
     lg16 = Monitor('http://lg.eastlink.ca', 'TiNET (AS 3257)', 3257)
-    lg17 = Monitor('http://lg.heagmedianet.de', 'HSE Medianet - Juniper 7003',\
-            12897)
-    lg18 = Monitor('http://www.master.cz/lg', 'brno-cejl-c2.masterinter.net',
-            24971)
+    lg17 = Monitor('http://lg.heagmedianet.de', 'HSE Medianet - Juniper 7003', 12897)
+    lg18 = Monitor('http://www.master.cz/lg', 'brno-cejl-c2.masterinter.net', 24971)
     lg19 = Monitor('http://lg.riss.ro/cgi-bin/lg.cgi', 'Core BGP-RISS-Router-01 (AS34043)', 34043)
     lg20 = Monitor('http://lg.as29608.net', 'br1.th2.par', 29608)
     lg21 = Monitor('http://lg.sunnyvision.com', ' Hong Kong - HKG', 38478)
     lg22 = Monitor('http://lg.magnet.ie', 'TISCALI (AS 3257)', 3257)
-   
     lg1.start()
     lg2.start()
     lg3.start()
     lg4.start()
-    #lg5.start()
     lg5.start()
     lg6.start()
     lg7.start()

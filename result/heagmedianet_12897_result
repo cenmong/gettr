@@ -1,39 +1,109 @@
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 07:56:55 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+40
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+61
 <!--
 	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
 	http://freshmeat.net/projects/lg/
 -->
+
+7
 <HTML>
+
+7
 <HEAD>
-<TITLE>Looking Glass - traceroute 2001:da8:1:100::80</TITLE>
+
+1d
+<TITLE>Looking Glass</TITLE>
+
+32
 <LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+
+8
 </HEAD>
+
+28
 <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+9
 <CENTER>
-<H2>Looking Glass - traceroute 2001:da8:1:100::80</H2>
+
+17
+<H2>Looking Glass</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+388
+<FORM METHOD="POST" ACTION="/lg/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+
+3c
+</TABLE>
+<INPUT TYPE="hidden" NAME="protocol" VALUE="IPv6">
+
+b1
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7003"> HSE Medianet - Juniper 7003
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7004"> HSE Medianet - Juniper 7004
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7008"> HSE Medianet - Juniper 7008
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7019"> HSE Medianet - Juniper 7019
+
+106
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
 </CENTER>
 <P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> HSE Medianet - Juniper 7003
-<BR>
-<B>Command:</B> traceroute 2001:da8:1:100::80
-<P><PRE><CODE>
-traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2a02:b98::1:6, 64 hops max, 12 byte packets
- 1  xe0-0-0.ju7004.heagmedianet.de (2a02:b98::1:5)  0.632 ms  0.820 ms  0.454 ms
- 2  2001:7f8::1b1b:0:1 (2001:7f8::1b1b:0:1)  7.123 ms  2.119 ms  2.024 ms
- 3  100ge3-1.core1.ams1.he.net (2001:470:0:2d4::1)  7.526 ms  17.578 ms  7.189 ms
- 4  100ge9-1.core1.lon2.he.net (2001:470:0:2d0::1)  14.614 ms  19.101 ms  25.456 ms
- 5  100ge1-1.core1.nyc4.he.net (2001:470:0:2cf::2)  81.679 ms  80.391 ms  80.308 ms
- 6  10ge10-3.core1.lax1.he.net (2001:470:0:10e::1)  151.291 ms  141.648 ms  149.142 ms
- 7  10ge1-3.core1.lax2.he.net (2001:470:0:72::2)  147.604 ms  197.507 ms  175.817 ms
- 8  cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2a2::2)  147.358 ms  201.008 ms  184.154 ms
- 9  2001:252:0:302::1 (2001:252:0:302::1)  349.211 ms  344.085 ms  296.579 ms
-10  2001:252:0:100::1 (2001:252:0:100::1)  352.801 ms  368.679 ms  357.304 ms
-11  2001:252:0:1::1 (2001:252:0:1::1)  345.357 ms  365.176 ms  403.534 ms
-12  2001:da8:1:100::80 (2001:da8:1:100::80)  348.811 ms  351.129 ms  301.775 ms
+</FORM>
 
-</CODE></PRE>
+19b
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -48,43 +118,115 @@ traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2a02:b98::1:6, 64 ho
 </CENTER>
 </BODY>
 </HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 07:57:14 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+40
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+61
 <!--
 	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
 	http://freshmeat.net/projects/lg/
 -->
+
+7
 <HTML>
+
+7
 <HEAD>
-<TITLE>Looking Glass - traceroute 2001:4641::1</TITLE>
+
+1d
+<TITLE>Looking Glass</TITLE>
+
+32
 <LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+
+8
 </HEAD>
+
+28
 <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+9
 <CENTER>
-<H2>Looking Glass - traceroute 2001:4641::1</H2>
+
+17
+<H2>Looking Glass</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+388
+<FORM METHOD="POST" ACTION="/lg/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+
+3c
+</TABLE>
+<INPUT TYPE="hidden" NAME="protocol" VALUE="IPv6">
+
+b1
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7003"> HSE Medianet - Juniper 7003
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7004"> HSE Medianet - Juniper 7004
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7008"> HSE Medianet - Juniper 7008
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7019"> HSE Medianet - Juniper 7019
+
+106
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
 </CENTER>
 <P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> HSE Medianet - Juniper 7003
-<BR>
-<B>Command:</B> traceroute 2001:4641::1
-<P><PRE><CODE>
-traceroute6 to 2001:4641::1 (2001:4641::1) from 2a02:b98::1:9, 64 hops max, 12 byte packets
- 1  xe0-3-0.ju7019.heagmedianet.de (2a02:b98::1:a)  0.999 ms xe0-0-0.ju7004.heagmedianet.de (2a02:b98::1:5)  0.511 ms  0.481 ms
- 2  xe2-3-0.ju7008.heagmedianet.de (2a02:b98::1:e)  0.464 ms  37.224 ms xe2-2-0.ju7008.heagmedianet.de (2a02:b98::1:2)  0.491 ms
- 3  ae0-218.fra60.ip6.tinet.net (2001:668:0:3::2000:181)  0.990 ms  43.880 ms  0.960 ms
- 4  2001:668:0:2::1:542 (2001:668:0:2::1:542)  16.797 ms xe-0-2-0.ams20.ip6.tinet.net (2001:668:0:2::1:502)  7.317 ms xe-3-2-0.ams21.ip6.tinet.net (2001:668:0:2::1:492)  33.745 ms
- 5  as2119.ip6.tinet.net (2001:668:0:3::f000:92)  7.422 ms  7.396 ms  7.341 ms
- 6  ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5)  28.979 ms  27.981 ms  27.976 ms
-     MPLS Label=342672 CoS=0 TTL=1 S=0
-     MPLS Label=2 CoS=0 TTL=1 S=1
- 7  ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23)  27.998 ms  28.062 ms  28.050 ms
-     MPLS Label=405744 CoS=0 TTL=1 S=0
-     MPLS Label=2 CoS=0 TTL=2 S=1
- 8  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d)  27.976 ms  28.009 ms  27.965 ms
- 9  canardo.mork.no (2001:4641::1)  51.320 ms  50.683 ms  50.471 ms
+</FORM>
 
-</CODE></PRE>
+19b
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -99,41 +241,115 @@ traceroute6 to 2001:4641::1 (2001:4641::1) from 2a02:b98::1:9, 64 hops max, 12 b
 </CENTER>
 </BODY>
 </HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 07:57:32 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+40
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+61
 <!--
 	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
 	http://freshmeat.net/projects/lg/
 -->
+
+7
 <HTML>
+
+7
 <HEAD>
-<TITLE>Looking Glass - traceroute 2001:1430:a:50::50</TITLE>
+
+1d
+<TITLE>Looking Glass</TITLE>
+
+32
 <LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+
+8
 </HEAD>
+
+28
 <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+9
 <CENTER>
-<H2>Looking Glass - traceroute 2001:1430:a:50::50</H2>
+
+17
+<H2>Looking Glass</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+388
+<FORM METHOD="POST" ACTION="/lg/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+
+3c
+</TABLE>
+<INPUT TYPE="hidden" NAME="protocol" VALUE="IPv6">
+
+b1
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7003"> HSE Medianet - Juniper 7003
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7004"> HSE Medianet - Juniper 7004
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7008"> HSE Medianet - Juniper 7008
+
+49
+<OPTION VALUE="HSE Medianet - Juniper 7019"> HSE Medianet - Juniper 7019
+
+106
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
 </CENTER>
 <P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> HSE Medianet - Juniper 7003
-<BR>
-<B>Command:</B> traceroute 2001:1430:a:50::50
-<P><PRE><CODE>
-traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2a02:b98::1:9, 64 hops max, 12 byte packets
- 1  xe0-3-0.ju7019.heagmedianet.de (2a02:b98::1:a)  0.636 ms  0.865 ms xe0-0-0.ju7004.heagmedianet.de (2a02:b98::1:5)  0.446 ms
- 2  xe2-2-0.ju7008.heagmedianet.de (2a02:b98::1:2)  4.654 ms xe2-3-0.ju7008.heagmedianet.de (2a02:b98::1:e)  0.500 ms  0.550 ms
- 3  ae0-218.fra60.ip6.tinet.net (2001:668:0:3::2000:181)  7.873 ms  0.988 ms  0.937 ms
- 4  xe-2-2-0.stk10.ip6.tinet.net (2001:668:0:2::1:2aa2)  33.523 ms xe-2-1-0.stk10.ip6.tinet.net (2001:668:0:2::1:2ab2)  26.828 ms  26.840 ms
- 5  elisa-gw.ip6.tinet.net (2001:668:0:3::f000:22)  36.225 ms  29.003 ms  45.088 ms
- 6  bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2)  74.718 ms  47.226 ms  45.509 ms
- 7  2001:998:12:31::1 (2001:998:12:31::1)  35.643 ms 2001:998:12:2::1 (2001:998:12:2::1)  45.650 ms  54.048 ms
- 8  2001:998:12:d::2 (2001:998:12:d::2)  56.418 ms 2001:998:12:0:139:97:12:239 (2001:998:12:0:139:97:12:239)  36.302 ms  34.057 ms
- 9  2001:998:12:d::2 (2001:998:12:d::2)  34.906 ms v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2)  52.294 ms 2001:998:12:d::2 (2001:998:12:d::2)  35.031 ms
-10  ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2)  37.814 ms  39.856 ms  47.562 ms
-11  www.axu.tm (2001:1430:a:50::50)  43.700 ms  37.254 ms  34.885 ms
+</FORM>
 
-</CODE></PRE>
+19b
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -148,3 +364,6 @@ traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2a02:b98::1:9, 64 ho
 </CENTER>
 </BODY>
 </HTML>
+
+0
+

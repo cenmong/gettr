@@ -1,3 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 08:00:59 GMT
+Server: Apache
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+23d
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!--
 	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
@@ -16,6 +23,8 @@
 <P>
 <HR SIZE=2 WIDTH="85%" NOSHADE>
 <P>
+
+544
 <FORM METHOD="POST" ACTION="/">
 <CENTER>
 <TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
@@ -43,46 +52,100 @@
 <OPTION VALUE="route-server.as8218.eu" selected> route-server.as8218.eu (Juniper ipv6 enabled)
 </OPTGROUP>
 <OPTGROUP LABEL="European Routers">
+
+38
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Amsterdam Routers">
+
+84
 <OPTION VALUE="tcr1.eun.ams"> tcr1.eun.ams (Juniper ipv6 enabled)
 <OPTION VALUE="tcr1.tc2.ams"> tcr1.tc2.ams (Juniper ipv6 enabled)
+
+c
 </OPTGROUP>
+
+2d
 <OPTGROUP LABEL="AS8218 Brusselles Routers">
+
+4e
 <OPTION VALUE="tcr1.itx.bru"> tcr1.itx.bru (Juniper ipv6 enabled)
 </OPTGROUP>
+
+2d
 <OPTGROUP LABEL="AS8218 Franckfurt Routers">
+
+88
 <OPTION VALUE="tcr1.itx1.fra"> tcr1.itx1.fra (Juniper ipv6 enabled)
 <OPTION VALUE="tcr2.itx1.fra"> tcr2.itx1.fra (Juniper ipv6 enabled)
+
+c
 </OPTGROUP>
+
+29
 <OPTGROUP LABEL="AS8218 London Routers">
+
+76
 <OPTION VALUE="tcr1.thn.lon"> tcr1.thn.lon (Juniper ipv6 enabled)
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Paris Routers">
+
+40
 <OPTION VALUE="tcr1.rb.par"> tcr1.rb.par (Juniper ipv6 enabled)
+
+42
 <OPTION VALUE="tcr1.th2.par"> tcr1.th2.par (Juniper ipv6 enabled)
+
+75
 <OPTION VALUE="tcr1.gs.par"> tcr1.gs.par (Juniper ipv6 enabled)
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Vienna Routers">
+
+42
 <OPTION VALUE="tcr1.vix.vie"> tcr1.vix.vie (Juniper ipv6 enabled)
+
+4e
 <OPTION VALUE="tcr1.itx.vie"> tcr1.itx.vie (Juniper ipv6 enabled)
 </OPTGROUP>
+
+29
 <OPTGROUP LABEL="AS8218 Zurich Routers">
+
+4e
 <OPTION VALUE="tcr1.eqx.zrh"> tcr1.eqx.zrh (Juniper ipv6 enabled)
 </OPTGROUP>
+
+60
 <OPTGROUP LABEL="North-American Routers">
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Ashburn Routers">
+
+4e
 <OPTION VALUE="tcr1.eqx.ash"> tcr1.eqx.ash (Juniper ipv6 enabled)
 </OPTGROUP>
+
+2a
 <OPTGROUP LABEL="AS8218 Chicago Routers">
+
+4e
 <OPTION VALUE="tcr1.eqx.chi"> tcr1.eqx.chi (Juniper ipv6 enabled)
 </OPTGROUP>
+
+2b
 <OPTGROUP LABEL="AS8218 New-York Routers">
+
+44
 <OPTION VALUE="tcr1.telx.nyc"> tcr1.telx.nyc (Juniper ipv6 enabled)
+
+42
 <OPTION VALUE="tcr1.eqx.nyc"> tcr1.eqx.nyc (Juniper ipv6 enabled)
+
+c
 </OPTGROUP>
+
+2c
 <OPTGROUP LABEL="AS8218 Palo Alto Routers">
+
+17a
 <OPTION VALUE="tcr1.eqx.pao"> tcr1.eqx.pao (Juniper ipv6 enabled)
 </OPTGROUP>
 </SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
@@ -100,26 +163,61 @@
 </FORM>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <P>
+
+3a
 <B>Router:</B> route-server.as8218.eu
 <BR>
 <P><PRE><CODE>
+
+6d
 traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:1b48:2:229::2, 64 hops max, 12 byte packets
- 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  1.452 ms  1.663 ms  1.592 ms
- 2  2001:1b48:2:3::2a (2001:1b48:2:3::2a)  1.715 ms 2001:1b48:2:3::65 (2001:1b48:2:3::65)  1.668 ms  1.865 ms
- 3  he.franceix.net (2001:7f8:54::10)  1.801 ms  6.754 ms  1.513 ms
- 4  10ge9-1.core1.par2.he.net (2001:470:0:1b0::2)  2.034 ms  14.376 ms  3.636 ms
- 5  100ge7-1.core1.lon2.he.net (2001:470:0:2ce::1)  15.878 ms  10.560 ms  19.584 ms
- 6  100ge1-1.core1.nyc4.he.net (2001:470:0:2cf::2)  83.200 ms  80.830 ms  86.722 ms
- 7  10ge10-3.core1.lax1.he.net (2001:470:0:10e::1)  151.830 ms  153.632 ms  152.721 ms
- 8  10ge1-3.core1.lax2.he.net (2001:470:0:72::2)  215.321 ms  160.553 ms  202.938 ms
- 9  * * *
-10  2001:252:0:302::1 (2001:252:0:302::1)  327.338 ms  360.894 ms  326.727 ms
 
-11  * * 2001:252:0:100::1 (2001:252:0:100::1)  362.470 ms
-12  2001:252:0:1::1 (2001:252:0:1::1)  361.008 ms  309.714 ms  357.890 ms
-13  2001:da8:1:100::80 (2001:da8:1:100::80)  307.980 ms  361.006 ms  327.081 ms
+4a
+ 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  3.019 ms  1.328 ms  1.648 ms
 
+94
+ 2  2001:1b48:2:3::65 (2001:1b48:2:3::65)  3.635 ms 2001:1b48:2:3::2a (2001:1b48:2:3::2a)  1.877 ms 2001:1b48:2:3::65 (2001:1b48:2:3::65)  3.526 ms
+
+45
+ 3  he.franceix.net (2001:7f8:54::10)  2.074 ms  10.556 ms  3.329 ms
+
+50
+ 4  10ge9-1.core1.par2.he.net (2001:470:0:1b0::2)  3.904 ms  1.931 ms  2.119 ms
+
+54
+ 5  100ge7-1.core1.lon2.he.net (2001:470:0:2ce::1)  19.581 ms  10.539 ms  13.768 ms
+
+54
+ 6  100ge1-1.core1.nyc4.he.net (2001:470:0:2cf::2)  81.699 ms  81.601 ms  90.744 ms
+
+57
+ 7  10ge10-3.core1.lax1.he.net (2001:470:0:10e::1)  151.405 ms  150.939 ms  152.058 ms
+
+55
+ 8  10ge1-3.core1.lax2.he.net (2001:470:0:72::2)  161.806 ms  150.038 ms  149.817 ms
+
+7c
+ 9  cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2a2::2)  154.940 ms  153.929 ms  164.155 ms
+
+4e
+10  2001:252:0:302::1 (2001:252:0:302::1)  328.168 ms  304.469 ms  307.216 ms
+
+4e
+11  2001:252:0:100::1 (2001:252:0:100::1)  328.919 ms  307.936 ms  308.904 ms
+
+4a
+12  2001:252:0:1::1 (2001:252:0:1::1)  304.797 ms  305.043 ms  304.814 ms
+
+50
+13  2001:da8:1:100::80 (2001:da8:1:100::80)  303.890 ms  303.850 ms  306.533 ms
+
+1
+
+
+e
 </CODE></PRE>
+
+19d
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -134,6 +232,16 @@ traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:1b48:2:229::2, 
 </CENTER>
 </BODY>
 </HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 08:01:23 GMT
+Server: Apache
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+23d
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!--
 	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
@@ -152,6 +260,8 @@ traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:1b48:2:229::2, 
 <P>
 <HR SIZE=2 WIDTH="85%" NOSHADE>
 <P>
+
+520
 <FORM METHOD="POST" ACTION="/">
 <CENTER>
 <TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
@@ -178,47 +288,111 @@ traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:1b48:2:229::2, 
 <OPTGROUP LABEL="AS8218 Route-server (Paris)">
 <OPTION VALUE="route-server.as8218.eu" selected> route-server.as8218.eu (Juniper ipv6 enabled)
 </OPTGROUP>
+
+24
 <OPTGROUP LABEL="European Routers">
+
+38
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Amsterdam Routers">
+
+42
 <OPTION VALUE="tcr1.eun.ams"> tcr1.eun.ams (Juniper ipv6 enabled)
+
+42
 <OPTION VALUE="tcr1.tc2.ams"> tcr1.tc2.ams (Juniper ipv6 enabled)
+
+c
 </OPTGROUP>
+
+2d
 <OPTGROUP LABEL="AS8218 Brusselles Routers">
+
+4e
 <OPTION VALUE="tcr1.itx.bru"> tcr1.itx.bru (Juniper ipv6 enabled)
 </OPTGROUP>
+
+2d
 <OPTGROUP LABEL="AS8218 Franckfurt Routers">
+
+44
 <OPTION VALUE="tcr1.itx1.fra"> tcr1.itx1.fra (Juniper ipv6 enabled)
+
+50
 <OPTION VALUE="tcr2.itx1.fra"> tcr2.itx1.fra (Juniper ipv6 enabled)
 </OPTGROUP>
+
+29
 <OPTGROUP LABEL="AS8218 London Routers">
+
+4e
 <OPTION VALUE="tcr1.thn.lon"> tcr1.thn.lon (Juniper ipv6 enabled)
 </OPTGROUP>
+
+28
 <OPTGROUP LABEL="AS8218 Paris Routers">
+
+40
 <OPTION VALUE="tcr1.rb.par"> tcr1.rb.par (Juniper ipv6 enabled)
+
+42
 <OPTION VALUE="tcr1.th2.par"> tcr1.th2.par (Juniper ipv6 enabled)
+
+4c
 <OPTION VALUE="tcr1.gs.par"> tcr1.gs.par (Juniper ipv6 enabled)
 </OPTGROUP>
+
+29
 <OPTGROUP LABEL="AS8218 Vienna Routers">
+
+42
 <OPTION VALUE="tcr1.vix.vie"> tcr1.vix.vie (Juniper ipv6 enabled)
+
+4e
 <OPTION VALUE="tcr1.itx.vie"> tcr1.itx.vie (Juniper ipv6 enabled)
 </OPTGROUP>
+
+29
 <OPTGROUP LABEL="AS8218 Zurich Routers">
+
+4e
 <OPTION VALUE="tcr1.eqx.zrh"> tcr1.eqx.zrh (Juniper ipv6 enabled)
 </OPTGROUP>
+
+2a
 <OPTGROUP LABEL="North-American Routers">
+
+c
 </OPTGROUP>
+
+2a
 <OPTGROUP LABEL="AS8218 Ashburn Routers">
+
+42
 <OPTION VALUE="tcr1.eqx.ash"> tcr1.eqx.ash (Juniper ipv6 enabled)
+
+78
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Chicago Routers">
 <OPTION VALUE="tcr1.eqx.chi"> tcr1.eqx.chi (Juniper ipv6 enabled)
+
+c
 </OPTGROUP>
+
+2b
 <OPTGROUP LABEL="AS8218 New-York Routers">
+
+44
 <OPTION VALUE="tcr1.telx.nyc"> tcr1.telx.nyc (Juniper ipv6 enabled)
+
+42
 <OPTION VALUE="tcr1.eqx.nyc"> tcr1.eqx.nyc (Juniper ipv6 enabled)
+
+38
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Palo Alto Routers">
+
+17a
 <OPTION VALUE="tcr1.eqx.pao"> tcr1.eqx.pao (Juniper ipv6 enabled)
 </OPTGROUP>
 </SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
@@ -236,19 +410,43 @@ traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:1b48:2:229::2, 
 </FORM>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <P>
+
+3a
 <B>Router:</B> route-server.as8218.eu
 <BR>
 <P><PRE><CODE>
+
+61
 traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1b48:2:229::2, 64 hops max, 12 byte packets
- 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  25.394 ms  25.049 ms  25.352 ms
- 2  xe1-0-0.tcr1.swad.pao.as8218.eu (2001:1b48:2:2::4e)  25.293 ms xe1-0-0.tcr1.thn.lon.as8218.eu (2001:1b48:2:2::12)  25.733 ms  25.278 ms
- 3  ti9000b300.telenor.net (2001:7f8:1::a500:2119:1)  50.722 ms  26.932 ms  25.668 ms
- 4  ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5)  75.266 ms  33.669 ms ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29)  43.974 ms
- 5  ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23)  32.696 ms  31.940 ms ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2a)  52.868 ms
- 6  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d)  33.700 ms  41.717 ms  33.892 ms
- 7  canardo.mork.no (2001:4641::1)  73.753 ms  65.730 ms  74.050 ms
 
+4a
+ 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  3.363 ms  1.582 ms  1.878 ms
+
+8a
+ 2  xe1-0-0.tcr1.thn.lon.as8218.eu (2001:1b48:2:2::12)  9.366 ms  9.566 ms xe1-0-0.tcr1.swad.pao.as8218.eu (2001:1b48:2:2::4e)  12.634 ms
+
+ac
+ 3  ti9000b300.telenor.net (2001:7f8:1::a500:2119:1)  12.573 ms 2001:7f8:4::847:1 (2001:7f8:4::847:1)  9.558 ms ti9000b300.telenor.net (2001:7f8:1::a500:2119:1)  13.472 ms
+
+90
+ 4  ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5)  32.456 ms  32.559 ms ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29)  42.555 ms
+
+5b
+ 5  ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2a)  51.408 ms  51.438 ms  50.914 ms
+
+5b
+ 6  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d)  52.114 ms  41.659 ms  32.495 ms
+
+44
+ 7  canardo.mork.no (2001:4641::1)  66.278 ms  73.536 ms  73.881 ms
+
+1
+
+
+e
 </CODE></PRE>
+
+19d
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -263,6 +461,16 @@ traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1b48:2:229::2, 64 hops max,
 </CENTER>
 </BODY>
 </HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 08:01:42 GMT
+Server: Apache
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+1ed
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!--
 	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
@@ -276,6 +484,8 @@ traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1b48:2:229::2, 64 hops max,
 <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
 <TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://lg.as8218.eu/"><IMG SRC="http://lg.as8218.eu/as8218-logo.png" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
 <CENTER>
+
+505
 <H2>AS8218 Looking Glass</H2>
 </CENTER>
 <P>
@@ -305,13 +515,25 @@ traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1b48:2:229::2, 64 hops max,
 <TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
 <TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
 <OPTGROUP LABEL="AS8218 Route-server (Paris)">
+
+6b
 <OPTION VALUE="route-server.as8218.eu" selected> route-server.as8218.eu (Juniper ipv6 enabled)
 </OPTGROUP>
+
+30
 <OPTGROUP LABEL="European Routers">
 </OPTGROUP>
+
+2c
 <OPTGROUP LABEL="AS8218 Amsterdam Routers">
+
+42
 <OPTION VALUE="tcr1.eun.ams"> tcr1.eun.ams (Juniper ipv6 enabled)
+
+42
 <OPTION VALUE="tcr1.tc2.ams"> tcr1.tc2.ams (Juniper ipv6 enabled)
+
+148
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Brusselles Routers">
 <OPTION VALUE="tcr1.itx.bru"> tcr1.itx.bru (Juniper ipv6 enabled)
@@ -320,11 +542,21 @@ traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1b48:2:229::2, 64 hops max,
 <OPTION VALUE="tcr1.itx1.fra"> tcr1.itx1.fra (Juniper ipv6 enabled)
 <OPTION VALUE="tcr2.itx1.fra"> tcr2.itx1.fra (Juniper ipv6 enabled)
 </OPTGROUP>
+
+29
 <OPTGROUP LABEL="AS8218 London Routers">
+
+4e
 <OPTION VALUE="tcr1.thn.lon"> tcr1.thn.lon (Juniper ipv6 enabled)
 </OPTGROUP>
+
+28
 <OPTGROUP LABEL="AS8218 Paris Routers">
+
+40
 <OPTION VALUE="tcr1.rb.par"> tcr1.rb.par (Juniper ipv6 enabled)
+
+1b2
 <OPTION VALUE="tcr1.th2.par"> tcr1.th2.par (Juniper ipv6 enabled)
 <OPTION VALUE="tcr1.gs.par"> tcr1.gs.par (Juniper ipv6 enabled)
 </OPTGROUP>
@@ -334,20 +566,44 @@ traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1b48:2:229::2, 64 hops max,
 </OPTGROUP>
 <OPTGROUP LABEL="AS8218 Zurich Routers">
 <OPTION VALUE="tcr1.eqx.zrh"> tcr1.eqx.zrh (Juniper ipv6 enabled)
+
+c
 </OPTGROUP>
+
+2a
 <OPTGROUP LABEL="North-American Routers">
+
+c
 </OPTGROUP>
+
+2a
 <OPTGROUP LABEL="AS8218 Ashburn Routers">
+
+4e
 <OPTION VALUE="tcr1.eqx.ash"> tcr1.eqx.ash (Juniper ipv6 enabled)
 </OPTGROUP>
+
+2a
 <OPTGROUP LABEL="AS8218 Chicago Routers">
+
+4e
 <OPTION VALUE="tcr1.eqx.chi"> tcr1.eqx.chi (Juniper ipv6 enabled)
 </OPTGROUP>
+
+2b
 <OPTGROUP LABEL="AS8218 New-York Routers">
+
+44
 <OPTION VALUE="tcr1.telx.nyc"> tcr1.telx.nyc (Juniper ipv6 enabled)
+
+4e
 <OPTION VALUE="tcr1.eqx.nyc"> tcr1.eqx.nyc (Juniper ipv6 enabled)
 </OPTGROUP>
+
+2c
 <OPTGROUP LABEL="AS8218 Palo Alto Routers">
+
+17a
 <OPTION VALUE="tcr1.eqx.pao"> tcr1.eqx.pao (Juniper ipv6 enabled)
 </OPTGROUP>
 </SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
@@ -365,20 +621,48 @@ traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:1b48:2:229::2, 64 hops max,
 </FORM>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <P>
+
+2b
 <B>Router:</B> route-server.as8218.eu
 <BR>
-<P><PRE><CODE>
-traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2001:1b48:2:229::2, 64 hops max, 12 byte packets
- 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  1.306 ms  1.660 ms  1.665 ms
- 2  xe1-0-0.tcr1.swad.pao.as8218.eu (2001:1b48:2:2::4e)  12.319 ms  12.604 ms  12.529 ms
- 3  ae-1.asd9nqp1.nl.ip.tdc.net (2001:7f8:1::a500:3292:1)  12.613 ms  12.451 ms  12.626 ms
- 4  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1)  106.469 ms  45.813 ms  47.615 ms
- 5  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1)  45.605 ms  45.912 ms  45.783 ms
- 6  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2)  48.410 ms  48.607 ms  48.893 ms
- 7  ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2)  46.669 ms  46.767 ms  47.246 ms
- 8  www.axu.tm (2001:1430:a:50::50)  46.059 ms  46.380 ms  46.684 ms
 
+f
+<P><PRE><CODE>
+
+6d
+traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2001:1b48:2:229::2, 64 hops max, 12 byte packets
+
+4a
+ 1  2001:1b48:2:229::1 (2001:1b48:2:229::1)  1.159 ms  1.606 ms  1.689 ms
+
+59
+ 2  xe1-0-0.tcr1.swad.pao.as8218.eu (2001:1b48:2:2::4e)  12.584 ms  12.608 ms  12.618 ms
+
+5b
+ 3  ae-1.asd9nqp1.nl.ip.tdc.net (2001:7f8:1::a500:3292:1)  12.626 ms  12.800 ms  12.729 ms
+
+5f
+ 4  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1)  47.412 ms  45.807 ms  47.993 ms
+
+5f
+ 5  v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::ffff:1)  45.835 ms  46.027 ms  46.058 ms
+
+59
+ 6  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2)  48.972 ms  48.281 ms  48.844 ms
+
+51
+ 7  ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2)  46.985 ms  47.029 ms  46.057 ms
+
+45
+ 8  www.axu.tm (2001:1430:a:50::50)  46.672 ms  46.075 ms  46.984 ms
+
+1
+
+
+e
 </CODE></PRE>
+
+19d
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -393,3 +677,6 @@ traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2001:1b48:2:229::2, 
 </CENTER>
 </BODY>
 </HTML>
+
+0
+

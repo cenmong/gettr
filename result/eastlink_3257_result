@@ -1,3 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 08:00:59 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+14d2
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!--
 	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
@@ -5,36 +13,213 @@
 -->
 <HTML>
 <HEAD>
-<TITLE>Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
+<TITLE>Looking Glass</TITLE>
 <LINK REL="shortcut icon" HREF="favicon.ico">
 </HEAD>
 <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
 <TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.eastlink.ca/"><IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
 <CENTER>
-<H2>Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
+<H2>Looking Glass</H2>
 </CENTER>
 <P>
 <HR SIZE=2 WIDTH="85%" NOSHADE>
 <P>
-<B>Router:</B> TiNET (AS 3257)
-<BR>
-<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
-<P><PRE><CODE>
-Tracing the route to 2001:DA8:1:100::80
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp" CHECKED></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="community"></TD><TD>&nbsp;bgp&nbsp;community</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace"></TD><TD>&nbsp;trace</TD></TR>
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="Routeservers">
+<OPTION VALUE="Eastlink Atlantic (AS 11260)"> Eastlink Atlantic (AS 11260)
+<OPTION VALUE="Eastlink Eastern (AS 23184)"> Eastlink Eastern (AS 23184)
+<OPTION VALUE="Eastlink Pacific (AS 22799)"> Eastlink Pacific (AS 22799)
+<OPTION VALUE="Allstream (AS 15290)"> Allstream (AS 15290)
+<OPTION VALUE="AT&amp;T (AS 7018)"> AT&amp;T (AS 7018)
+<OPTION VALUE="Belwue (AS 553)"> Belwue (AS 553)
+<OPTION VALUE="Broadnet (AS 9132)"> Broadnet (AS 9132)
+<OPTION VALUE="CERFnet (AS 1838)"> CERFnet (AS 1838)
+<OPTION VALUE="Comcast (AS 7922)"> Comcast (AS 7922)
+<OPTION VALUE="Eunet (AS 6667)"> Eunet (AS 6667)
+<OPTION VALUE="Exodus Communications (AS 3967)"> Exodus Communications (AS 3967)
+<OPTION VALUE="Global Crossing (AS 3549)"> Global Crossing (AS 3549)
+<OPTION VALUE="Global Crossing Europe (AS 3549)"> Global Crossing Europe (AS 3549)
+<OPTION VALUE="Group Telecom - east (AS 6539)"> Group Telecom - east (AS 6539)
+<OPTION VALUE="Host.net (AS 13645)"> Host.net (AS 13645)
+<OPTION VALUE="Hurricane Electric (AS 6939)"> Hurricane Electric (AS 6939)
+<OPTION VALUE="nLayer (AS 4436)"> nLayer (AS 4436)
+<OPTION VALUE="Nodus Network"> Nodus Network
+<OPTION VALUE="Opentransit (AS 5511)"> Opentransit (AS 5511)
+<OPTION VALUE="Optus (AS 7474)"> Optus (AS 7474)
+<OPTION VALUE="Oregon Exchange (AS 6447)"> Oregon Exchange (AS 6447)
+<OPTION VALUE="Rogers (AS 812)"> Rogers (AS 812)
+<OPTION VALUE="SAIX (AS 5713)"> SAIX (AS 5713)
+<OPTION VALUE="Savvis (AS 3561)"> Savvis (AS 3561)
+<OPTION VALUE="Sunrise (AS 6730)"> Sunrise (AS 6730)
+<OPTION VALUE="Swisscom IP+ (AS 3303)"> Swisscom IP+ (AS 3303)
+<OPTION VALUE="Switch (AS 23005)"> Switch (AS 23005)
+<OPTION VALUE="TDC (AS 3292)"> TDC (AS 3292)
+<OPTION VALUE="Time Warner (AS 4323)"> Time Warner (AS 4323)
+<OPTION VALUE="TiNET (AS 3257)"> TiNET (AS 3257)
+<OPTION VALUE="TELUS East (AS 852)"> TELUS East (AS 852)
+<OPTION VALUE="TELUS West (AS 852)"> TELUS West (AS 852)
+<OPTION VALUE="University of Washington (AS 6447)"> University of Washington (AS 6447)
+<OPTION VALUE="Videotron (AS 5769)"> Videotron (AS 5769)
+</OPTGROUP>
+<OPTGROUP LABEL="ISPs in Estonia">
+<OPTION VALUE="r20-Tln-TIX"> Data Telecom (AS 3327) *
+<OPTION VALUE="ML Online (AS 5546)"> ML Online (AS 5546) *
+<OPTION VALUE="kj-gw"> EsData (AS 2380) *
+</OPTGROUP>
+<OPTGROUP LABEL="Public peering points">
+<OPTION VALUE="rtr1"> AMSIX *
+<OPTION VALUE="INXS"> INXS peering LAN Munich *
+<OPTION VALUE="LINX (UK)"> LINX (UK) *
+<OPTION VALUE="LINX (Transit)"> LINX (Transit) *
+<OPTION VALUE="LINX (Multicast)"> LINX (Multicast) *
+<OPTION VALUE="zebra"> BLNX *
+</OPTGROUP>
+<OPTGROUP LABEL="RIPE (AS 3292)">
+<OPTION VALUE="Amsterdam (NL), AMS-IX"> Amsterdam (NL), AMS-IX *
+</OPTGROUP>
+<OPTGROUP LABEL="TDC Tele Danmark (AS 3292)">
+<OPTION VALUE="Amsterdam (NL), AMS-IX"> Amsterdam (NL), AMS-IX *
+<OPTION VALUE="Copenhagen/Lyngby (DK), DIX #1"> Copenhagen/Lyngby (DK), DIX #1 *
+<OPTION VALUE="Copenhagen/Virum (DK), DIX #2"> Copenhagen/Virum (DK), DIX #2 *
+<OPTION VALUE="Frankfurt (DE), DE-CIX"> Frankfurt (DE), DE-CIX *
+<OPTION VALUE="London (UK), LINX #1"> London (UK), LINX #1 *
+<OPTION VALUE="London (UK), LINX #2"> London (UK), LINX #2 *
+<OPTION VALUE="New York 1 (US)"> New York 1 (US) *
+<OPTION VALUE="New York 2 (US)"> New York 2 (US) *
+<OPTION VALUE="New York 3 (US)"> New York 3 (US) *
+<OPTION VALUE="Oslo (NO), NIX1"> Oslo (NO), NIX1 *
+<OPTION VALUE="Oslo (NO), NIX2"> Oslo (NO), NIX2 *
+<OPTION VALUE="Stockholm (SE), Netnod"> Stockholm (SE), Netnod *
 
-  1 2001:668:0:3::2000:171 0 msec 0 msec 0 msec
-  2 2001:7F8::1B1B:0:1 8 msec 0 msec 0 msec
-  3 2001:470:0:2D4::1 8 msec 20 msec 8 msec
-  4 2001:470:0:2D0::1 12 msec 20 msec 12 msec
-  5 2001:470:0:2CF::2 88 msec 88 msec 88 msec
-  6 2001:470:0:10E::1 148 msec 148 msec 156 msec
-  7 2001:470:0:72::2 212 msec 160 msec 204 msec
-  8  *  *  * 
-  9 2001:252:0:302::1 308 msec 320 msec 360 msec
- 10 2001:252:0:100::1 308 msec *  * 
- 11 2001:252:0:1::1 360 msec 324 msec 372 msec
- 12 2001:DA8:1:100::80 356 msec 308 msec 360 msec
-</CODE></PRE>
+c
+</OPTGROUP>
+
+25
+<OPTGROUP LABEL="KPNQwest (AS 286)">
+
+27
+<OPTION VALUE="Amsterdam"> Amsterdam *
+
+23
+<OPTION VALUE="Antwerp"> Antwerp *
+
+21
+<OPTION VALUE="Berlin"> Berlin *
+
+25
+<OPTION VALUE="Brussels"> Brussels *
+
+21
+<OPTION VALUE="Dublin"> Dublin *
+
+27
+<OPTION VALUE="Frankfurt"> Frankfurt *
+
+21
+<OPTION VALUE="Leiden"> Leiden *
+
+21
+<OPTION VALUE="London"> London *
+
+21
+<OPTION VALUE="Munich"> Munich *
+
+27
+<OPTION VALUE="Rotterdam"> Rotterdam *
+
+c
+</OPTGROUP>
+
+26
+<OPTGROUP LABEL="NORDUnet (AS 2603)">
+
+2b
+<OPTION VALUE="D-GIX (DPT)"> D-GIX (DPT) *
+
+2d
+<OPTION VALUE="D-GIX (FDDI)"> D-GIX (FDDI) *
+
+c
+</OPTGROUP>
+
+1d
+<OPTGROUP LABEL="Other LGs">
+
+35
+<OPTION VALUE="Level3 (AS 3356)"> Level3 (AS 3356) *
+
+4b
+<OPTION VALUE="Davidov Electric (AS 12814)"> Davidov Electric (AS 12814) *
+
+4d
+<OPTION VALUE="Tata Communications (AS6453)"> Tata Communications (AS6453) *
+
+3b
+<OPTION VALUE="Bell Canada (AS577)"> Bell Canada (AS577) *
+
+c
+</OPTGROUP>
+
+1c
+<OPTGROUP LABEL="IPv6 LGs">
+
+37
+<OPTION VALUE="Data Telecom IPv6"> Data Telecom IPv6 *
+
+1d
+<OPTION VALUE="6TAP"> 6TAP *
+
+23
+<OPTION VALUE="LavaNet"> LavaNet *
+
+29
+<OPTION VALUE="r1-gw.ipv6.itk.pl"> iTk *
+
+31
+<OPTION VALUE="EdisonTel IPv6"> EdisonTel IPv6 *
+
+c
+</OPTGROUP>
+
+11b
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</CENTER>
+<P>
+</FORM>
+
+1b7
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -49,38 +234,403 @@ Tracing the route to 2001:DA8:1:100::80
 </CENTER>
 </BODY>
 </HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 08:01:02 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+40
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+60
 <!--
 	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
 	http://freshmeat.net/projects/lg/
 -->
+
+7
 <HTML>
+
+7
 <HEAD>
-<TITLE>Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
+
+1d
+<TITLE>Looking Glass</TITLE>
+
+2e
 <LINK REL="shortcut icon" HREF="favicon.ico">
+
+8
 </HEAD>
+
+28
 <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.eastlink.ca/"><IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+22
+<A HREF="http://www.eastlink.ca/">
+37
+<IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
 <CENTER>
-<H2>Looking Glass - traceroute ipv6 2001:4641::1</H2>
+
+17
+<H2>Looking Glass</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+3ec
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp" CHECKED></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="community"></TD><TD>&nbsp;bgp&nbsp;community</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace"></TD><TD>&nbsp;trace</TD></TR>
+
+7d
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+
+b1
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+
+20
+<OPTGROUP LABEL="Routeservers">
+
+4b
+<OPTION VALUE="Eastlink Atlantic (AS 11260)"> Eastlink Atlantic (AS 11260)
+
+49
+<OPTION VALUE="Eastlink Eastern (AS 23184)"> Eastlink Eastern (AS 23184)
+
+49
+<OPTION VALUE="Eastlink Pacific (AS 22799)"> Eastlink Pacific (AS 22799)
+
+3b
+<OPTION VALUE="Allstream (AS 15290)"> Allstream (AS 15290)
+
+37
+<OPTION VALUE="AT&amp;T (AS 7018)"> AT&amp;T (AS 7018)
+
+31
+<OPTION VALUE="Belwue (AS 553)"> Belwue (AS 553)
+
+37
+<OPTION VALUE="Broadnet (AS 9132)"> Broadnet (AS 9132)
+
+35
+<OPTION VALUE="CERFnet (AS 1838)"> CERFnet (AS 1838)
+
+35
+<OPTION VALUE="Comcast (AS 7922)"> Comcast (AS 7922)
+
+31
+<OPTION VALUE="Eunet (AS 6667)"> Eunet (AS 6667)
+
+51
+<OPTION VALUE="Exodus Communications (AS 3967)"> Exodus Communications (AS 3967)
+
+45
+<OPTION VALUE="Global Crossing (AS 3549)"> Global Crossing (AS 3549)
+
+53
+<OPTION VALUE="Global Crossing Europe (AS 3549)"> Global Crossing Europe (AS 3549)
+
+4f
+<OPTION VALUE="Group Telecom - east (AS 6539)"> Group Telecom - east (AS 6539)
+
+39
+<OPTION VALUE="Host.net (AS 13645)"> Host.net (AS 13645)
+
+4b
+<OPTION VALUE="Hurricane Electric (AS 6939)"> Hurricane Electric (AS 6939)
+
+33
+<OPTION VALUE="nLayer (AS 4436)"> nLayer (AS 4436)
+
+2d
+<OPTION VALUE="Nodus Network"> Nodus Network
+
+3d
+<OPTION VALUE="Opentransit (AS 5511)"> Opentransit (AS 5511)
+
+31
+<OPTION VALUE="Optus (AS 7474)"> Optus (AS 7474)
+
+45
+<OPTION VALUE="Oregon Exchange (AS 6447)"> Oregon Exchange (AS 6447)
+
+31
+<OPTION VALUE="Rogers (AS 812)"> Rogers (AS 812)
+
+2f
+<OPTION VALUE="SAIX (AS 5713)"> SAIX (AS 5713)
+
+33
+<OPTION VALUE="Savvis (AS 3561)"> Savvis (AS 3561)
+
+35
+<OPTION VALUE="Sunrise (AS 6730)"> Sunrise (AS 6730)
+
+3f
+<OPTION VALUE="Swisscom IP+ (AS 3303)"> Swisscom IP+ (AS 3303)
+
+35
+<OPTION VALUE="Switch (AS 23005)"> Switch (AS 23005)
+
+2d
+<OPTION VALUE="TDC (AS 3292)"> TDC (AS 3292)
+
+3d
+<OPTION VALUE="Time Warner (AS 4323)"> Time Warner (AS 4323)
+
+31
+<OPTION VALUE="TiNET (AS 3257)"> TiNET (AS 3257)
+
+39
+<OPTION VALUE="TELUS East (AS 852)"> TELUS East (AS 852)
+
+39
+<OPTION VALUE="TELUS West (AS 852)"> TELUS West (AS 852)
+
+57
+<OPTION VALUE="University of Washington (AS 6447)"> University of Washington (AS 6447)
+
+39
+<OPTION VALUE="Videotron (AS 5769)"> Videotron (AS 5769)
+
+c
+</OPTGROUP>
+
+23
+<OPTGROUP LABEL="ISPs in Estonia">
+
+36
+<OPTION VALUE="r20-Tln-TIX"> Data Telecom (AS 3327) *
+
+3b
+<OPTION VALUE="ML Online (AS 5546)"> ML Online (AS 5546) *
+
+2a
+<OPTION VALUE="kj-gw"> EsData (AS 2380) *
+
+c
+</OPTGROUP>
+
+29
+<OPTGROUP LABEL="Public peering points">
+
+1e
+<OPTION VALUE="rtr1"> AMSIX *
+
+30
+<OPTION VALUE="INXS"> INXS peering LAN Munich *
+
+27
+<OPTION VALUE="LINX (UK)"> LINX (UK) *
+
+31
+<OPTION VALUE="LINX (Transit)"> LINX (Transit) *
+
+35
+<OPTION VALUE="LINX (Multicast)"> LINX (Multicast) *
+
+1e
+<OPTION VALUE="zebra"> BLNX *
+
+c
+</OPTGROUP>
+
+22
+<OPTGROUP LABEL="RIPE (AS 3292)">
+
+41
+<OPTION VALUE="Amsterdam (NL), AMS-IX"> Amsterdam (NL), AMS-IX *
+
+c
+</OPTGROUP>
+
+2e
+<OPTGROUP LABEL="TDC Tele Danmark (AS 3292)">
+
+41
+<OPTION VALUE="Amsterdam (NL), AMS-IX"> Amsterdam (NL), AMS-IX *
+
+51
+<OPTION VALUE="Copenhagen/Lyngby (DK), DIX #1"> Copenhagen/Lyngby (DK), DIX #1 *
+
+4f
+<OPTION VALUE="Copenhagen/Virum (DK), DIX #2"> Copenhagen/Virum (DK), DIX #2 *
+
+41
+<OPTION VALUE="Frankfurt (DE), DE-CIX"> Frankfurt (DE), DE-CIX *
+
+3d
+<OPTION VALUE="London (UK), LINX #1"> London (UK), LINX #1 *
+
+3d
+<OPTION VALUE="London (UK), LINX #2"> London (UK), LINX #2 *
+
+33
+<OPTION VALUE="New York 1 (US)"> New York 1 (US) *
+
+33
+<OPTION VALUE="New York 2 (US)"> New York 2 (US) *
+
+33
+<OPTION VALUE="New York 3 (US)"> New York 3 (US) *
+
+33
+<OPTION VALUE="Oslo (NO), NIX1"> Oslo (NO), NIX1 *
+
+33
+<OPTION VALUE="Oslo (NO), NIX2"> Oslo (NO), NIX2 *
+
+41
+<OPTION VALUE="Stockholm (SE), Netnod"> Stockholm (SE), Netnod *
+
+c
+</OPTGROUP>
+
+25
+<OPTGROUP LABEL="KPNQwest (AS 286)">
+
+27
+<OPTION VALUE="Amsterdam"> Amsterdam *
+
+23
+<OPTION VALUE="Antwerp"> Antwerp *
+
+21
+<OPTION VALUE="Berlin"> Berlin *
+
+25
+<OPTION VALUE="Brussels"> Brussels *
+
+21
+<OPTION VALUE="Dublin"> Dublin *
+
+27
+<OPTION VALUE="Frankfurt"> Frankfurt *
+
+21
+<OPTION VALUE="Leiden"> Leiden *
+
+21
+<OPTION VALUE="London"> London *
+
+21
+<OPTION VALUE="Munich"> Munich *
+
+27
+<OPTION VALUE="Rotterdam"> Rotterdam *
+
+c
+</OPTGROUP>
+
+26
+<OPTGROUP LABEL="NORDUnet (AS 2603)">
+
+2b
+<OPTION VALUE="D-GIX (DPT)"> D-GIX (DPT) *
+
+2d
+<OPTION VALUE="D-GIX (FDDI)"> D-GIX (FDDI) *
+
+c
+</OPTGROUP>
+
+1d
+<OPTGROUP LABEL="Other LGs">
+
+35
+<OPTION VALUE="Level3 (AS 3356)"> Level3 (AS 3356) *
+
+4b
+<OPTION VALUE="Davidov Electric (AS 12814)"> Davidov Electric (AS 12814) *
+
+4d
+<OPTION VALUE="Tata Communications (AS6453)"> Tata Communications (AS6453) *
+
+3b
+<OPTION VALUE="Bell Canada (AS577)"> Bell Canada (AS577) *
+
+c
+</OPTGROUP>
+
+1c
+<OPTGROUP LABEL="IPv6 LGs">
+
+37
+<OPTION VALUE="Data Telecom IPv6"> Data Telecom IPv6 *
+
+1d
+<OPTION VALUE="6TAP"> 6TAP *
+
+23
+<OPTION VALUE="LavaNet"> LavaNet *
+
+29
+<OPTION VALUE="r1-gw.ipv6.itk.pl"> iTk *
+
+31
+<OPTION VALUE="EdisonTel IPv6"> EdisonTel IPv6 *
+
+c
+</OPTGROUP>
+
+11b
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
 </CENTER>
 <P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> TiNET (AS 3257)
-<BR>
-<B>Command:</B> traceroute ipv6 2001:4641::1
-<P><PRE><CODE>
-Tracing the route to 2001:4641::1
+</FORM>
 
-  1 2001:668:0:3::2000:171 0 msec 0 msec 0 msec
-  2 2001:668:0:2::1:492 20 msec 20 msec 20 msec
-  3 2001:668:0:3::F000:92 8 msec 8 msec 8 msec
-  4 2001:4600:0:100::5 28 msec 28 msec 28 msec
-  5 2001:4600:0:100::23 28 msec 28 msec 28 msec
-  6 2001:4600:0:200::5D 28 msec 28 msec 28 msec
-  7 2001:4641::1 52 msec 52 msec 48 msec
-</CODE></PRE>
+1b7
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -95,46 +645,207 @@ Tracing the route to 2001:4641::1
 </CENTER>
 </BODY>
 </HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Sat, 08 Mar 2014 08:01:05 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+40
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+60
 <!--
 	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
 	http://freshmeat.net/projects/lg/
 -->
+
+7
 <HTML>
+
+7
 <HEAD>
-<TITLE>Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
+
+1d
+<TITLE>Looking Glass</TITLE>
+
+2e
 <LINK REL="shortcut icon" HREF="favicon.ico">
+
+8
 </HEAD>
+
+28
 <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.eastlink.ca/"><IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+22
+<A HREF="http://www.eastlink.ca/">
+37
+<IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
 <CENTER>
-<H2>Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
+
+17
+<H2>Looking Glass</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+3ec
+<FORM METHOD="POST" ACTION="/">
+<CENTER>
+<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
+<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
+<TR><TD>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp" CHECKED></TD><TD>&nbsp;bgp</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="community"></TD><TD>&nbsp;bgp&nbsp;community</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
+<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace"></TD><TD>&nbsp;trace</TD></TR>
+
+15ea
+<TR><TD></TD><TD><SELECT NAME="protocol">
+<OPTION VALUE="IPv4"> IPv4
+<OPTION VALUE="IPv6"> IPv6
+</SELECT></TD></TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
+<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+<OPTGROUP LABEL="Routeservers">
+<OPTION VALUE="Eastlink Atlantic (AS 11260)"> Eastlink Atlantic (AS 11260)
+<OPTION VALUE="Eastlink Eastern (AS 23184)"> Eastlink Eastern (AS 23184)
+<OPTION VALUE="Eastlink Pacific (AS 22799)"> Eastlink Pacific (AS 22799)
+<OPTION VALUE="Allstream (AS 15290)"> Allstream (AS 15290)
+<OPTION VALUE="AT&amp;T (AS 7018)"> AT&amp;T (AS 7018)
+<OPTION VALUE="Belwue (AS 553)"> Belwue (AS 553)
+<OPTION VALUE="Broadnet (AS 9132)"> Broadnet (AS 9132)
+<OPTION VALUE="CERFnet (AS 1838)"> CERFnet (AS 1838)
+<OPTION VALUE="Comcast (AS 7922)"> Comcast (AS 7922)
+<OPTION VALUE="Eunet (AS 6667)"> Eunet (AS 6667)
+<OPTION VALUE="Exodus Communications (AS 3967)"> Exodus Communications (AS 3967)
+<OPTION VALUE="Global Crossing (AS 3549)"> Global Crossing (AS 3549)
+<OPTION VALUE="Global Crossing Europe (AS 3549)"> Global Crossing Europe (AS 3549)
+<OPTION VALUE="Group Telecom - east (AS 6539)"> Group Telecom - east (AS 6539)
+<OPTION VALUE="Host.net (AS 13645)"> Host.net (AS 13645)
+<OPTION VALUE="Hurricane Electric (AS 6939)"> Hurricane Electric (AS 6939)
+<OPTION VALUE="nLayer (AS 4436)"> nLayer (AS 4436)
+<OPTION VALUE="Nodus Network"> Nodus Network
+<OPTION VALUE="Opentransit (AS 5511)"> Opentransit (AS 5511)
+<OPTION VALUE="Optus (AS 7474)"> Optus (AS 7474)
+<OPTION VALUE="Oregon Exchange (AS 6447)"> Oregon Exchange (AS 6447)
+<OPTION VALUE="Rogers (AS 812)"> Rogers (AS 812)
+<OPTION VALUE="SAIX (AS 5713)"> SAIX (AS 5713)
+<OPTION VALUE="Savvis (AS 3561)"> Savvis (AS 3561)
+<OPTION VALUE="Sunrise (AS 6730)"> Sunrise (AS 6730)
+<OPTION VALUE="Swisscom IP+ (AS 3303)"> Swisscom IP+ (AS 3303)
+<OPTION VALUE="Switch (AS 23005)"> Switch (AS 23005)
+<OPTION VALUE="TDC (AS 3292)"> TDC (AS 3292)
+<OPTION VALUE="Time Warner (AS 4323)"> Time Warner (AS 4323)
+<OPTION VALUE="TiNET (AS 3257)"> TiNET (AS 3257)
+<OPTION VALUE="TELUS East (AS 852)"> TELUS East (AS 852)
+<OPTION VALUE="TELUS West (AS 852)"> TELUS West (AS 852)
+<OPTION VALUE="University of Washington (AS 6447)"> University of Washington (AS 6447)
+<OPTION VALUE="Videotron (AS 5769)"> Videotron (AS 5769)
+</OPTGROUP>
+<OPTGROUP LABEL="ISPs in Estonia">
+<OPTION VALUE="r20-Tln-TIX"> Data Telecom (AS 3327) *
+<OPTION VALUE="ML Online (AS 5546)"> ML Online (AS 5546) *
+<OPTION VALUE="kj-gw"> EsData (AS 2380) *
+</OPTGROUP>
+<OPTGROUP LABEL="Public peering points">
+<OPTION VALUE="rtr1"> AMSIX *
+<OPTION VALUE="INXS"> INXS peering LAN Munich *
+<OPTION VALUE="LINX (UK)"> LINX (UK) *
+<OPTION VALUE="LINX (Transit)"> LINX (Transit) *
+<OPTION VALUE="LINX (Multicast)"> LINX (Multicast) *
+<OPTION VALUE="zebra"> BLNX *
+</OPTGROUP>
+<OPTGROUP LABEL="RIPE (AS 3292)">
+<OPTION VALUE="Amsterdam (NL), AMS-IX"> Amsterdam (NL), AMS-IX *
+</OPTGROUP>
+<OPTGROUP LABEL="TDC Tele Danmark (AS 3292)">
+<OPTION VALUE="Amsterdam (NL), AMS-IX"> Amsterdam (NL), AMS-IX *
+<OPTION VALUE="Copenhagen/Lyngby (DK), DIX #1"> Copenhagen/Lyngby (DK), DIX #1 *
+<OPTION VALUE="Copenhagen/Virum (DK), DIX #2"> Copenhagen/Virum (DK), DIX #2 *
+<OPTION VALUE="Frankfurt (DE), DE-CIX"> Frankfurt (DE), DE-CIX *
+<OPTION VALUE="London (UK), LINX #1"> London (UK), LINX #1 *
+<OPTION VALUE="London (UK), LINX #2"> London (UK), LINX #2 *
+<OPTION VALUE="New York 1 (US)"> New York 1 (US) *
+<OPTION VALUE="New York 2 (US)"> New York 2 (US) *
+<OPTION VALUE="New York 3 (US)"> New York 3 (US) *
+<OPTION VALUE="Oslo (NO), NIX1"> Oslo (NO), NIX1 *
+<OPTION VALUE="Oslo (NO), NIX2"> Oslo (NO), NIX2 *
+<OPTION VALUE="Stockholm (SE), Netnod"> Stockholm (SE), Netnod *
+</OPTGROUP>
+<OPTGROUP LABEL="KPNQwest (AS 286)">
+<OPTION VALUE="Amsterdam"> Amsterdam *
+<OPTION VALUE="Antwerp"> Antwerp *
+<OPTION VALUE="Berlin"> Berlin *
+<OPTION VALUE="Brussels"> Brussels *
+<OPTION VALUE="Dublin"> Dublin *
+<OPTION VALUE="Frankfurt"> Frankfurt *
+<OPTION VALUE="Leiden"> Leiden *
+<OPTION VALUE="London"> London *
+<OPTION VALUE="Munich"> Munich *
+<OPTION VALUE="Rotterdam"> Rotterdam *
+</OPTGROUP>
+<OPTGROUP LABEL="NORDUnet (AS 2603)">
+<OPTION VALUE="D-GIX (DPT)"> D-GIX (DPT) *
+<OPTION VALUE="D-GIX (FDDI)"> D-GIX (FDDI) *
+</OPTGROUP>
+<OPTGROUP LABEL="Other LGs">
+<OPTION VALUE="Level3 (AS 3356)"> Level3 (AS 3356) *
+<OPTION VALUE="Davidov Electric (AS 12814)"> Davidov Electric (AS 12814) *
+<OPTION VALUE="Tata Communications (AS6453)"> Tata Communications (AS6453) *
+<OPTION VALUE="Bell Canada (AS577)"> Bell Canada (AS577) *
+</OPTGROUP>
+<OPTGROUP LABEL="IPv6 LGs">
+<OPTION VALUE="Data Telecom IPv6"> Data Telecom IPv6 *
+<OPTION VALUE="6TAP"> 6TAP *
+<OPTION VALUE="LavaNet"> LavaNet *
+<OPTION VALUE="r1-gw.ipv6.itk.pl"> iTk *
+<OPTION VALUE="EdisonTel IPv6"> EdisonTel IPv6 *
+</OPTGROUP>
+</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
+</TR>
+<TR><TD ALIGN="CENTER" COLSPAN=3>
+<P>
+<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
+<INPUT TYPE="RESET" VALUE="Reset"> 
+<P>
+</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
 </CENTER>
 <P>
-<HR SIZE=2 WIDTH="85%" NOSHADE>
-<P>
-<B>Router:</B> TiNET (AS 3257)
-<BR>
-<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
-<P><PRE><CODE>
-Tracing the route to 2001:1430:A:50::50
-
-  1 2001:668:0:3::2000:171 0 msec 0 msec 0 msec
-  2 2001:668:0:2::1:2AB2 40 msec 40 msec 40 msec
-  3 2001:668:0:3::F000:22 28 msec 28 msec 32 msec
-  4 2001:670:3:4:1::2 36 msec
-    2001:670:3:4:1::8 32 msec 32 msec
-  5 2001:998:12:2::1 32 msec
-    2001:998:12:31::1 84 msec
-    2001:998:12:2::1 36 msec
-  6 2001:998:12:D::2 40 msec 40 msec 40 msec
-  7 2001:1430:0:1::2 40 msec
-    2001:998:12:D::2 40 msec
-    2001:1430:0:1::2 40 msec
-  8 2001:1430:A:A::2 36 msec
-    2001:1430:0:1::2 40 msec 40 msec
-  9 2001:1430:A:50::50 40 msec 40 msec 36 msec
-</CODE></PRE>
+</FORM>
 <P>
 <HR SIZE="2" WIDTH="85%" NOSHADE>
 <CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
@@ -149,3 +860,6 @@ Tracing the route to 2001:1430:A:50::50
 </CENTER>
 </BODY>
 </HTML>
+
+0
+
