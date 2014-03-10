@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:00:59 GMT
+Date: Mon, 10 Mar 2014 04:09:29 GMT
 Server: Apache
 Connection: close
 Transfer-Encoding: chunked
@@ -20,8 +20,8 @@ Content-Type: text/html
 7  
 <HEAD>
 
-24 
-<TITLE>SolNet Looking Glass</TITLE>
+49 
+<TITLE>SolNet Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
 
 2f 
 <LINK REL="shortcut icon" HREF="/favicon.ico">
@@ -46,8 +46,8 @@ Content-Type: text/html
 9  
 <CENTER>
 
-1e 
-<H2>SolNet Looking Glass</H2>
+43 
+<H2>SolNet Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
 
 a  
 </CENTER>
@@ -61,87 +61,71 @@ a
 4  
 <P>
 
-30e
-<FORM METHOD="POST" ACTION="/">
-<CENTER>
-<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
-<TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+23 
+<B>Router:</B> SolNet #1 (AS 9044)
 
-7d 
-<TR><TD></TD><TD><SELECT NAME="protocol">
-<OPTION VALUE="IPv4"> IPv4
-<OPTION VALUE="IPv6"> IPv6
-</SELECT></TD></TR>
-</TABLE>
-
-b1 
-</TD>
-<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
-<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
-
-39 
-<OPTION VALUE="SolNet #1 (AS 9044)"> SolNet #1 (AS 9044)
-
-20 
-<OPTGROUP LABEL="Routeservers">
-
-35 
-<OPTION VALUE="TISCALI (AS 3257)"> TISCALI (AS 3257)
+5  
+<BR>
 
 33 
-<OPTION VALUE="HE.NET (AS 6939)"> HE.NET (AS 6939)
+<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
 
-21 
-<OPTION VALUE="CERFnet"> CERFnet
+f  
+<P><PRE><CODE>
 
-3f 
-<OPTION VALUE="TELUS Ontario (AS 852)"> TELUS Ontario (AS 852)
+28 
+Tracing the route to 2001:DA8:1:100::80
 
-45 
-<OPTION VALUE="Global Crossing (AS 3549)"> Global Crossing (AS 3549)
+1  
 
-c  
-</OPTGROUP>
 
-29 
-<OPTGROUP LABEL="Public peering points">
+2b 
+  1 2001:1680:0:2::35 0 msec 0 msec 0 msec
 
-30 
-<OPTION VALUE="INXS"> INXS peering LAN Munich *
+49 
+  2 iwbbas-bbr01-e3-1.solnet.ch (2001:1680:0:2::5A) 0 msec 4 msec 0 msec
 
-27 
-<OPTION VALUE="LINX (UK)"> LINX (UK) *
+2b 
+  3 2001:1680:0:2::6A 8 msec 4 msec 0 msec
 
-35 
-<OPTION VALUE="VIX (Vienna, AT)"> VIX (Vienna, AT) *
+2b 
+  4 2001:1680:0:2::86 4 msec 0 msec 4 msec
 
-c  
-</OPTGROUP>
+5f 
+  5 10gigabitethernet1-2.core1.zrh1.he.net (2001:7F8:C:8235:194:42:48:80) 0 msec 4 msec 4 msec
 
-11b
-</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
-</TR>
-<TR><TD ALIGN="CENTER" COLSPAN=3>
-<P>
-<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
-<INPUT TYPE="RESET" VALUE="Reset"> 
-<P>
-</TD></TR>
-</TABLE>
-</TD></TR></TABLE>
-</CENTER>
-<P>
-</FORM>
+55 
+  6 10ge10-1.core1.par2.he.net (2001:470:0:246::1) [AS 6939] 16 msec 28 msec 24 msec
+
+55 
+  7 100ge7-1.core1.lon2.he.net (2001:470:0:2CE::1) [AS 6939] 24 msec 24 msec 24 msec
+
+57 
+  8 100ge1-1.core1.nyc4.he.net (2001:470:0:2CF::2) [AS 6939] 92 msec 100 msec 100 msec
+
+58 
+  9 10ge10-3.core1.lax1.he.net (2001:470:0:10E::1) [AS 6939] 152 msec 148 msec 152 msec
+
+56 
+ 10 10ge1-3.core1.lax2.he.net (2001:470:0:72::2) [AS 6939] 156 msec 148 msec 152 msec
+
+71 
+ 11 cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2A2::2) [AS 6939] 152 msec *  * 
+
+3c 
+ 12 2001:252:0:302::1 [AS 23911] 304 msec 304 msec 304 msec
+
+e  
+ 13  *  *  * 
+
+3a 
+ 14 2001:252:0:1::1 [AS 23911] 304 msec 316 msec 308 msec
+
+3d 
+ 15 2001:DA8:1:100::80 [AS 23910] 304 msec 304 msec 304 msec
+
+e  
+</CODE></PRE>
 
 b6 
 <P>
@@ -161,7 +145,7 @@ b6
 0
 
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:01:02 GMT
+Date: Mon, 10 Mar 2014 04:09:53 GMT
 Server: Apache
 Connection: close
 Transfer-Encoding: chunked
@@ -182,8 +166,8 @@ Content-Type: text/html
 7  
 <HEAD>
 
-24 
-<TITLE>SolNet Looking Glass</TITLE>
+43 
+<TITLE>SolNet Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
 
 2f 
 <LINK REL="shortcut icon" HREF="/favicon.ico">
@@ -208,8 +192,8 @@ Content-Type: text/html
 9  
 <CENTER>
 
-1e 
-<H2>SolNet Looking Glass</H2>
+3d 
+<H2>SolNet Looking Glass - traceroute ipv6 2001:4641::1</H2>
 
 a  
 </CENTER>
@@ -223,87 +207,56 @@ a
 4  
 <P>
 
-30e
-<FORM METHOD="POST" ACTION="/">
-<CENTER>
-<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
-<TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+23 
+<B>Router:</B> SolNet #1 (AS 9044)
 
-7d 
-<TR><TD></TD><TD><SELECT NAME="protocol">
-<OPTION VALUE="IPv4"> IPv4
-<OPTION VALUE="IPv6"> IPv6
-</SELECT></TD></TR>
-</TABLE>
+5  
+<BR>
 
-b1 
-</TD>
-<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
-<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+2d 
+<B>Command:</B> traceroute ipv6 2001:4641::1
 
-39 
-<OPTION VALUE="SolNet #1 (AS 9044)"> SolNet #1 (AS 9044)
+f  
+<P><PRE><CODE>
 
-20 
-<OPTGROUP LABEL="Routeservers">
+34 
+Tracing the route to canardo.mork.no (2001:4641::1)
 
-35 
-<OPTION VALUE="TISCALI (AS 3257)"> TISCALI (AS 3257)
+1  
 
-33 
-<OPTION VALUE="HE.NET (AS 6939)"> HE.NET (AS 6939)
 
-21 
-<OPTION VALUE="CERFnet"> CERFnet
+2b 
+  1 2001:1680:0:2::35 0 msec 0 msec 0 msec
 
-3f 
-<OPTION VALUE="TELUS Ontario (AS 852)"> TELUS Ontario (AS 852)
+49 
+  2 iwbbas-bbr01-e3-1.solnet.ch (2001:1680:0:2::5A) 0 msec 4 msec 0 msec
+
+2b 
+  3 2001:1680:0:2::6A 8 msec 4 msec 0 msec
+
+4b 
+  4 ae0-3.zur11.ip6.tinet.net (2001:668:0:3::5000:31) 4 msec 4 msec 0 msec
+
+5a 
+  5 xe-4-2-0.ams20.ip6.tinet.net (2001:668:0:2::1:29C1) [AS 3257] 20 msec 16 msec 16 msec
+
+53 
+  6 as2119.ip6.tinet.net (2001:668:0:3::F000:92) [AS 3257] 16 msec 16 msec 16 msec
+
+79 
+  7 ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5) [AS 2119] [MPLS: Labels 600849/2 Exp 0] 36 msec 40 msec 36 msec
+
+7a 
+  8 ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23) [AS 2119] [MPLS: Labels 632168/2 Exp 0] 36 msec 36 msec 36 msec
+
+5c 
+  9 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS 2119] 40 msec 36 msec 36 msec
 
 45 
-<OPTION VALUE="Global Crossing (AS 3549)"> Global Crossing (AS 3549)
+ 10 canardo.mork.no (2001:4641::1) [AS 2119] 60 msec 60 msec 60 msec
 
-c  
-</OPTGROUP>
-
-29 
-<OPTGROUP LABEL="Public peering points">
-
-30 
-<OPTION VALUE="INXS"> INXS peering LAN Munich *
-
-27 
-<OPTION VALUE="LINX (UK)"> LINX (UK) *
-
-35 
-<OPTION VALUE="VIX (Vienna, AT)"> VIX (Vienna, AT) *
-
-c  
-</OPTGROUP>
-
-11b
-</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
-</TR>
-<TR><TD ALIGN="CENTER" COLSPAN=3>
-<P>
-<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
-<INPUT TYPE="RESET" VALUE="Reset"> 
-<P>
-</TD></TR>
-</TABLE>
-</TD></TR></TABLE>
-</CENTER>
-<P>
-</FORM>
+e  
+</CODE></PRE>
 
 b6 
 <P>
@@ -323,7 +276,7 @@ b6
 0
 
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:01:05 GMT
+Date: Mon, 10 Mar 2014 04:10:01 GMT
 Server: Apache
 Connection: close
 Transfer-Encoding: chunked
@@ -344,8 +297,8 @@ Content-Type: text/html
 7  
 <HEAD>
 
-24 
-<TITLE>SolNet Looking Glass</TITLE>
+49 
+<TITLE>SolNet Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
 
 2f 
 <LINK REL="shortcut icon" HREF="/favicon.ico">
@@ -370,8 +323,8 @@ Content-Type: text/html
 9  
 <CENTER>
 
-1e 
-<H2>SolNet Looking Glass</H2>
+43 
+<H2>SolNet Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
 
 a  
 </CENTER>
@@ -385,87 +338,80 @@ a
 4  
 <P>
 
-30e
-<FORM METHOD="POST" ACTION="/">
-<CENTER>
-<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
-<TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+23 
+<B>Router:</B> SolNet #1 (AS 9044)
 
-7d 
-<TR><TD></TD><TD><SELECT NAME="protocol">
-<OPTION VALUE="IPv4"> IPv4
-<OPTION VALUE="IPv6"> IPv6
-</SELECT></TD></TR>
-</TABLE>
-
-b1 
-</TD>
-<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
-<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
-
-39 
-<OPTION VALUE="SolNet #1 (AS 9044)"> SolNet #1 (AS 9044)
-
-20 
-<OPTGROUP LABEL="Routeservers">
-
-35 
-<OPTION VALUE="TISCALI (AS 3257)"> TISCALI (AS 3257)
+5  
+<BR>
 
 33 
-<OPTION VALUE="HE.NET (AS 6939)"> HE.NET (AS 6939)
+<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
 
-21 
-<OPTION VALUE="CERFnet"> CERFnet
-
-3f 
-<OPTION VALUE="TELUS Ontario (AS 852)"> TELUS Ontario (AS 852)
-
-45 
-<OPTION VALUE="Global Crossing (AS 3549)"> Global Crossing (AS 3549)
-
-c  
-</OPTGROUP>
-
-29 
-<OPTGROUP LABEL="Public peering points">
-
-30 
-<OPTION VALUE="INXS"> INXS peering LAN Munich *
-
-27 
-<OPTION VALUE="LINX (UK)"> LINX (UK) *
+f  
+<P><PRE><CODE>
 
 35 
-<OPTION VALUE="VIX (Vienna, AT)"> VIX (Vienna, AT) *
+Tracing the route to www.axu.tm (2001:1430:A:50::50)
 
-c  
-</OPTGROUP>
+1  
 
-11b
-</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
-</TR>
-<TR><TD ALIGN="CENTER" COLSPAN=3>
-<P>
-<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
-<INPUT TYPE="RESET" VALUE="Reset"> 
-<P>
-</TD></TR>
-</TABLE>
-</TD></TR></TABLE>
-</CENTER>
-<P>
-</FORM>
+
+2c 
+  1 2001:1680:0:2::35 0 msec 12 msec 0 msec
+
+4a 
+  2 iwbbas-bbr01-e3-1.solnet.ch (2001:1680:0:2::5A) 0 msec 12 msec 0 msec
+
+4a 
+  3 dexfra-bbr01-e1-11.solnet.ch (2001:1680:0:2::1E) 8 msec 4 msec 8 msec
+
+43 
+  4 decix.v6.eunetip.net (2001:7F8::1A0B:0:1) 4 msec 8 msec 8 msec
+
+45 
+  5 bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2) [AS 790] 36 msec
+
+3c 
+    bbr1.hel2.fi.v6.eunetip.net (2001:670:3:4:1::8) 40 msec
+
+3c 
+    bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2) 40 msec
+
+26 
+  6 2001:998:12:2::1 [AS 719] 36 msec
+
+1e 
+    2001:998:12:31::1 36 msec
+
+1d 
+    2001:998:12:2::1 40 msec
+
+41 
+  7 2001:998:12:0:139:97:12:239 [AS 719] 40 msec 48 msec 48 msec
+
+53 
+  8 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS 29243] 44 msec 44 msec
+
+1d 
+    2001:998:12:D::2 40 msec
+
+4b 
+  9 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS 29243] 40 msec 40 msec
+
+40 
+    v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 44 msec
+
+43 
+ 10 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS 29243] 40 msec
+
+2c 
+    www.axu.tm (2001:1430:A:50::50) 40 msec
+
+38 
+    ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) 40 msec
+
+e  
+</CODE></PRE>
 
 b6 
 <P>

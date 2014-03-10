@@ -4,6 +4,7 @@ import threading
 import os
 import time
 import socket
+import urllib
 from addr import *
 
 class Monitor(threading.Thread):#Derived from the class threading.Thread
@@ -12,9 +13,14 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
         self.site = site
         self.dname = site.split('//')[1].split('/')[0]
         try:
-            self.subdir = site.split('/')[1]
+            self.subdir = '/' + site.split('//')[1].split('/')[1] +\
+            '/' + site.split('//')[1].split('/')[2]
         except:
-            self.subdir = '/'
+            try:
+                self.subdir = '/' + site.split('//')[1].split('/')[1]
+            except:
+                self.subdir = '/'
+
         self.gethtml = 'gethtml_' + site.split('.')[1] + '_' + str(asn)#get the middle part of the url
         self.router = router
         self.source_asn = asn
@@ -34,6 +40,7 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
                     self.gethtml.split('_')[-1] + '_result')
         i = 0
         for d in dest:
+            tstart = time.time()
             i += 1
             print self.site + '|' + str(i)
             '''
@@ -44,8 +51,11 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
             '''
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((self.dname, 80))
-            request = 'GET /?query=trace&protocol=IPv6&addr=' + d + '&router=route-server.as8218.eu\
-                HTTP/1.1\r\n' + 'Host: ' + self.dname + '\r\n' +\
+            d = urllib.quote(d, '')#required
+            router = urllib.quote(self.router, '')#required
+            router = router.replace('%20', '+')#strange but required
+            data = '?query=trace&protocol=IPv6&addr=' + d + '&router=' + router 
+            request = 'GET ' + self.subdir + data + ' HTTP/1.1\r\n' + 'Host: ' + self.dname + '\r\n' +\
                 'Content-Length: 0\r\n\r\n'
             s.send(request)
             html = ''
@@ -53,12 +63,16 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
                 data = s.recv(1024)
                 if not len(data):
                     break
-                data = data.decode('utf-8')
                 html += data
+                tend = time.time()
+                if tend - tstart > 50:
+                    print '!!!', self.site, '!!!'
+                    break
+            print tend - tstart, 'seconds'
 
             path = self.parsehtml(html) 
             f = open('result/' + self.gethtml.split('_')[-2] + '_' + self.gethtml.split('_')[-1] + '_result', 'a')
-            f.write(path.encode('utf8'))
+            f.write(path.decode('utf-8'))
             f.close()
             time.sleep(2)
 
@@ -68,8 +82,8 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
     def gethtml_sunrise_6730(self):
         self.gethtml_as8218_8218()
 
-    def gethtml_comcor_8732(self):
-        self.gethtml_as8218_8218()
+    #def gethtml_comcor_8732(self):
+    #    self.gethtml_as8218_8218()
 
     def gethtml_solnet_9044(self):
         self.gethtml_as8218_8218()
@@ -133,7 +147,7 @@ def measure():
     lg1 = Monitor('http://lg.as8218.eu', 'route-server.as8218.eu', 8218)
     lg2 = Monitor('http://netmon.acad.bg/lg', 'sf-cr-1', 6802)
     lg3 = Monitor('http://debby.sunrise.ch/lg', 'Sunrise Routeserver', 6730)
-    lg4 = Monitor('http://master.comcor.ru/lg', 'Comcor (AS 8732)', 8732)
+    #lg4 = Monitor('http://master.comcor.ru/lg', 'Comcor (AS 8732)', 8732)
     lg5 = Monitor('http://lg.solnet.ch', 'SolNet #1 (AS 9044)', 9044)
     lg6 = Monitor('http://lg.eastlink.ca', 'Eastlink Atlantic (AS 11260)', 11260)
     lg7 = Monitor('http://lg.eastlink.ca', 'Eastlink Eastern (AS 23184)', 23184)
@@ -155,7 +169,7 @@ def measure():
     lg1.start()
     lg2.start()
     lg3.start()
-    lg4.start()
+    #lg4.start()
     lg5.start()
     lg6.start()
     lg7.start()

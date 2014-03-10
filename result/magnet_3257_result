@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:00:59 GMT
+Date: Mon, 10 Mar 2014 04:09:30 GMT
 Server: Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.27 with Suhosin-Patch
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
@@ -19,8 +19,8 @@ Content-Type: text/html; charset=UTF-8
 7
 <HEAD>
 
-1d
-<TITLE>Looking Glass</TITLE>
+42
+<TITLE>Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
 
 2f
 <LINK REL="shortcut icon" HREF="/favicon.ico">
@@ -45,8 +45,8 @@ Content-Type: text/html; charset=UTF-8
 9
 <CENTER>
 
-17
-<H2>Looking Glass</H2>
+3c
+<H2>Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
 
 a
 </CENTER>
@@ -60,91 +60,62 @@ a
 4
 <P>
 
-39a
-<FORM METHOD="POST" ACTION="http://look.magnet.ie/">
-<CENTER>
-<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
-<TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+21
+<B>Router:</B> TISCALI (AS 3257)
 
-7d
-<TR><TD></TD><TD><SELECT NAME="protocol">
-<OPTION VALUE="IPv4"> IPv4
-<OPTION VALUE="IPv6"> IPv6
-</SELECT></TD></TR>
-</TABLE>
+5
+<BR>
 
-b1
-</TD>
-<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
-<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+33
+<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
 
-23
-<OPTGROUP LABEL="Magnet Networks">
+f
+<P><PRE><CODE>
+
+28
+Tracing the route to 2001:DA8:1:100::80
+
+1
+
+
+33
+  1 2001:668:0:3::2000:171 220 msec 20 msec 0 msec
+
+2f
+  2 2001:7F8::1B1B:0:1 20 msec 20 msec 20 msec
+
+2c
+  3 2001:470:0:2D4::1 20 msec 8 msec 8 msec
+
+2e
+  4 2001:470:0:2D0::1 16 msec 16 msec 24 msec
+
+2e
+  5 2001:470:0:2CF::2 96 msec 92 msec 88 msec
+
+31
+  6 2001:470:0:10E::1 152 msec 152 msec 156 msec
+
+30
+  7 2001:470:0:72::2 152 msec 160 msec 152 msec
+
+e
+  8  *  *  * 
+
+31
+  9 2001:252:0:302::1 304 msec 304 msec 308 msec
 
 25
-<OPTION VALUE="d-clon-border1"> CLON
+ 10 2001:252:0:100::1 308 msec *  * 
 
-23
-<OPTION VALUE="d-deg-border1"> DEG
+2f
+ 11 2001:252:0:1::1 304 msec 304 msec 324 msec
 
-c
-</OPTGROUP>
+32
+ 12 2001:DA8:1:100::80 304 msec 308 msec 308 msec
 
-1f
-<OPTGROUP LABEL="Route Views">
-
-35
-<OPTION VALUE="TISCALI (AS 3257)"> TISCALI (AS 3257)
-
-23
-<OPTION VALUE="AT&amp;T"> AT&amp;T
-
-31
-<OPTION VALUE="Global Crossing"> Global Crossing
-
-31
-<OPTION VALUE="Oregon Exchange"> Oregon Exchange
-
-3d
-<OPTION VALUE="Opentransit (AS 5511)"> Opentransit (AS 5511)
-
-c
-</OPTGROUP>
-
-29
-<OPTGROUP LABEL="Public peering points">
-
-1d
-<OPTION VALUE="LINX"> LINX *
-
-c
-</OPTGROUP>
-
-11b
-</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
-</TR>
-<TR><TD ALIGN="CENTER" COLSPAN=3>
-<P>
-<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
-<INPUT TYPE="RESET" VALUE="Reset"> 
-<P>
-</TD></TR>
-</TABLE>
-</TD></TR></TABLE>
-</CENTER>
-<P>
-</FORM>
+e
+</CODE></PRE>
 
 195
 <P>
@@ -165,7 +136,7 @@ c
 0
 
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:01:17 GMT
+Date: Mon, 10 Mar 2014 04:10:16 GMT
 Server: Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.27 with Suhosin-Patch
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
@@ -185,8 +156,8 @@ Content-Type: text/html; charset=UTF-8
 7
 <HEAD>
 
-1d
-<TITLE>Looking Glass</TITLE>
+3c
+<TITLE>Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
 
 2f
 <LINK REL="shortcut icon" HREF="/favicon.ico">
@@ -211,8 +182,8 @@ Content-Type: text/html; charset=UTF-8
 9
 <CENTER>
 
-17
-<H2>Looking Glass</H2>
+36
+<H2>Looking Glass - traceroute ipv6 2001:4641::1</H2>
 
 a
 </CENTER>
@@ -226,91 +197,50 @@ a
 4
 <P>
 
-39a
-<FORM METHOD="POST" ACTION="http://look.magnet.ie/">
-<CENTER>
-<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
-<TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+21
+<B>Router:</B> TISCALI (AS 3257)
 
-7d
-<TR><TD></TD><TD><SELECT NAME="protocol">
-<OPTION VALUE="IPv4"> IPv4
-<OPTION VALUE="IPv6"> IPv6
-</SELECT></TD></TR>
-</TABLE>
+5
+<BR>
 
-b1
-</TD>
-<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
-<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+2d
+<B>Command:</B> traceroute ipv6 2001:4641::1
 
-23
-<OPTGROUP LABEL="Magnet Networks">
+f
+<P><PRE><CODE>
 
-25
-<OPTION VALUE="d-clon-border1"> CLON
+22
+Tracing the route to 2001:4641::1
 
-23
-<OPTION VALUE="d-deg-border1"> DEG
+1
 
-c
-</OPTGROUP>
 
-1f
-<OPTGROUP LABEL="Route Views">
+30
+  1 2001:668:0:3::2000:171 0 msec 0 msec 0 msec
 
-35
-<OPTION VALUE="TISCALI (AS 3257)"> TISCALI (AS 3257)
+28
+  2 2001:668:0:2::1:1352 12 msec 8 msec
 
-23
-<OPTION VALUE="AT&amp;T"> AT&amp;T
+21
+    2001:668:0:2::1:4581 16 msec
 
-31
-<OPTION VALUE="Global Crossing"> Global Crossing
+30
+  3 2001:668:0:3::F000:92 8 msec 12 msec 8 msec
 
-31
-<OPTION VALUE="Oregon Exchange"> Oregon Exchange
+2f
+  4 2001:4600:0:100::5 36 msec 36 msec 28 msec
 
-3d
-<OPTION VALUE="Opentransit (AS 5511)"> Opentransit (AS 5511)
+30
+  5 2001:4600:0:100::23 36 msec 36 msec 28 msec
 
-c
-</OPTGROUP>
+30
+  6 2001:4600:0:200::5D 40 msec 36 msec 36 msec
 
 29
-<OPTGROUP LABEL="Public peering points">
+  7 2001:4641::1 60 msec 52 msec 60 msec
 
-1d
-<OPTION VALUE="LINX"> LINX *
-
-c
-</OPTGROUP>
-
-11b
-</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
-</TR>
-<TR><TD ALIGN="CENTER" COLSPAN=3>
-<P>
-<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
-<INPUT TYPE="RESET" VALUE="Reset"> 
-<P>
-</TD></TR>
-</TABLE>
-</TD></TR></TABLE>
-</CENTER>
-<P>
-</FORM>
+e
+</CODE></PRE>
 
 195
 <P>
@@ -331,7 +261,7 @@ c
 0
 
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:01:35 GMT
+Date: Mon, 10 Mar 2014 04:10:36 GMT
 Server: Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.27 with Suhosin-Patch
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
@@ -351,8 +281,8 @@ Content-Type: text/html; charset=UTF-8
 7
 <HEAD>
 
-1d
-<TITLE>Looking Glass</TITLE>
+42
+<TITLE>Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
 
 2f
 <LINK REL="shortcut icon" HREF="/favicon.ico">
@@ -377,8 +307,8 @@ Content-Type: text/html; charset=UTF-8
 9
 <CENTER>
 
-17
-<H2>Looking Glass</H2>
+3c
+<H2>Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
 
 a
 </CENTER>
@@ -392,91 +322,74 @@ a
 4
 <P>
 
-39a
-<FORM METHOD="POST" ACTION="http://look.magnet.ie/">
-<CENTER>
-<TABLE BORDER=0 BGCOLOR="#EFEFEF"><TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Type of Query</FONT></TH>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Additional parameters</FONT></th>
-<TH BGCOLOR="#000000" NOWRAP><FONT COLOR="#FFFFFF">Node</FONT></TH></TR>
-<TR><TD>
-<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="bgp"></TD><TD>&nbsp;bgp</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="advertised-routes"></TD><TD>&nbsp;bgp&nbsp;advertised-routes</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="summary"></TD><TD>&nbsp;bgp&nbsp;summary</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="ping"></TD><TD>&nbsp;ping</TD></TR>
-<TR><TD><INPUT TYPE="radio" NAME="query" VALUE="trace" CHECKED></TD><TD>&nbsp;trace</TD></TR>
+21
+<B>Router:</B> TISCALI (AS 3257)
 
-7d
-<TR><TD></TD><TD><SELECT NAME="protocol">
-<OPTION VALUE="IPv4"> IPv4
-<OPTION VALUE="IPv6"> IPv6
-</SELECT></TD></TR>
-</TABLE>
+5
+<BR>
 
-b1
-</TD>
-<TD ALIGN="CENTER">&nbsp;<BR><INPUT NAME="addr" SIZE="30"><BR><FONT SIZE="-1">&nbsp;<SUP>&nbsp;</SUP>&nbsp;</FONT></TD>
-<TD ALIGN="RIGHT">&nbsp;<BR><SELECT NAME="router">
+33
+<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
 
-23
-<OPTGROUP LABEL="Magnet Networks">
+f
+<P><PRE><CODE>
 
-25
-<OPTION VALUE="d-clon-border1"> CLON
+28
+Tracing the route to 2001:1430:A:50::50
 
-23
-<OPTION VALUE="d-deg-border1"> DEG
+1
 
-c
-</OPTGROUP>
 
-1f
-<OPTGROUP LABEL="Route Views">
-
-35
-<OPTION VALUE="TISCALI (AS 3257)"> TISCALI (AS 3257)
-
-23
-<OPTION VALUE="AT&amp;T"> AT&amp;T
+30
+  1 2001:668:0:3::2000:171 0 msec 0 msec 0 msec
 
 31
-<OPTION VALUE="Global Crossing"> Global Crossing
+  2 2001:668:0:2::1:2AA2 40 msec 52 msec 40 msec
 
-31
-<OPTION VALUE="Oregon Exchange"> Oregon Exchange
+32
+  3 2001:668:0:3::F000:22 40 msec 32 msec 40 msec
 
-3d
-<OPTION VALUE="Opentransit (AS 5511)"> Opentransit (AS 5511)
+26
+  4 2001:670:3:4:1::8 32 msec 36 msec
 
-c
-</OPTGROUP>
+1e
+    2001:670:3:4:1::2 36 msec
 
-29
-<OPTGROUP LABEL="Public peering points">
+27
+  5 2001:998:12:31::1 36 msec 200 msec
+
+1e
+    2001:998:12:2::1 200 msec
+
+26
+  6 2001:998:12:D::2 200 msec 36 msec
+
+28
+    2001:998:12:0:139:97:12:239 32 msec
 
 1d
-<OPTION VALUE="LINX"> LINX *
+  7 2001:1430:0:1::2 40 msec
 
-c
-</OPTGROUP>
+1d
+    2001:998:12:D::2 40 msec
 
-11b
-</SELECT><BR><FONT SIZE="-1">&nbsp;&nbsp;<SUP>*</SUP>&nbsp;remote&nbsp;LG&nbsp;script</FONT></TD>
-</TR>
-<TR><TD ALIGN="CENTER" COLSPAN=3>
-<P>
-<INPUT TYPE="SUBMIT" VALUE="Submit"> | 
-<INPUT TYPE="RESET" VALUE="Reset"> 
-<P>
-</TD></TR>
-</TABLE>
-</TD></TR></TABLE>
-</CENTER>
-<P>
-</FORM>
+1d
+    2001:1430:0:1::2 40 msec
+
+2d
+  8 2001:1430:0:1::2 40 msec 40 msec 44 msec
+
+1f
+  9 2001:1430:A:50::50 40 msec
+
+1d
+    2001:1430:A:A::2 40 msec
+
+1f
+    2001:1430:A:50::50 40 msec
+
+e
+</CODE></PRE>
 
 195
 <P>

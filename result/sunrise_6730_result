@@ -1,105 +1,393 @@
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:00:59 GMT
+Date: Mon, 10 Mar 2014 04:09:29 GMT
 Server: Apache
-Last-Modified: Fri, 18 Nov 2011 12:37:17 GMT
-Accept-Ranges: bytes
-Content-Length: 710
 Connection: close
+Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
 
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta http-equiv="Refresh" content="5;URL=http://debby.sunrise.ch/lg">
-<title>Looking glass @ Sunrise Communications AG</title>
-</head>
-<body bgcolor="#FFFFFF" link="#141450">
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-<p>&nbsp;</p>
+40
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
-<h1 align="center"><strong>Welcome on the looking glass server of Sunrise Communications AG.<br>
-  <br>
-  </strong></h1>
-</p>
-<div align="center"><strong>You'll be forwarded to the Sunrise looking glass in a few seconds...</strong> </div>
-<div align="center"><strong><a href="http://debby.sunrise.ch/lg" target="_self">http://debby.sunrise.ch/lg</a></strong></div>
-<p>&nbsp; </p>
-<hr>
-</body>
-</html>
+61
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7
+<HTML>
+
+7
+<HEAD>
+
+5e
+<TITLE>Sunrise Communications AG - Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
+
+2f
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+
+8
+</HEAD>
+
+28
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+25
+<A HREF="http://debby.sunrise.ch/lg">
+33
+<IMG SRC="/lg/images/logo.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
+<CENTER>
+
+58
+<H2>Sunrise Communications AG - Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+23
+<B>Router:</B> Sunrise Routeserver
+
+5
+<BR>
+
+33
+<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
+
+f
+<P><PRE><CODE>
+
+28
+Tracing the route to 2001:DA8:1:100::80
+
+1
+
+
+2a
+  1 2001:1700:1:1::1 4 msec 0 msec 0 msec
+
+5d
+  2 10gigabitethernet2-2.core1.ash1.he.net (2001:504:0:2::6939:1) 104 msec 100 msec 100 msec
+
+58
+  3 10ge12-7.core1.chi1.he.net (2001:470:0:286::1) [AS 6939] 124 msec 128 msec 112 msec
+
+57
+  4 10ge5-7.core1.mci3.he.net (2001:470:0:270::2) [AS 6939] 128 msec 140 msec 124 msec
+
+57
+  5 10ge5-1.core1.den1.he.net (2001:470:0:240::1) [AS 6939] 140 msec 144 msec 136 msec
+
+58
+  6 10ge14-5.core1.lax2.he.net (2001:470:0:15D::2) [AS 6939] 164 msec 172 msec 164 msec
+
+7d
+  7 cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2A2::2) [AS 6939] 168 msec 164 msec 164 msec
+
+3c
+  8 2001:252:0:302::1 [AS 23911] 316 msec 320 msec 316 msec
+
+e
+  9  *  *  * 
+
+3a
+ 10 2001:252:0:1::1 [AS 23911] 312 msec 400 msec 408 msec
+
+3d
+ 11 2001:DA8:1:100::80 [AS 23910] 432 msec 316 msec 316 msec
+
+e
+</CODE></PRE>
+
+1a1
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:peering@sunrise.net">peering@sunrise.net</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
 
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:01:02 GMT
+Date: Mon, 10 Mar 2014 04:09:49 GMT
 Server: Apache
-Last-Modified: Fri, 18 Nov 2011 12:37:17 GMT
-Accept-Ranges: bytes
-Content-Length: 710
 Connection: close
+Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
 
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta http-equiv="Refresh" content="5;URL=http://debby.sunrise.ch/lg">
-<title>Looking glass @ Sunrise Communications AG</title>
-</head>
-<body bgcolor="#FFFFFF" link="#141450">
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-<p>&nbsp;</p>
+40
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
-<h1 align="center"><strong>Welcome on the looking glass server of Sunrise Communications AG.<br>
-  <br>
-  </strong></h1>
-</p>
-<div align="center"><strong>You'll be forwarded to the Sunrise looking glass in a few seconds...</strong> </div>
-<div align="center"><strong><a href="http://debby.sunrise.ch/lg" target="_self">http://debby.sunrise.ch/lg</a></strong></div>
-<p>&nbsp; </p>
-<hr>
-</body>
-</html>
+61
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7
+<HTML>
+
+7
+<HEAD>
+
+58
+<TITLE>Sunrise Communications AG - Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
+
+2f
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+
+8
+</HEAD>
+
+28
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+25
+<A HREF="http://debby.sunrise.ch/lg">
+33
+<IMG SRC="/lg/images/logo.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
+<CENTER>
+
+52
+<H2>Sunrise Communications AG - Looking Glass - traceroute ipv6 2001:4641::1</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+23
+<B>Router:</B> Sunrise Routeserver
+
+5
+<BR>
+
+2d
+<B>Command:</B> traceroute ipv6 2001:4641::1
+
+f
+<P><PRE><CODE>
+
+34
+Tracing the route to canardo.mork.no (2001:4641::1)
+
+1
+
+
+2a
+  1 2001:1700:1:1::1 0 msec 4 msec 0 msec
+
+4a
+  2 Ti9006b400.ti.telenor.net (2001:7F8::847:0:1) 12 msec 12 msec 12 msec
+
+fe
+  3 ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 438097/2 Exp 0] 48 msec 48 msec 52 msec
+
+fe
+  4 ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2A) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 451910/2 Exp 0] 48 msec 52 msec 52 msec
+
+e0
+  5 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] 36 msec 36 msec 36 msec
+
+c9
+  6 canardo.mork.no (2001:4641::1) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] 56 msec 60 msec 56 msec
+
+e
+</CODE></PRE>
+
+1a1
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:peering@sunrise.net">peering@sunrise.net</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
 
 HTTP/1.1 200 OK
-Date: Sat, 08 Mar 2014 08:01:05 GMT
+Date: Mon, 10 Mar 2014 04:09:55 GMT
 Server: Apache
-Last-Modified: Fri, 18 Nov 2011 12:37:17 GMT
-Accept-Ranges: bytes
-Content-Length: 710
 Connection: close
+Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
 
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta http-equiv="Refresh" content="5;URL=http://debby.sunrise.ch/lg">
-<title>Looking glass @ Sunrise Communications AG</title>
-</head>
-<body bgcolor="#FFFFFF" link="#141450">
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-<p>&nbsp;</p>
+40
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
-<h1 align="center"><strong>Welcome on the looking glass server of Sunrise Communications AG.<br>
-  <br>
-  </strong></h1>
-</p>
-<div align="center"><strong>You'll be forwarded to the Sunrise looking glass in a few seconds...</strong> </div>
-<div align="center"><strong><a href="http://debby.sunrise.ch/lg" target="_self">http://debby.sunrise.ch/lg</a></strong></div>
-<p>&nbsp; </p>
-<hr>
-</body>
-</html>
+61
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7
+<HTML>
+
+7
+<HEAD>
+
+5e
+<TITLE>Sunrise Communications AG - Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
+
+2f
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+
+8
+</HEAD>
+
+28
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+25
+<A HREF="http://debby.sunrise.ch/lg">
+33
+<IMG SRC="/lg/images/logo.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
+<CENTER>
+
+58
+<H2>Sunrise Communications AG - Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+23
+<B>Router:</B> Sunrise Routeserver
+
+5
+<BR>
+
+33
+<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
+
+f
+<P><PRE><CODE>
+
+35
+Tracing the route to www.axu.tm (2001:1430:A:50::50)
+
+1
+
+
+2a
+  1 2001:1700:1:1::1 0 msec 0 msec 0 msec
+
+44
+  2 decix2.eunetip.net (2001:7F8::1A0B:0:2) 12 msec 12 msec 12 msec
+
+c1
+  3 bbr1.hel2.fi.v6.eunetip.net (2001:670:3:4:1::8) [AS <A onMouseOver="window.status='EUNETFI (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS790" TARGET=_lookup>790</A>] 44 msec
+
+3c
+    bbr2.hel1.fi.v6.eunetip.net (2001:670:3:4:1::2) 48 msec
+
+3d
+    bbr1.hel2.fi.v6.eunetip.net (2001:670:3:4:1::8) 172 msec
+
+a4
+  4 2001:998:12:31::1 [AS <A onMouseOver="window.status='ELISA-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS719" TARGET=_lookup>719</A>] 56 msec
+
+25
+    2001:998:12:2::1 52 msec 48 msec
+
+b3
+  5 2001:998:12:D::2 [AS <A onMouseOver="window.status='ELISA-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS719" TARGET=_lookup>719</A>] 44 msec 48 msec 44 msec
+
+d8
+  6 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 48 msec 44 msec 48 msec
+
+c0
+  7 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 48 msec
+
+48
+    v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) 48 msec 48 msec
+
+c4
+  8 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 48 msec 44 msec 48 msec
+
+e
+</CODE></PRE>
+
+1a1
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:peering@sunrise.net">peering@sunrise.net</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
 
