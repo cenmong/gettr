@@ -1,32 +1,350 @@
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:14:07 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+40
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+60
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7
+<HTML>
+
+7
+<HEAD>
+
+42
+<TITLE>Looking Glass - traceroute ipv6 2001:da8:1:100::80</TITLE>
+
+2e
+<LINK REL="shortcut icon" HREF="favicon.ico">
+
+8
+</HEAD>
+
+28
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+22
+<A HREF="http://www.eastlink.ca/">
+37
+<IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
+<CENTER>
+
+3c
+<H2>Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+2c
+<B>Router:</B> Eastlink Atlantic (AS 11260)
+
+5
+<BR>
+
+33
+<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
+
+f
+<P><PRE><CODE>
+
+28
+Tracing the route to 2001:DA8:1:100::80
+
+4c
+
   1 ns-hlfx-dr001.ns.eastlink.ca (2610:170:FFFF:8::1) 4 msec 0 msec 0 msec
+
+4c
   2 ns-hlfx-dr001.ns.eastlink.ca (2610:170:FFFF:36::1) 0 msec 0 msec 4 msec
+
+5b
   3 10gigabitethernet9-9.core1.tor1.he.net (2001:504:D:80::6939:1) 24 msec 40 msec 32 msec
+
+d3
   4 100ge13-1.core1.chi1.he.net (2001:470:0:2DB::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 40 msec 40 msec 36 msec
+
+d1
   5 10ge5-7.core1.mci3.he.net (2001:470:0:270::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 64 msec 60 msec 48 msec
+
+d1
   6 10ge5-1.core1.den1.he.net (2001:470:0:240::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 72 msec 72 msec 60 msec
+
+d5
   7 10ge14-5.core1.lax2.he.net (2001:470:0:15D::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 100 msec 100 msec 100 msec
+
+e
   8  *  *  * 
+
+bc
   9 2001:252:0:302::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 236 msec 240 msec 236 msec
+
+b0
  10 2001:252:0:100::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 240 msec *  * 
+
+ba
  11 2001:252:0:1::1 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23911" TARGET=_lookup>23911</A>] 248 msec 252 msec 240 msec
+
+bd
  12 2001:DA8:1:100::80 [AS <A onMouseOver="window.status='APNIC-23890 (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/23910" TARGET=_lookup>23910</A>] 256 msec 252 msec 248 msec
+
+1c5
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:14:29 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+40
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+60
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7
+<HTML>
+
+7
+<HEAD>
+
+3c
+<TITLE>Looking Glass - traceroute ipv6 2001:4641::1</TITLE>
+
+2e
+<LINK REL="shortcut icon" HREF="favicon.ico">
+
+8
+</HEAD>
+
+28
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+22
+<A HREF="http://www.eastlink.ca/">
+37
+<IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
+<CENTER>
+
+36
+<H2>Looking Glass - traceroute ipv6 2001:4641::1</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+2c
+<B>Router:</B> Eastlink Atlantic (AS 11260)
+
+5
+<BR>
+
+2d
+<B>Command:</B> traceroute ipv6 2001:4641::1
+
+f
+<P><PRE><CODE>
+
+35
+Tracing the route to canardo.mork.no (2001:4641::1)
+
+
+4b
   1 ns-hlfx-dr001.ns.eastlink.ca (2610:170:FFFF:8::1) 0 msec 4 msec 0 msec
+
+4c
   2 ns-hlfx-dr001.ns.eastlink.ca (2610:170:FFFF:36::1) 0 msec 0 msec 4 msec
+
+5b
   3 10gigabitethernet9-9.core1.tor1.he.net (2001:504:D:80::6939:1) 32 msec 44 msec 44 msec
+
+d2
   4 100ge1-2.core1.nyc4.he.net (2001:470:0:2DC::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 36 msec 40 msec 36 msec
+
+d5
   5 100ge7-2.core1.lon2.he.net (2001:470:0:2CF::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 112 msec 112 msec 112 msec
+
+cc
   6 2001:7F8:4::847:1 [AS <A onMouseOver="window.status='LINX-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS5459" TARGET=_lookup>5459</A>] 84 msec 88 msec 88 msec
+
+118
   7 ti3003c400-lo0-0.ti.telenor.net (2001:4600:0:100::29) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 438097/2 Exp 0] 132 msec 132 msec 132 msec
+
+118
   8 ti0300c360-lo0-0.ti.telenor.net (2001:4600:0:100::2A) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 451910/2 Exp 0] 128 msec 128 msec 132 msec
+
+fa
   9 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 124 msec 132 msec 136 msec
+
+2a8
  10 canardo.mork.no (2001:4641::1) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS2119" TARGET=_lookup>2119</A>] 156 msec 152 msec 156 msec
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:14:34 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+26b
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - traceroute ipv6 2001:1430:a:50::50</TITLE>
+<LINK REL="shortcut icon" HREF="favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.eastlink.ca/"><IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+
+2c
+<B>Router:</B> Eastlink Atlantic (AS 11260)
+
+5
+<BR>
+
+33
+<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
+
+f
+<P><PRE><CODE>
+
+36
+Tracing the route to www.axu.tm (2001:1430:A:50::50)
+
+
+4b
   1 ns-hlfx-dr001.ns.eastlink.ca (2610:170:FFFF:8::1) 0 msec 4 msec 0 msec
+
+4c
   2 ns-hlfx-dr001.ns.eastlink.ca (2610:170:FFFF:36::1) 0 msec 0 msec 0 msec
+
+5b
   3 10gigabitethernet9-9.core1.tor1.he.net (2001:504:D:80::6939:1) 28 msec 36 msec 36 msec
+
+d2
   4 100ge1-2.core1.nyc4.he.net (2001:470:0:2DC::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://whois.arin.net/rest/asn/6939" TARGET=_lookup>6939</A>] 40 msec 36 msec 36 msec
+
+4f
   5 xe-3-2-0-6.nyk2nqp1.us.ip.tdc.net (2001:504:F::33) 32 msec 28 msec 24 msec
+
+f8
   6 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 144 msec 148 msec 148 msec
+
+f8
   7 v6.ge1-3-0-50.core-r1.tre1.ip.mmd.net (2001:1430::FFFF:1) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 152 msec 148 msec 152 msec
+
+f2
   8 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 140 msec 140 msec 132 msec
+
+ea
   9 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 152 msec 152 msec 152 msec
+
+2a3
  10 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="https://apps.db.ripe.net/search/query.html?searchtext=AS29243" TARGET=_lookup>29243</A>] 140 msec 144 msec 144 msec
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
+

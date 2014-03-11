@@ -1,0 +1,827 @@
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:14:06 GMT
+Server: Apache/1.3.20 (Unix) PHP/5.2.6 rus/PL30.5
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+6b 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+61 
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7  
+<HTML>
+
+7  
+<head>
+
+1e 
+	<title>АКАДО Телеком</title>
+
+48 
+	<meta http-equiv="content-type" content="text/html;" charset=koi8-r />
+
+7b 
+	<link rel="stylesheet" href="http://www.akado-telecom.ru/css/main.css" type="text/css" media="screen,projection,print" />
+
+8  
+</head>
+
+15 
+<body class="guest">
+
+1b 
+	<div id="measurer"></div>
+
+17 
+	<div id="container1">
+
+16 
+		<div id="mainwrap">
+
+1  
+
+
+1  
+
+
+e  
+	<!--шапка-->
+
+15 
+			<div id="header">
+
+60 
+				<a href="http://www.akado-telecom.ru/" title="Акадо телеком" class="logo">Акадо телеком</a>
+
+18 
+				<div class="phone">
+
+a  
+					<dl>
+
+1b 
+						<dt>подключение</dt>
+
+19 
+						<dd>411-71-71</dd>
+
+b  
+					</dl>
+
+a  
+					<dl>
+
+20 
+						<dt>служба поддержки</dt>
+
+19 
+						<dd>411-73-33</dd>
+
+b  
+					</dl>
+
+b  
+				</div>
+
+9  
+				<ul>
+
+6c 
+					<li class="order"><div><a href="http://www.akado-telecom.ru/order.html">Заказать услуги</a></div></li>
+
+72 
+					<li class="cabinet"><div><a href="http://www.akado-telecom.ru/page.html?id=94">Личный кабинет</a></div></li>
+
+a  
+				</ul>
+
+a  
+			</div>
+
+f  
+	<!--/шапка-->
+
+d  
+	<!--меню-->
+
+15 
+			<ul class="menu">
+
+4e 
+<li><a href='http://www.akado-telecom.ru/page.html?id=6' >О компании</a></li>
+
+4b 
+<li><a href='http://www.akado-telecom.ru/page.html?id=33' >Услуги</a></li>
+
+5e 
+<li><a href='http://www.akado-telecom.ru/tobusiness.html?id=50' >Решения для бизнеса</a></li>
+
+4a 
+<li><a href='http://www.akado-telecom.ru/news.html' >Пресс-центр</a></li>
+
+a2 
+<li class='last'><a href='http://www.akado-telecom.ru/page.html?id=90' >Клиентам</a></li>				<li class="fiz"><a href="http://www.akado.ru">Частным лицам</a></li>
+
+9  
+			</ul>
+
+e  
+	<!--/меню-->
+
+1  
+
+
+9  
+<br><br>
+
+1  
+
+
+1  
+
+
+1  
+
+
+1  
+
+
+32 
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+
+8  
+</HEAD>
+
+28 
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+9  
+<CENTER>
+
+3c 
+<H2>Looking Glass - traceroute ipv6 2001:da8:1:100::80</H2>
+
+a  
+</CENTER>
+
+4  
+<P>
+
+20 
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4  
+<P>
+
+20 
+<B>Router:</B> Comcor (AS 8732)
+
+5  
+<BR>
+
+33 
+<B>Command:</B> traceroute ipv6 2001:da8:1:100::80
+
+f  
+<P><PRE><CODE>
+
+28 
+Tracing the route to 2001:DA8:1:100::80
+
+1  
+
+
+49 
+  1 2001:7F8:D:FB::200 [MPLS: Label 21846 Exp 0] 24 msec 24 msec 24 msec
+
+58 
+  2 10gigabitethernet1-3.core1.sto1.he.net (2001:7F8:D:FB::187) 25 msec 26 msec 24 msec
+
+e3 
+  3 10ge10-3.core1.ams1.he.net (2001:470:0:22F::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://www.arin.net/cgi-bin/whois.pl?queryinput=6939" TARGET=_lookup>6939</A>] 58 msec 51 msec 57 msec
+
+e3 
+  4 100ge9-1.core1.lon2.he.net (2001:470:0:2D0::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://www.arin.net/cgi-bin/whois.pl?queryinput=6939" TARGET=_lookup>6939</A>] 71 msec 63 msec 63 msec
+
+e6 
+  5 100ge1-1.core1.nyc4.he.net (2001:470:0:2CF::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://www.arin.net/cgi-bin/whois.pl?queryinput=6939" TARGET=_lookup>6939</A>] 128 msec 149 msec 138 msec
+
+e6 
+  6 10ge10-3.core1.lax1.he.net (2001:470:0:10E::1) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://www.arin.net/cgi-bin/whois.pl?queryinput=6939" TARGET=_lookup>6939</A>] 198 msec 194 msec 182 msec
+
+e4 
+  7 10ge1-3.core1.lax2.he.net (2001:470:0:72::2) [AS <A onMouseOver="window.status='HURRICANE (ARIN)'; return true" HREF="http://www.arin.net/cgi-bin/whois.pl?queryinput=6939" TARGET=_lookup>6939</A>] 189 msec 197 msec 200 msec
+
+e  
+  8  *  *  * 
+
+d7 
+  9 2001:252:0:302::1 [AS <A onMouseOver="window.status='CNGI-BJIX-AS-AP (APNIC)'; return true" HREF="http://www.apnic.net/apnic-bin/whois.pl?searchtext=AS23911" TARGET=_lookup>23911</A>] 334 msec 337 msec 336 msec
+
+e  
+ 10  *  *  * 
+
+d5 
+ 11 2001:252:0:1::1 [AS <A onMouseOver="window.status='CNGI-BJIX-AS-AP (APNIC)'; return true" HREF="http://www.apnic.net/apnic-bin/whois.pl?searchtext=AS23911" TARGET=_lookup>23911</A>] 343 msec 343 msec 344 msec
+
+467
+ 12 2001:DA8:1:100::80 [AS <A onMouseOver="window.status='CNGI-CERNET2-AS-AP (APNIC)'; return true" HREF="http://www.apnic.net/apnic-bin/whois.pl?searchtext=AS23910" TARGET=_lookup>23910</A>] 343 msec 343 msec 343 msec
+</CODE></PRE>
+<br><br>
+
+</div></div>
+
+<!--подвал-->
+	<div id="footer">
+		<dfn>&copy; 2009&nbsp;ОАО &laquo;КОМКОР&raquo;</dfn>
+		<ul class="subdivision">
+			<li class="akado"><a href="http://www.akado.ru/">АКАДО-Столица</a></li>
+			<li class="group"><a href="http://www.akado-group.ru/group/">АКАДО Группа компаний</a></li>
+		</ul>
+		<div class="block">
+			<div class="search">
+				<form action="http://www.akado-telecom.ru/search.html" method="post">
+					<input type="text" name="text" value="" class="inp" />
+					<input type="submit" value="Найти" class="buttons" />
+				</form>
+			</div>
+			<ul>
+				<li class="first"><a href="http://www.akado-telecom.ru/page.html?name=Контакты">Контакты</a></li>
+				<li><a href="http://www.akado-telecom.ru/feedback.html">Обратная связь</a></li>
+				<li><a href="http://www.akado-telecom.ru/sitemap.html">Карта сайта</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+
+0
+
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:14:54 GMT
+Server: Apache/1.3.20 (Unix) PHP/5.2.6 rus/PL30.5
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+6b 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+61 
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7  
+<HTML>
+
+7  
+<head>
+
+1e 
+	<title>АКАДО Телеком</title>
+
+48 
+	<meta http-equiv="content-type" content="text/html;" charset=koi8-r />
+
+7b 
+	<link rel="stylesheet" href="http://www.akado-telecom.ru/css/main.css" type="text/css" media="screen,projection,print" />
+
+8  
+</head>
+
+15 
+<body class="guest">
+
+1b 
+	<div id="measurer"></div>
+
+17 
+	<div id="container1">
+
+16 
+		<div id="mainwrap">
+
+1  
+
+
+1  
+
+
+e  
+	<!--шапка-->
+
+15 
+			<div id="header">
+
+60 
+				<a href="http://www.akado-telecom.ru/" title="Акадо телеком" class="logo">Акадо телеком</a>
+
+18 
+				<div class="phone">
+
+a  
+					<dl>
+
+1b 
+						<dt>подключение</dt>
+
+19 
+						<dd>411-71-71</dd>
+
+b  
+					</dl>
+
+a  
+					<dl>
+
+20 
+						<dt>служба поддержки</dt>
+
+19 
+						<dd>411-73-33</dd>
+
+b  
+					</dl>
+
+b  
+				</div>
+
+9  
+				<ul>
+
+6c 
+					<li class="order"><div><a href="http://www.akado-telecom.ru/order.html">Заказать услуги</a></div></li>
+
+72 
+					<li class="cabinet"><div><a href="http://www.akado-telecom.ru/page.html?id=94">Личный кабинет</a></div></li>
+
+a  
+				</ul>
+
+a  
+			</div>
+
+f  
+	<!--/шапка-->
+
+d  
+	<!--меню-->
+
+15 
+			<ul class="menu">
+
+4e 
+<li><a href='http://www.akado-telecom.ru/page.html?id=6' >О компании</a></li>
+
+4b 
+<li><a href='http://www.akado-telecom.ru/page.html?id=33' >Услуги</a></li>
+
+5e 
+<li><a href='http://www.akado-telecom.ru/tobusiness.html?id=50' >Решения для бизнеса</a></li>
+
+4a 
+<li><a href='http://www.akado-telecom.ru/news.html' >Пресс-центр</a></li>
+
+a2 
+<li class='last'><a href='http://www.akado-telecom.ru/page.html?id=90' >Клиентам</a></li>				<li class="fiz"><a href="http://www.akado.ru">Частным лицам</a></li>
+
+9  
+			</ul>
+
+e  
+	<!--/меню-->
+
+1  
+
+
+9  
+<br><br>
+
+1  
+
+
+1  
+
+
+1  
+
+
+1  
+
+
+32 
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+
+8  
+</HEAD>
+
+28 
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+9  
+<CENTER>
+
+36 
+<H2>Looking Glass - traceroute ipv6 2001:4641::1</H2>
+
+a  
+</CENTER>
+
+4  
+<P>
+
+20 
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4  
+<P>
+
+20 
+<B>Router:</B> Comcor (AS 8732)
+
+5  
+<BR>
+
+2d 
+<B>Command:</B> traceroute ipv6 2001:4641::1
+
+f  
+<P><PRE><CODE>
+
+34 
+Tracing the route to canardo.mork.no (2001:4641::1)
+
+1  
+
+
+68 
+  1 ams-ix.akado-telecom.ru (2001:7F8:1::A500:8732:1) [MPLS: Label 28827 Exp 0] 77 msec 77 msec 77 msec
+
+4d 
+  2 ti9000b300.telenor.net (2001:7F8:1::A500:2119:1) 79 msec 80 msec 78 msec
+
+fd 
+  3 ti3004c400-lo0-0.ti.telenor.net (2001:4600:0:100::5) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 600849/2 Exp 0] 87 msec 88 msec 88 msec
+
+fe 
+  4 ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] [MPLS: Labels 632168/2 Exp 0] 88 msec 88 msec 87 msec
+
+e0 
+  5 ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5D) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] 85 msec 85 msec 85 msec
+
+cc 
+  6 canardo.mork.no (2001:4641::1) [AS <A onMouseOver="window.status='TELENOR-NEXTEL (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS2119" TARGET=_lookup>2119</A>] 104 msec 103 msec 104 msec
+
+e  
+</CODE></PRE>
+
+9  
+<br><br>
+
+1  
+
+
+d  
+</div></div>
+
+1  
+
+
+e  
+<!--подвал-->
+
+13 
+	<div id="footer">
+
+37 
+		<dfn>&copy; 2009&nbsp;ОАО &laquo;КОМКОР&raquo;</dfn>
+
+1b 
+		<ul class="subdivision">
+
+4b 
+			<li class="akado"><a href="http://www.akado.ru/">АКАДО-Столица</a></li>
+
+5f 
+			<li class="group"><a href="http://www.akado-group.ru/group/">АКАДО Группа компаний</a></li>
+
+8  
+		</ul>
+
+16 
+		<div class="block">
+
+18 
+			<div class="search">
+
+4a 
+				<form action="http://www.akado-telecom.ru/search.html" method="post">
+
+3c 
+					<input type="text" name="text" value="" class="inp" />
+
+3b 
+					<input type="submit" value="Найти" class="buttons" />
+
+c  
+				</form>
+
+a  
+			</div>
+
+8  
+			<ul>
+
+66 
+				<li class="first"><a href="http://www.akado-telecom.ru/page.html?name=Контакты">Контакты</a></li>
+
+54 
+				<li><a href="http://www.akado-telecom.ru/feedback.html">Обратная связь</a></li>
+
+50 
+				<li><a href="http://www.akado-telecom.ru/sitemap.html">Карта сайта</a></li>
+
+9  
+			</ul>
+
+9  
+		</div>
+
+8  
+	</div>
+
+8  
+</body>
+
+8  
+</html>
+
+0
+
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:15:17 GMT
+Server: Apache/1.3.20 (Unix) PHP/5.2.6 rus/PL30.5
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+6b 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+61 
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7  
+<HTML>
+
+7  
+<head>
+
+1e 
+	<title>АКАДО Телеком</title>
+
+48 
+	<meta http-equiv="content-type" content="text/html;" charset=koi8-r />
+
+7b 
+	<link rel="stylesheet" href="http://www.akado-telecom.ru/css/main.css" type="text/css" media="screen,projection,print" />
+
+8  
+</head>
+
+15 
+<body class="guest">
+
+1b 
+	<div id="measurer"></div>
+
+17 
+	<div id="container1">
+
+16 
+		<div id="mainwrap">
+
+1  
+
+
+1  
+
+
+e  
+	<!--шапка-->
+
+15 
+			<div id="header">
+
+60 
+				<a href="http://www.akado-telecom.ru/" title="Акадо телеком" class="logo">Акадо телеком</a>
+
+18 
+				<div class="phone">
+
+a  
+					<dl>
+
+1b 
+						<dt>подключение</dt>
+
+19 
+						<dd>411-71-71</dd>
+
+b  
+					</dl>
+
+a  
+					<dl>
+
+20 
+						<dt>служба поддержки</dt>
+
+19 
+						<dd>411-73-33</dd>
+
+b  
+					</dl>
+
+b  
+				</div>
+
+9  
+				<ul>
+
+6c 
+					<li class="order"><div><a href="http://www.akado-telecom.ru/order.html">Заказать услуги</a></div></li>
+
+72 
+					<li class="cabinet"><div><a href="http://www.akado-telecom.ru/page.html?id=94">Личный кабинет</a></div></li>
+
+a  
+				</ul>
+
+a  
+			</div>
+
+f  
+	<!--/шапка-->
+
+d  
+	<!--меню-->
+
+15 
+			<ul class="menu">
+
+4e 
+<li><a href='http://www.akado-telecom.ru/page.html?id=6' >О компании</a></li>
+
+4b 
+<li><a href='http://www.akado-telecom.ru/page.html?id=33' >Услуги</a></li>
+
+5e 
+<li><a href='http://www.akado-telecom.ru/tobusiness.html?id=50' >Решения для бизнеса</a></li>
+
+4a 
+<li><a href='http://www.akado-telecom.ru/news.html' >Пресс-центр</a></li>
+
+a2 
+<li class='last'><a href='http://www.akado-telecom.ru/page.html?id=90' >Клиентам</a></li>				<li class="fiz"><a href="http://www.akado.ru">Частным лицам</a></li>
+
+9  
+			</ul>
+
+e  
+	<!--/меню-->
+
+1  
+
+
+9  
+<br><br>
+
+1  
+
+
+1  
+
+
+1  
+
+
+1  
+
+
+32 
+<LINK REL="shortcut icon" HREF="/lg/favicon.ico">
+
+8  
+</HEAD>
+
+28 
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+9  
+<CENTER>
+
+3c 
+<H2>Looking Glass - traceroute ipv6 2001:1430:a:50::50</H2>
+
+a  
+</CENTER>
+
+4  
+<P>
+
+20 
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4  
+<P>
+
+20 
+<B>Router:</B> Comcor (AS 8732)
+
+5  
+<BR>
+
+33 
+<B>Command:</B> traceroute ipv6 2001:1430:a:50::50
+
+f  
+<P><PRE><CODE>
+
+35 
+Tracing the route to www.axu.tm (2001:1430:A:50::50)
+
+1  
+
+
+75 
+  1 JOINT-STOCK.bar1.Stockholm1.Level3.net (2001:1900:5:2:2::1FEA) [MPLS: Label 21531 Exp 0] 23 msec 24 msec 24 msec
+
+58 
+  2 xe-4-3-1.bar1.Stockholm1.Level3.net (2001:1900:5:2:2::1FE9) 20 msec 20 msec 20 msec
+
+b5 
+  3 2001:1900:5:1::362 [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS3356" TARGET=_lookup>3356</A>] 46 msec 46 msec 46 msec
+
+d9 
+  4 vl-4068.car1.Helsinki1.Level3.net (2001:1900:5:1::2EA) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS3356" TARGET=_lookup>3356</A>] 59 msec 60 msec 60 msec
+
+dd 
+  5 NEBULA-OY.car1.Helsinki1.Level3.net (2001:1900:5:2:2::E7A) [AS <A onMouseOver="window.status='Level3 (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS3356" TARGET=_lookup>3356</A>] 62 msec 61 msec 62 msec
+
+c2 
+  6 2001:1BC8:1:7:0:3:0:1 [AS <A onMouseOver="window.status='NBLNETWORKS-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29422" TARGET=_lookup>29422</A>] 62 msec 62 msec 63 msec
+
+c2 
+  7 2001:1BC8:1:7:0:6:0:1 [AS <A onMouseOver="window.status='NBLNETWORKS-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29422" TARGET=_lookup>29422</A>] 66 msec 66 msec 66 msec
+
+be 
+  8 2001:1BC8:1:10::1 [AS <A onMouseOver="window.status='NBLNETWORKS-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29422" TARGET=_lookup>29422</A>] 64 msec 63 msec 65 msec
+
+d8 
+  9 v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 65 msec 65 msec 65 msec
+
+d0 
+ 10 ge-0-1-0-10.hanna.axu.tm (2001:1430:A:A::2) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 64 msec 64 msec 64 msec
+
+450
+ 11 www.axu.tm (2001:1430:A:50::50) [AS <A onMouseOver="window.status='MMD-AS (RIPE)'; return true" HREF="http://www.ripe.net/perl/whois?AS29243" TARGET=_lookup>29243</A>] 68 msec 67 msec 67 msec
+</CODE></PRE>
+<br><br>
+
+</div></div>
+
+<!--подвал-->
+	<div id="footer">
+		<dfn>&copy; 2009&nbsp;ОАО &laquo;КОМКОР&raquo;</dfn>
+		<ul class="subdivision">
+			<li class="akado"><a href="http://www.akado.ru/">АКАДО-Столица</a></li>
+			<li class="group"><a href="http://www.akado-group.ru/group/">АКАДО Группа компаний</a></li>
+		</ul>
+		<div class="block">
+			<div class="search">
+				<form action="http://www.akado-telecom.ru/search.html" method="post">
+					<input type="text" name="text" value="" class="inp" />
+					<input type="submit" value="Найти" class="buttons" />
+				</form>
+			</div>
+			<ul>
+				<li class="first"><a href="http://www.akado-telecom.ru/page.html?name=Контакты">Контакты</a></li>
+				<li><a href="http://www.akado-telecom.ru/feedback.html">Обратная связь</a></li>
+				<li><a href="http://www.akado-telecom.ru/sitemap.html">Карта сайта</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+
+0
+

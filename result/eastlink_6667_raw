@@ -1,0 +1,355 @@
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:14:07 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+40
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+60
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7
+<HTML>
+
+7
+<HEAD>
+
+3d
+<TITLE>Looking Glass - traceroute 2001:da8:1:100::80</TITLE>
+
+2e
+<LINK REL="shortcut icon" HREF="favicon.ico">
+
+8
+</HEAD>
+
+28
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+22
+<A HREF="http://www.eastlink.ca/">
+37
+<IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
+<CENTER>
+
+37
+<H2>Looking Glass - traceroute 2001:da8:1:100::80</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+1f
+<B>Router:</B> Eunet (AS 6667)
+
+5
+<BR>
+
+2e
+<B>Command:</B> traceroute 2001:da8:1:100::80
+
+f
+<P><PRE><CODE>
+
+6e
+traceroute6 to 2001:da8:1:100::80 (2001:da8:1:100::80) from 2001:670:1:ff11::4b, 64 hops max, 12 byte packets
+
+9d
+ 1  2001:670:1:ff11::4a (2001:670:1:ff11::4a)  0.923 ms  0.830 ms  0.815 ms
+ 2  elisa-gw.ip6.tinet.net (2001:668:0:3::f000:22)  7.755 ms  7.823 ms  7.631 ms
+
+60
+ 3  10gigabitethernet1-2.core1.sto1.he.net (2001:7f8:d:ff::187)  17.540 ms  7.885 ms  13.435 ms
+
+54
+ 4  10ge10-3.core1.ams1.he.net (2001:470:0:22f::1)  37.486 ms  44.475 ms  49.472 ms
+
+54
+ 5  100ge9-1.core1.lon2.he.net (2001:470:0:2d0::1)  53.854 ms  49.001 ms  49.486 ms
+
+57
+ 6  100ge1-1.core1.nyc4.he.net (2001:470:0:2cf::2)  107.896 ms  109.274 ms  110.503 ms
+
+57
+ 7  10ge10-3.core1.lax1.he.net (2001:470:0:10e::1)  173.633 ms  175.114 ms  172.156 ms
+
+55
+ 8  10ge1-3.core1.lax2.he.net (2001:470:0:72::2)  170.483 ms  168.077 ms  169.566 ms
+
+68
+ 9  cngi-bjix-as-ap-as23911.10gigabitethernet16-5.core1.lax2.he.net (2001:470:0:2a2::2)  171.286 ms * *
+
+4e
+10  2001:252:0:302::1 (2001:252:0:302::1)  323.701 ms  322.851 ms  323.499 ms
+
+1
+
+
+3a
+11  * 2001:252:0:100::1 (2001:252:0:100::1)  326.136 ms *
+
+4a
+12  2001:252:0:1::1 (2001:252:0:1::1)  324.062 ms  324.239 ms  346.693 ms
+
+50
+13  2001:da8:1:100::80 (2001:da8:1:100::80)  323.090 ms  324.135 ms  323.598 ms
+
+1c6
+
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:14:43 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+40
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+60
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7
+<HTML>
+
+7
+<HEAD>
+
+37
+<TITLE>Looking Glass - traceroute 2001:4641::1</TITLE>
+
+2e
+<LINK REL="shortcut icon" HREF="favicon.ico">
+
+8
+</HEAD>
+
+28
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+22
+<A HREF="http://www.eastlink.ca/">
+37
+<IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
+<CENTER>
+
+31
+<H2>Looking Glass - traceroute 2001:4641::1</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+1f
+<B>Router:</B> Eunet (AS 6667)
+
+5
+<BR>
+
+28
+<B>Command:</B> traceroute 2001:4641::1
+
+f
+<P><PRE><CODE>
+
+149
+traceroute6 to 2001:4641::1 (2001:4641::1) from 2001:670:1:ff11::4b, 64 hops max, 12 byte packets
+ 1  2001:670:1:ff11::4a (2001:670:1:ff11::4a)  0.957 ms  0.874 ms  0.797 ms
+ 2  elisa-gw.ip6.tinet.net (2001:668:0:3::f000:22)  7.754 ms  7.775 ms  7.857 ms
+ 3  2001:7f8:d:ff::158 (2001:7f8:d:ff::158)  7.949 ms  7.951 ms  7.911 ms
+
+5a
+ 4  ti3001c400-lo0-0.ti.telenor.net (2001:4600:0:100::6)  15.357 ms  15.321 ms  15.510 ms
+
+b6
+ 5  ti0001c360-lo0-0.ti.telenor.net (2001:4600:0:100::23)  15.352 ms  15.366 ms  15.346 ms
+ 6  ti0036a400-lo0-0.ti.telenor.net (2001:4600:0:200::5d)  16.698 ms  15.391 ms  15.361 ms
+
+45
+ 7  canardo.mork.no (2001:4641::1)  39.998 ms  39.413 ms  39.464 ms
+
+
+1c5
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
+
+HTTP/1.1 200 OK
+Date: Tue, 11 Mar 2014 03:14:48 GMT
+Server: Apache/2.2.3 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+40
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+60
+<!--
+	$Id: lg.cgi,v 1.9 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+
+7
+<HTML>
+
+7
+<HEAD>
+
+3d
+<TITLE>Looking Glass - traceroute 2001:1430:a:50::50</TITLE>
+
+2e
+<LINK REL="shortcut icon" HREF="favicon.ico">
+
+8
+</HEAD>
+
+28
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+36
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center">
+22
+<A HREF="http://www.eastlink.ca/">
+37
+<IMG SRC="/icons/EL.Alternate.gif" BORDER="0" ALT="LG">
+4
+</A>
+13
+</TD></TR></TABLE>
+
+9
+<CENTER>
+
+37
+<H2>Looking Glass - traceroute 2001:1430:a:50::50</H2>
+
+a
+</CENTER>
+
+4
+<P>
+
+20
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+
+4
+<P>
+
+1f
+<B>Router:</B> Eunet (AS 6667)
+
+5
+<BR>
+
+2e
+<B>Command:</B> traceroute 2001:1430:a:50::50
+
+f
+<P><PRE><CODE>
+
+ba
+traceroute6 to 2001:1430:a:50::50 (2001:1430:a:50::50) from 2001:670:1:ff11::4b, 64 hops max, 12 byte packets
+ 1  2001:670:1:ff11::4a (2001:670:1:ff11::4a)  0.940 ms  0.865 ms  0.873 ms
+
+46
+ 2  2001:998:12:2::1 (2001:998:12:2::1)  0.767 ms  0.753 ms  0.737 ms
+
+2f2
+ 3  2001:998:12:d::2 (2001:998:12:d::2)  4.144 ms  4.185 ms  4.131 ms
+ 4  v6.ge0-5.core-r2.tre1.ip.mmd.net (2001:1430:0:1::2)  7.160 ms  6.757 ms  6.595 ms
+ 5  ge-0-1-0-10.hanna.axu.tm (2001:1430:a:a::2)  4.614 ms  4.573 ms  4.544 ms
+ 6  www.axu.tm (2001:1430:a:50::50)  4.774 ms  4.545 ms  4.301 ms
+
+</CODE></PRE>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:Data.Services@corp.eastlink.ca">Data.Services@corp.eastlink.ca</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>
+
+0
+

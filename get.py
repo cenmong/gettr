@@ -5,6 +5,7 @@ import os
 import time
 import socket
 import urllib
+from netaddr import *
 from addr import *
 
 class Monitor(threading.Thread):#Derived from the class threading.Thread
@@ -28,8 +29,32 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
     def run(self):#Overwrite run() method, put what I want the thread to do here
         self.run_lg()
 
+    #TODO:REMOVE MULTIPATH RESULT AND CALCULATE THE PERCENTAGE
     def parsehtml(self, html):
-        path = html
+        path = ''
+        html = html.split('\n')
+        start = False#start a round of traceroute
+        for line in html:
+            #check the first traceoute node
+            if line.count('\r') > 0 or line == '\n' or line == '' or line.split()[0] == 'MPLS':#this \r cost me 2 hours!
+                continue
+            if start == False:
+                try:
+                    num = int(line.split()[0])
+                except:
+                    continue
+                if num == 1:
+                    if line.count('*') > 0 or line.count(':') >= 2:
+                        path += line
+                        path += '\n'
+                        start = True
+            else:#start == True
+                if line.count('*') > 0 or line.count(':') >= 2: 
+                    path += line
+                    path += '\n'
+                else:
+                    start = False#end of a round
+
         return path
 
     def gethtml_as8218_8218(self):
@@ -38,17 +63,16 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
         if fexist == True:
             os.system('rm result/' + self.gethtml.split('_')[-2] + '_' + \
                     self.gethtml.split('_')[-1] + '_result')
+        fexist = os.path.exists('result/' + self.gethtml.split('_')[-2] + '_' + \
+                self.gethtml.split('_')[-1] + '_raw')
+        if fexist == True:
+            os.system('rm result/' + self.gethtml.split('_')[-2] + '_' + \
+                    self.gethtml.split('_')[-1] + '_raw')
         i = 0
         for d in dest:
             tstart = time.time()
             i += 1
             print self.site + '|' + str(i)
-            '''
-            data = {'query': 'trace', 'protocol': 'IPv6', 'addr': d,
-                'router': self.router}
-            r = requests.get(self.site, params = data)
-            html = r.text
-            '''
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((self.dname, 80))
             d = urllib.quote(d, '')#required
@@ -60,20 +84,31 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
             s.send(request)
             html = ''
             while True:
-                data = s.recv(1024)
-                if not len(data):
-                    break
-                html += data
                 tend = time.time()
                 if tend - tstart > 50:
-                    print '!!!', self.site, '!!!'
                     break
-            print tend - tstart, 'seconds'
+                data = s.recv(1024)
+                tend = time.time()
+                if tend - tstart > 50:
+                    break
+                if not len(data):
+                    break
+                #if ':' not in data:#filter out html tags
+                #    continue
+                html += data
+            if tend - tstart > 70:
+                print tend - tstart, 'seconds'
+
+            f = open('result/' + self.gethtml.split('_')[-2] + '_' +\
+                    self.gethtml.split('_')[-1] + '_raw', 'a')
+            f.write(html)
+            f.close()
 
             path = self.parsehtml(html) 
             f = open('result/' + self.gethtml.split('_')[-2] + '_' + self.gethtml.split('_')[-1] + '_result', 'a')
-            f.write(path.decode('utf-8'))
+            f.write(path)
             f.close()
+
             time.sleep(2)
 
     def gethtml_acad_6802(self):
@@ -82,8 +117,8 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
     def gethtml_sunrise_6730(self):
         self.gethtml_as8218_8218()
 
-    #def gethtml_comcor_8732(self):
-    #    self.gethtml_as8218_8218()
+    def gethtml_comcor_8732(self):
+        self.gethtml_as8218_8218()
 
     def gethtml_solnet_9044(self):
         self.gethtml_as8218_8218()
@@ -140,14 +175,14 @@ class Monitor(threading.Thread):#Derived from the class threading.Thread
         self.gethtml_as8218_8218()
 
     def run_lg(self):
-        gethtml = getattr(self, self.gethtml)
+        gethtml = getattr(self, self.gethtml)#a good way to call methods
         gethtml()
 
 def measure():
     lg1 = Monitor('http://lg.as8218.eu', 'route-server.as8218.eu', 8218)
     lg2 = Monitor('http://netmon.acad.bg/lg', 'sf-cr-1', 6802)
     lg3 = Monitor('http://debby.sunrise.ch/lg', 'Sunrise Routeserver', 6730)
-    #lg4 = Monitor('http://master.comcor.ru/lg', 'Comcor (AS 8732)', 8732)
+    lg4 = Monitor('http://master.comcor.ru/lg', 'Comcor (AS 8732)', 8732)
     lg5 = Monitor('http://lg.solnet.ch', 'SolNet #1 (AS 9044)', 9044)
     lg6 = Monitor('http://lg.eastlink.ca', 'Eastlink Atlantic (AS 11260)', 11260)
     lg7 = Monitor('http://lg.eastlink.ca', 'Eastlink Eastern (AS 23184)', 23184)
@@ -169,7 +204,7 @@ def measure():
     lg1.start()
     lg2.start()
     lg3.start()
-    #lg4.start()
+    lg4.start()
     lg5.start()
     lg6.start()
     lg7.start()
